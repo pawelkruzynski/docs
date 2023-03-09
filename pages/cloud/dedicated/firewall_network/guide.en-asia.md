@@ -2,10 +2,10 @@
 title: Configuring the Network Firewall
 slug: firewall-network
 section: Network Management
-updated: 2022-12-20
+updated: 2023-03-09
 ---
 
-**Last updated 20th December 2022**
+**Last updated 9th March 2023**
 
 ## Objective
 
@@ -41,7 +41,7 @@ To protect its global infrastructure and its customers’ servers, OVHcloud offe
 >
 > The Network Firewall protects the IPs that are associated with a machine. You must therefore configure each IP separately; it is not possible to configure the server as a whole.
 
-the network firewall protects the IP associated to a machine. If you have a server with multiple IP addresses attached to it, you must configure the firewall on each IP seperately as the firewall rules configured on the main IP will not apply to the other.
+[The Network Firewall protects the IP associated to a machine. If you have a server with multiple IP addresses attached to it, you must configure the firewall on each IP seperately as the firewall rules configured on the main IP of the server will not apply to the others.]
 > 
 
 In the OVHcloud Control Panel, click on the `Bare Metal Cloud`{.action} menu and open `IP`{.action}. You can use the drop-down menu underneath **"My public IP addresses and associated services"** to filter your services according to category.
@@ -132,18 +132,17 @@ There are three mitigation modes included in our Anti-DDOS (VAC) solution: autom
 
 **Permanent mitigation**: This mode can be enabled or disabled via the OVHcloud Control Panel. With permanent mitigation (if enabled), you apply a constant first level of filtering through our Shield hardware.<br>
 All traffic at all times gets through the mitigation system before reaching the server. We recommend enabling this mode for services under frequent attacks.<br>
-Please note that you can activate permanent mitigation on your IP without enabling the Network firewall since it is part our Anti-DDOS (VAC) solution.
+Please note that as permanent mitigation is part our Anti-DDOS (VAC) solution, you can activiate it on your IP without enabling the Network Firewall. 
 
 To enable it, click on the `Bare Metal Cloud`{.action} menu and open `IP`{.action}. Next, click on the `...`{.action} to the right of the relevant IPv4 and select `Mitigation: permanent mode`{.action}.
 
 **Forced mitigation**: This mode is automatically enabled once an attack is detected on the server. Once enabled on our anti-ddos infrastructure, it cannot be disabled. In order to protect our infrastructure, it will be enabled throughout the attack until it is completely mitigated.
 
-
 > [!warning]
 >
-> If the anti-DDoS (VAC) solution mitigation is enabled, your Network Firewall rules will eventually be applied, even if you have disabled the firewall. If you disable your firewall, remember to delete your rules as well.
+> If the anti-DDoS (VAC) mitigation is enabled, your Network Firewall rules will eventually be applied, even if you have disabled the firewall. If you have disabled your firewall, remember to delete your rules as well.
 > 
-> Since the anti-DDOS mitigation is part of our Anti-DDOS infrastructure, it cannot be disabled on a service. All OVHcloud products are delivered with Anti-DDoS protection enabled.
+> Since the mitigation is part of our anti-DDOS (VAC) solution, it cannot be disabled on a service. All OVHcloud products are delivered with the Anti-DDoS protection enabled.
 
 ### Configuring Armor
 
