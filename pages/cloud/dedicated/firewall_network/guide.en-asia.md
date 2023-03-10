@@ -65,9 +65,9 @@ You can set up to **20 rules per IP**.
 
 > [!warning]
 >
-> The firewall is enabled automatically upon each DDoS attack, and cannot be disabled before the attack ends. This is why it is important to keep the firewall rules up to date.
+> If the Network firewall is enabled and configured with rules, they are automatically applied upon each DDoS attack, and cannot be disabled before the attack ends. This is why it is important to keep the firewall rules up to date.
 > As a default setting you do not have any configured rules, so all connections can be set up.
-> If you have chosen to not keep the firewall enabled, remember to check your firewall rules regularly.
+> If you have chosen to not keep the firewall enabled, remember to check your firewall rules regularly or delete them.
 > 
 
 
@@ -132,7 +132,7 @@ There are three mitigation modes included in our Anti-DDOS (VAC) solution: autom
 
 **Permanent mitigation**: This mode can be enabled or disabled via the OVHcloud Control Panel. With permanent mitigation (if enabled), you apply a constant first level of filtering through our Shield hardware.<br>
 All traffic at all times gets through the mitigation system before reaching the server. We recommend enabling this mode for services under frequent attacks.<br>
-Please note that as permanent mitigation is part our Anti-DDOS (VAC) solution, you can activiate it on your IP without enabling the Network Firewall. 
+Please note that as permanent mitigation is part our Anti-DDOS (VAC) solution, you can activate it on your IP without enabling the Network Firewall. 
 
 To enable it, click on the `Bare Metal Cloud`{.action} menu and open `IP`{.action}. Next, click on the `...`{.action} to the right of the relevant IPv4 and select `Mitigation: permanent mode`{.action}.
 
