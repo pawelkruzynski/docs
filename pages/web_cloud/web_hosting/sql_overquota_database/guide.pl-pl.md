@@ -1,7 +1,7 @@
 ---
-title: "Hosting WWW: moja baza danych jest przeciążona, co robić?"
+title: "Hosting WWW - Moja baza danych jest przeciążona, co robić?"
 excerpt: "Dowiedz się, jak działać, gdy baza danych jest przeciążona"
-updated: 2023-12-13
+updated: 2024-12-09
 ---
 
 ## Wprowadzenie
@@ -49,6 +49,7 @@ Pierwszy etap polega na zidentyfikowaniu obszernej(-ych) tabeli(-ych) w Twojej b
 > [phpMyAdmin](https://www.phpmyadmin.net/){.external} jest dostępny we wszystkich współdzielonych bazach danych OVHcloud.
 > Ta aplikacja do zarządzania bazami danych ułatwia wykonywanie czynności ręcznych, które możesz wykonać za pomocą bazy danych.
 >
+> Jeśli Twoja baza danych znajduje się w rozwiązaniu [Web Cloud Databases](/links/web/databases), zapoznaj się z naszym przewodnikiem "[Web Cloud Databases - Logowanie do bazy danych](/pages/web_cloud/web_cloud_databases/connecting-to-database-on-database-server)", następnie przejdź bezpośrednio do [etap 1.2](#step1.2) niniejszego przewodnika.
 
 #### 1.1 - Logowanie do bazy danych przez phpMyAdmin
 
@@ -68,7 +69,7 @@ W zakładce `Bazy danych`{.action} kliknij przycisk `...`{.action} po prawej str
 
 Wprowadź dane dostępowe do Twojej bazy danych, a następnie kliknij `Login`{.action}.
 
-#### 1.2 - Wyszukaj największe tabele
+#### 1.2 - Wyszukaj największe tabele <a name="step1.2"></a>
 
 > [!alert]
 >

@@ -1,7 +1,7 @@
 ---
-title: "Alojamento web: a minha base de dados está saturada, o que fazer?"
+title: "Alojamento web - A minha base de dados está saturada, o que fazer?"
 excerpt: "Saiba como agir quando a base de dados está sobrecarregada"
-updated: 2023-12-13
+updated: 2024-12-09
 ---
 
 ## Objetivo
@@ -49,6 +49,7 @@ A primeira etapa consiste em identificar a ou as tabelas volumosas presentes na 
 > [phpMyAdmin](https://www.phpmyadmin.net/){.external} está disponível em todas as bases de dados partilhadas da OVHcloud.
 > Esta aplicação de gestão de base de dados facilita a realização das ações manuais que pode efetuar com a sua base de dados.
 >
+> Se a base de dados estiver presente numa solução [Web Cloud Databases](/links/web/databases), consulte o guia "[Web Cloud Databases - Ligar-se à base de dados](/pages/web_cloud/web_cloud_databases/connecting-to-database-on-database-server)" e, em seguida, passe diretamente para a [etapa 1.2](#step1.2) deste guia.
 
 #### 1.1 - Aceder à base de dados via phpMyAdmin
 
@@ -68,7 +69,7 @@ Ainda no separador `Bases de dados`{.action}", clique no botão `...`{.action} �
 
 Introduza as informações de acesso à sua base de dados e depois clique em `Entrada`{.action}.
 
-#### 1.2 - Pesquisar as tabelas mais volumosas
+#### 1.2 - Pesquisar as tabelas mais volumosas <a name="step1.2"></a>
 
 > [!alert]
 >

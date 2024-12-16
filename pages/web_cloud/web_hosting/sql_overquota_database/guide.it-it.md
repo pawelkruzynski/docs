@@ -1,7 +1,7 @@
 ---
-title: "Hosting Web: il mio database è saturo, cosa fare?"
+title: "Hosting Web - Il mio database è saturo, cosa fare?"
 excerpt: "Questa guida ti mostra come agire in caso di saturazione del database"
-updated: 2023-12-13
+updated: 2024-12-09
 ---
 
 ## Obiettivo
@@ -49,6 +49,8 @@ Il primo step consiste nell'identificare le tavole voluminose presenti nel tuo d
 > [phpMyAdmin](https://www.phpmyadmin.net/){.external} è disponibile su tutti i database condivisi OVHcloud.
 > Questa applicazione di gestione database facilita la realizzazione delle azioni manuali che puoi effettuare con il tuo database.
 >
+>
+> Se il tuo database è presente su una soluzione [Web Cloud Databases](/links/web/databases), consulta la nostra guida "[Web Cloud Databases - Accedere al tuo database](/pages/web_cloud/web_cloud_databases/connecting-to-database-on-database-server)", quindi passa direttamente allo [step 1.2](#step1.2) della presente guida.
 
 #### 1.1 - Connettersi al database tramite phpMyAdmin
 
@@ -68,7 +70,7 @@ Sempre nella scheda `Database`{.action}, clicca sul pulsante `...`{.action} a de
 
 Inserisci le informazioni di accesso al database e clicca su `Connetti`{.action}.
 
-#### 1.2 - Ricerca le tavole più voluminose
+#### 1.2 - Ricerca le tavole più voluminose <a name="step1.2"></a>
 
 > [!alert]
 >
