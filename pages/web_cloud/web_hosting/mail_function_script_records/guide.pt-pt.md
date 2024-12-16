@@ -1,7 +1,7 @@
 ---
 title: "Alojamento partilhado Seguimento dos emails automatizados"
 excerpt: "Seguimento dos seus emails enviados a partir de um website num alojamento partilhado OVHcloud"
-updated: 2024-09-05
+updated: 2024-12-16
 ---
 
 ## Objetivo

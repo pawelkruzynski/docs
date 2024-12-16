@@ -1,7 +1,7 @@
 ---
 title: "Monitoring i zarządzanie automatycznymi wiadomościami e-mail na Twoim hostingu"
 excerpt: "Dowiedz się, jak monitorować i zarządzać automatycznymi wiadomościami e-mail wysyłanymi z hostingu OVHcloud"
-updated: 2024-09-05
+updated: 2024-12-16
 ---
 
 ## Wprowadzenie 
