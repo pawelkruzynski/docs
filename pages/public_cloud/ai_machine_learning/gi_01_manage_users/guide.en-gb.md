@@ -4,12 +4,6 @@ excerpt: Learn the concept behind AI Solutions users
 updated: 2024-12-13
 ---
 
-<style>
-.img-center {
-  text-align: center !important;
-}
-</style>
-
 ## Objective
 
 The **users** of the **OVHcloud AI Solutions** are simply the users of your [Public Cloud project](/links/public-cloud/public-cloud), which can be created and managed in the [OVHcloud Control Panel (UI)](/links/manager).
@@ -33,7 +27,7 @@ In addition to the AI Training role, we strongly recommend adding the **ObjectSt
 
 To apply these roles, log in to the [OVHcloud Control Panel](/links/manager), and navigate to the `Public Cloud`{.action} section, in the horizontal menu at the top of the website. Select the Public Cloud project you want to use. Then, click on the `Project Management`{.action} category in the left-hand vertical menu to access the `Users & Roles`{.action} section.
 
-![image](images/03_users_menu.png){.thumbnail .img-center}
+![image](images/03_users_menu.png){.thumbnail}
 
 On this page, you can either **create a new user** for your Public Cloud project or **edit the roles of an existing user**.
 
@@ -41,7 +35,7 @@ On this page, you can either **create a new user** for your Public Cloud project
 
 Click on `+ Add user`{.action}, specify a name as the user's description, and **assign the required roles** to use the AI Solutions with the Object Storage (**AI Training Operator** or **AI Training Reader**, depending on the level of access you want to grant, and the **ObjectStore Operator**).
 
-![image](images/04_users_roles.png){.thumbnail .img-center}
+![image](images/04_users_roles.png){.thumbnail}
 
 This will generate a password that will allow you to authenticate to your AI Notebooks, Jobs and Apps, as well as via the `ovhai` CLI.
 
