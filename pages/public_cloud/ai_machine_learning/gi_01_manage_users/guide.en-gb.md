@@ -37,20 +37,19 @@ Click on `+ Add user`{.action}, specify a name as the user's description, and **
 
 ![image](images/04_users_roles.png){.thumbnail}
 
-This will generate a password that will allow you to authenticate to your AI Notebooks, Jobs and Apps, as well as via the `ovhai` CLI.
+This will generate a password that will allow you to authenticate to your existing AI Notebooks, AI Training jobs, AI Deploy apps and to the `ovhai` CLI, to launch new ones.
 
-If you ever lose this password, you can regenerate it at any time by clicking the `...`{.action} button next to your user, and then on `Generate a password`{.action}.
+> [!primary]
+>
+> - If you ever lose the password of a user, you can regenerate it at any time by clicking the `...`{.action} button next to your user, and then on `Generate a password`{.action}.
+> - Access to **AI Solutions** can be revoked anytime by deleting the user or removing its **AI Training Operator / Reader** role.
+>
 
 **2\. Edit an existing user roles**
 
 To edit an existing user, simply click the `...`{.action} button next to the user, and select `Edit roles` to modify its existing roles:
 
 ![image](images/05_edit_user_roles.png){.thumbnail}
-
-> [!primary]
->
-> - Access to **AI Solutions** can be revoked anytime by deleting the user or removing its **AI Training Operator / Reader** role.
-> - To be able to use the OVHcloud Object Storage, make sure that the user has the **Objectstore Operator** role.
 
 ## Going further
 
