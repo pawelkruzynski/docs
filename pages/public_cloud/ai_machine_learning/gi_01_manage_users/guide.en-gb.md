@@ -25,7 +25,7 @@ To grant access to **OVHcloud AI Solutions** to the users of your Public Cloud P
 
 In addition to the AI Training role, we strongly recommend adding the **ObjectStore Operator** role to your AI users. This role provides read/write access to the **OVHcloud Object Storage**, which is a persistent storage solution to store your [data](/pages/public_cloud/ai_machine_learning/gi_02_concepts_data) that is incorporated into our AI Solutions. This way, you can access your data within the **AI Solutions**.
 
-To apply these roles, log in to the [OVHcloud Control Panel](/links/manager), and navigate to the `Public Cloud`{.action} section, in the horizontal menu at the top of the website. Select the Public Cloud project you want to use. Then, click on the `Project Management`{.action} category in the left-hand vertical menu to access the `Users & Roles`{.action} section.
+To apply these roles, log in to the [OVHcloud Control Panel](/links/manager), and navigate to the `Public Cloud`{.action} section, in the horizontal menu at the top of the website. Select the Public Cloud project you want to use. Then, click on the `Project Management`{.action} category in the left-hand vertical menu to access the `Users & Roles`{.action} section:
 
 ![image](images/03_users_menu.png){.thumbnail}
 
@@ -33,7 +33,7 @@ On this page, you can either **create a new user** for your Public Cloud project
 
 **1\. Create a new user**
 
-Click on `+ Add user`{.action}, specify a name as the user's description, and **assign the required roles** to use the AI Solutions with the Object Storage (**AI Training Operator** or **AI Training Reader**, depending on the level of access you want to grant, and the **ObjectStore Operator**).
+Click on `+ Add user`{.action}, specify a name as the user's description, and **assign the required roles** to use the AI Solutions with the Object Storage (**AI Training Operator** or **AI Training Reader**, depending on the level of access you want to grant, and the **ObjectStore Operator**):
 
 ![image](images/04_users_roles.png){.thumbnail}
 
@@ -43,7 +43,9 @@ If you ever lose this password, you can regenerate it at any time by clicking th
 
 **2\. Edit an existing user roles**
 
-To edit an existing user, simply click the `...`{.action} button next to the user, and select `Edit roles` to modify its existing roles.
+To edit an existing user, simply click the `...`{.action} button next to the user, and select `Edit roles` to modify its existing roles:
+
+![image](images/05_edit_user_roles.png){.thumbnail}
 
 > [!primary]
 >
