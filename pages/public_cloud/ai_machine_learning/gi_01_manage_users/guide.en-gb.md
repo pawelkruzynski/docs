@@ -37,7 +37,7 @@ Click on `+ Add user`{.action}, specify a name as the user's description, and **
 
 ![image](images/04_users_roles.png){.thumbnail}
 
-This will generate a password that will allow you to authenticate to your existing AI Notebooks, AI Training jobs, AI Deploy apps and to the `ovhai` CLI, to launch new ones.
+This will generate a password that will allow you to authenticate to your existing AI Notebooks, AI Training jobs, AI Deploy apps and to the `ovhai` CLI to launch new ones.
 
 > [!primary]
 >
