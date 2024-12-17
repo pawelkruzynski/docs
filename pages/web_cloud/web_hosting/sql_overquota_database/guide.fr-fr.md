@@ -202,7 +202,7 @@ DROP TABLE `table_1`
 
 Nos robots en charge des vérifications des quotas passent très régulièrement sur nos infrastructures.
 S'ils constatent, lors de leur passage sur vos services, que votre base de données n'est plus en **overquota**, ils retirent automatiquement le statut « READ ONLY » (lecture seule).
-Dès lors où vous ave fait le nécessaire sur votre base de données, il vous suffit donc de patienter le temps que nos robots passent sur vos services.
+Dès lors que vous avez effectué les opérations nécessaires sur votre base de données, il vous suffit donc de patienter jusqu'à ce que nos robots passent sur vos services.
 
 Cependant, vous pouvez forcer leur passage sur vos services pour accélérer le processus. Pour cela, vous devez demander à nos robots de recalculer le quota de votre service/base de données.
 
