@@ -1,6 +1,6 @@
 ---
-title: "MX Plan - Configurer son compte e-mail sur Outlook pour Android"
-excerpt: "Découvrez comment configurer votre adresse e-mail MX Plan sur l'application mobile Outlook pour Android"
+title: "E-mail Pro - Configurer son compte e-mail sur Outlook pour Android"
+excerpt: "Découvrez comment configurer votre adresse E-mail Pro sur l'application mobile Outlook pour Android"
 updated: 2024-11-26
 ---
 
@@ -15,9 +15,9 @@ updated: 2024-11-26
 
 ## Objectif
 
-Les comptes MX Plan peuvent être configurés sur différents logiciels de messagerie compatibles. Cela vous permet d’utiliser votre adresse e-mail depuis l’appareil de votre choix. L'application Outlook de Microsoft sur Android est disponible gratuitement depuis le Google Play Store.
+Les comptes E-mail Pro peuvent être configurés sur différents logiciels de messagerie compatibles. Cela vous permet d’utiliser votre adresse e-mail depuis l’appareil de votre choix. L'application Outlook de Microsoft sur Android est disponible gratuitement depuis le Google Play Store.
 
-**Découvrez comment configurer votre adresse e-mail MX Plan sur l'application mobile Outlook pour Android**
+**Découvrez comment configurer votre adresse E-mail Pro sur l'application mobile Outlook pour Android**
 
 > [!warning]
 >
@@ -27,9 +27,10 @@ Les comptes MX Plan peuvent être configurés sur différents logiciels de messa
 
 ## Prérequis
 
-- Disposer d’une adresse e-mail MX Plan (comprise dans l’offre MX Plan ou dans une offre d’[hébergement web OVHcloud](/links/web/hosting)).
+- Disposer d’une adresse [E-mail Pro](/links/web/email-pro).
 - Disposer de l'application Outlook sur votre appareil mobile [Android](https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&hl=fr).
 - Posséder les identifiants relatifs à l'adresse e-mail que vous souhaitez paramétrer.
+- Disposer des identifiants relatifs à l'adresse e-mail que vous souhaitez paramétrer.
 
 ## En pratique
 
@@ -73,8 +74,8 @@ Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 >> - **Adresse e-mail**
 >> - **Nom complet** : saisissez votre adresse e-mail complète
 >> - **Description**
->> - **Serveur de courrier entrant IMAP** :<br>- **Nom d'hôte IMAP** : pour l'**EUROPE**, saisissez `imap.mail.ovh.net` ou `ssl0.ovh.net`. Pour l'**AMERIQUE/ASIE**, saisissez `imap.mail.ovh.ca`<br>- **Port** : 993<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur IMAP** : votre adresse e-mail complète<br>- **Mot de passe IMAP** : celui de votre adresse e-mail
->> - **Serveur de courrier entrant SMTP** :<br>- **Nom d'hôte SMTP** : pour l'**EUROPE**, saisissez `smtp.mail.ovh.net` ou `ssl0.ovh.net` . Pour l'**AMERIQUE/ASIE**, saisissez `smtp.mail.ovh.ca`<br>- **Port** : 465<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur SMTP** : votre adresse e-mail complète<br>- **Mot de passe SMTP** : celui de votre adresse e-mail
+>> - **Serveur de courrier entrant IMAP** :<br>- **Nom d'hôte IMAP** : saisissez `pro**?**.mail.ovh.net`.<br>- **Port** : 993<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur IMAP** : votre adresse e-mail complète<br>- **Mot de passe IMAP** : celui de votre adresse e-mail
+>> - **Serveur de courrier entrant SMTP** :<br>- **Nom d'hôte SMTP** : saisissez `pro**?**.mail.ovh.net`.<br>- **Port** : 465<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur SMTP** : votre adresse e-mail complète<br>- **Mot de passe SMTP** : celui de votre adresse e-mail
 >>
 >> Pour finaliser la configuration, cliquez sur le bouton « &#10003; »
 >>
@@ -87,8 +88,8 @@ Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 >> - **Adresse e-mail**
 >> - **Nom complet** : Saisissez votre adresse e-mail complète
 >> - **Description**
->> - **Serveur de courrier entrant POP3** :<br>- **Nom d'hôte POP3** : pour l'**EUROPE**, saisissez `pop.mail.ovh.net` ou `ssl0.ovh.net` . Pour l'**AMERIQUE/ASIE**s saisissez `pop.mail.ovh.ca`<br>- **Port** : 995<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur POP3** : votre adresse e-mail complète<br>- **Mot de passe POP3** : celui de votre adresse e-mail
->> - **Serveur de courrier entrant SMTP** :<br>- **Nom d'hôte SMTP** : pour l'**EUROPE**, saisissez `smtp.mail.ovh.net` ou `ssl0.ovh.net`. Pour l'**AMERIQUE/ASIE**, saisissez `smtp.mail.ovh.ca`<br>- **Port** : 465<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur SMTP** : votre adresse e-mail complète<br>- **Mot de passe SMTP** : celui de votre adresse e-mail
+>> - **Serveur de courrier entrant POP3** :<br>- **Nom d'hôte POP3** : saisissez `pop.mail.ovh.net` .<br>- **Port** : 995<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur POP3** : votre adresse e-mail complète<br>- **Mot de passe POP3** : celui de votre adresse e-mail
+>> - **Serveur de courrier entrant SMTP** :<br>- **Nom d'hôte SMTP** : saisissez `pro**?**.mail.ovh.net`.<br>- **Port** : 465<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur SMTP** : votre adresse e-mail complète<br>- **Mot de passe SMTP** : celui de votre adresse e-mail
 >>
 >> Pour finaliser la configuration, cliquez sur le bouton « &#10003; »
 >>
@@ -144,7 +145,7 @@ Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 >>
 >> - **Nom d'utilisateur** : Renseignez l'adresse e-mail **complète**
 >> - **Mot de passe** : Renseignez le mot de passe de l'adresse e-mail
->> - **Serveur EUROPE (entrant)** : imap.mail.ovh.net **ou** ssl0.ovh.net
+>> - **Serveur EUROPE (entrant)** : pro**?**.mail.ovh.net **ou** ssl0.ovh.net
 >> - **Serveur AMERIQUE/ASIE-PACIFIQUE (entrant)** : imap.mail.ovh.ca
 >> - **Port** : 993
 >> - **Type de sécurité** : SSL/TLS
