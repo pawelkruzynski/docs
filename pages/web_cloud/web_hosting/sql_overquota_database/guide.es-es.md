@@ -1,7 +1,7 @@
 ---
-title: "Web hosting: mi base de datos está saturada, ¿qué hago?"
+title: "Web hosting - Mi base de datos está saturada, ¿qué hago?"
 excerpt: "Descubra cómo actuar cuando la base de datos está saturada"
-updated: 2023-12-13
+updated: 2024-12-09
 ---
 
 ## Objetivo
@@ -49,6 +49,7 @@ En primer lugar, es necesario identificar las tablas de gran tamaño de la base 
 > [phpMyAdmin](https://www.phpmyadmin.net/){.external} está disponible en todas las bases de datos compartidas de OVHcloud.
 > Esta aplicación de gestión de bases de datos facilita la realización de las acciones manuales que puede realizar con su base de datos.
 >
+> Si su base de datos se encuentra en una solución [Web Cloud Databases](/links/web/databases), consulte nuestra guía "[Web Cloud Databases - Conectarse a su base de datos](/pages/web_cloud/web_cloud_databases/connecting-to-database-on-database-server) ". A continuación, diríjase directamente al [etapa 1.2](#step1.2) de esta guía.
 
 #### 1.1 - Conectarse a la base de datos a través de phpMyAdmin
 
@@ -68,7 +69,7 @@ En la pestaña `Bases de datos`{.action}, haga clic en el botón `...`{.action} 
 
 Introduzca los datos de acceso a la base de datos y haga clic en `Conexión`{.action}.
 
-#### 1.2 - Buscar las tablas más voluminosas
+#### 1.2 - Buscar las tablas más voluminosas <a name="step1.2"></a>
 
 > [!alert]
 >

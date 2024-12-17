@@ -1,7 +1,7 @@
 ---
-title: "Webhosting: Was tun, wenn meine Datenbank voll ist?"
+title: "Webhosting - Was tun, wenn meine Datenbank voll ist?"
 excerpt: "Erfahren Sie hier, wie Sie vorgehen, wenn Ihre Datenbank voll ist"
-updated: 2023-12-13
+updated: 2024-12-09
 ---
 
 ## Ziel
@@ -48,6 +48,7 @@ Im ersten Schritt werden die großen Tabellen in der Datenbank identifiziert.
 > [phpMyAdmin](https://www.phpmyadmin.net/){.external} ist für alle Webhosting-Datenbanken von OVHcloud verfügbar.
 > Mit dieser Anwendung zur Datenbankverwaltung können Sie manuelle Datenbank-Aktionen einfach durchführen.
 >
+> Wenn Ihre Datenbank auf einer [Web Cloud Databases](/links/web/databases) Lösung vorhanden ist, lesen Sie unsere Anleitung „[Web Cloud Databases - Verbindung mit Ihrer Datenbank herstellen](/pages/web_cloud/web_cloud_databases/connecting-to-database-on-database-server)“ und fahren Sie dann direkt mit [Schritt 1.2](#step1.2) dieser Anleitung fort.
 
 #### 1.1 - Verbindung zur Datenbank über phpMyAdmin
 
@@ -67,7 +68,7 @@ Klicken Sie auf den Button `...`{.action} rechts neben der relevanten Datenbank 
 
 Geben Sie die Zugangsdaten für Ihre Datenbank ein und klicken Sie auf `Anmeldung`{.action}.
 
-#### 1.2 - Finden der größten Tabellen
+#### 1.2 - Finden der größten Tabellen <a name="step1.2"></a>
 
 > [!alert]
 >
