@@ -244,3 +244,5 @@ It corresponds to the availability of the Object Storage service (RBX-archive en
 Discover our dedicated Discord channel: <https://discord.gg/ovhcloud>. Ask questions, provide comments, and interact directly with the team that designs our storage and backup services.
 
 Join our [community of users](/links/community).
+
+**\***: S3 is a trademark of Amazon Technologies, Inc. OVHcloud’s service is not sponsored by, endorsed by, or otherwise affiliated with Amazon Technologies, Inc.

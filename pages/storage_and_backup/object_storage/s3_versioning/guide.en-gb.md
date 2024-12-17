@@ -126,3 +126,5 @@ Suspending versioning stops new objects from receiving a version ID. Existing ob
 ## Go Further
 
 Join our [community of users](/links/community).
+
+**\***: S3 is a trademark of Amazon Technologies, Inc. OVHcloud’s service is not sponsored by, endorsed by, or otherwise affiliated with Amazon Technologies, Inc.

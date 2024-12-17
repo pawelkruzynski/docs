@@ -153,3 +153,5 @@ user@host:~$ aws --profile default s3 rb s3://bucket
 ## Aller plus loin
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).
+
+**\*** : S3 est une marque déposée appartenant à Amazon Technologies, Inc. Les services de OVHcloud ne sont pas sponsorisés, approuvés, ou affiliés de quelque manière que ce soit.

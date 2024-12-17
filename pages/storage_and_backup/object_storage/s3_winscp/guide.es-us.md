@@ -71,3 +71,5 @@ Then enter your `secret_access_key`.
 Join our community of Discord users: <https://discord.gg/ovhcloud>
 
 Join our [community of users](/links/community).
+
+**\***: S3 is a trademark of Amazon Technologies, Inc. OVHcloud’s service is not sponsored by, endorsed by, or otherwise affiliated with Amazon Technologies, Inc.

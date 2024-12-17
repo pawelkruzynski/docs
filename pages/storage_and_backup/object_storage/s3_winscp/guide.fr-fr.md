@@ -73,3 +73,5 @@ Une fois connecté, vous verrez une liste de vos buckets S3 sous la forme de *do
 Rejoignez notre communauté d’utilisateurs Discord : <https://discord.gg/ovhcloud>
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).
+
+**\*** : S3 est une marque déposée appartenant à Amazon Technologies, Inc. Les services de OVHcloud ne sont pas sponsorisés, approuvés, ou affiliés de quelque manière que ce soit.

@@ -126,3 +126,5 @@ La suspension du versioning empêche les nouveaux objets de recevoir un identifi
 ## Aller plus loin
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).
+
+**\*** : S3 est une marque déposée appartenant à Amazon Technologies, Inc. Les services de OVHcloud ne sont pas sponsorisés, approuvés, ou affiliés de quelque manière que ce soit.

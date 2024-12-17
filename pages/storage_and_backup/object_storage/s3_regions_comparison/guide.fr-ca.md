@@ -118,3 +118,5 @@ Si vous avez besoin d'une formation ou d'une assistance technique pour la mise e
 Pour des détails supplémentaires et de l’assistance sur les modes de déploiement S3, consultez [ce guide](/pages/storage_and_backup/object_storage/cold_archive_getting_started).
 
 Échangez avec notre [communauté d'utilisateurs](/links/community) et notre communauté sur [Discord](https://discord.gg/ovhcloud).
+
+**\*** : S3 est une marque déposée appartenant à Amazon Technologies, Inc. Les services de OVHcloud ne sont pas sponsorisés, approuvés, ou affiliés de quelque manière que ce soit.

@@ -44,9 +44,6 @@ Le RACI ci-dessous détaille le partage des responsabilités entre OVHcloud et l
 | --- | --- | --- |
 | Utiliser les API S3 pour importer les données dans le conteneur (bucket) mis à disposition | RA |  |
 
-
-
-
 ### 3. Utilisation du service
 
 #### 3.1. Opérations
@@ -142,3 +139,5 @@ Le RACI ci-dessous détaille le partage des responsabilités entre OVHcloud et l
 Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).
+
+**\*** : S3 est une marque déposée appartenant à Amazon Technologies, Inc. Les services de OVHcloud ne sont pas sponsorisés, approuvés, ou affiliés de quelque manière que ce soit.
