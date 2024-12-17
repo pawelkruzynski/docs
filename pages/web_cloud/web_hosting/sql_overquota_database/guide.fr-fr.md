@@ -208,7 +208,7 @@ Cependant, vous pouvez forcer leur passage sur vos services pour accélérer le 
 
 #### Recalculer le quota pour une base de données incluse avec votre offre d'hébergement web
 
-Pour recalculer le quota pour une base de données incluse avec votre offre d'hébergement web, cliquez sur les onglets ci-dessous pour afficher successivement chacune des **5** étapes.
+Cliquez sur les onglets ci-dessous pour afficher successivement chacune des **5** étapes.
 
 > [!tabs]
 > **Etape 1**
