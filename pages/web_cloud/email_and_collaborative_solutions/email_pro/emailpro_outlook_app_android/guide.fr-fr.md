@@ -30,22 +30,28 @@ Les comptes E-mail Pro peuvent être configurés sur différents logiciels de me
 - Disposer d’une adresse [E-mail Pro](/links/web/email-pro).
 - Disposer de l'application Outlook sur votre appareil mobile [Android](https://play.google.com/store/apps/details?id=com.microsoft.office.outlook&hl=fr).
 - Posséder les identifiants relatifs à l'adresse e-mail que vous souhaitez paramétrer.
-- Disposer des identifiants relatifs à l'adresse e-mail que vous souhaitez paramétrer.
 
 ## En pratique
 
 ### Ajouter le compte <a name="add-account"></a>
 
+> [!warning]
+>
+> Dans nos exemples, nous utilisons la mention serveur : pro**?**.mail.ovh.net. Vous devrez remplacer le « ? » par le chiffre désignant le serveur de votre service E-mail Pro.
+>
+> Retrouvez ce chiffre dans votre [espace client OVHcloud](/links/manager), dans la rubrique `Web Cloud`{.action} puis `E-mail Pro`{.action}. Le nom du serveur est visible dans le cadre **Connexion** de l'onglet `Informations Générales`{.action}.
+>
+
 - **Lors du premier démarrage de l'application** : un assistant de configuration s'affiche, appuyez sur `Ajouter un compte`{.action}.
 
-![outlook android](images/outlook-app-android-add01.png){.thumbnail .w-400 .h-600}
+![outlook android email pro](images/outlook-app-android-add01.png){.thumbnail .w-400 .h-600}
 
 - **Si un compte a déjà été paramétré** :
     - Appuyez sur l'enveloppe « &#9993; » dans la partie supérieure gauche de votre écran.
     - Appuyez ensuite sur le bouton `+`{.action} dans la barre verticale de gauche.
     - Appuyez sur `Ajouter un compte`{.action}.
 
-![outlook android](images/outlook-app-android-add02.png){.thumbnail .w-400 .h-600}
+![outlook android email pro](images/outlook-app-android-add02.png){.thumbnail .w-400 .h-600}
 
 Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 
@@ -54,18 +60,18 @@ Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 >>
 >> Saisissez votre adresse e-mail et appuyez sur `Continuer`{.action}.
 >>
->> ![outlook android](images/outlook-app-android-add-step01.png){.thumbnail .w-400 .h-600}
+>> ![outlook android email pro](images/outlook-app-android-add-step01.png){.thumbnail .w-400 .h-600}
 >>
 > **Etape 2**
 >>
 >> Sélectionnez le protocole de réception, **IMAP**(recommandé) ou **POP3**.
 >>
->> ![outlook android](images/outlook-app-android-add-step02.png){.thumbnail .w-400 .h-600}
+>> ![outlook android email pro](images/outlook-app-android-add-step02.png){.thumbnail .w-400 .h-600}
 >>
 >> > [!warning]
 >> >
 >> > Si la fenêtre de choix du protocole n'apparait pas, appuyez sur le bouton `?` dans le coin supérieur droit de l'écran, puis choisissez `Changer de fournisseur de compte`{.action}. Sélectionnez alors `IMAP`(recommandé) ou `POP3`.<br>
->> > ![outlook android](images/outlook-app-android-add-step021.png){.thumbnail .w-400 .h-600}
+>> > ![outlook android email pro](images/outlook-app-android-add-step021.png){.thumbnail .w-400 .h-600}
 >>
 > **Etape 3 - IMAP**
 >>
@@ -74,12 +80,12 @@ Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 >> - **Adresse e-mail**
 >> - **Nom complet** : saisissez votre adresse e-mail complète
 >> - **Description**
->> - **Serveur de courrier entrant IMAP** :<br>- **Nom d'hôte IMAP** : saisissez `pro**?**.mail.ovh.net`.<br>- **Port** : 993<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur IMAP** : votre adresse e-mail complète<br>- **Mot de passe IMAP** : celui de votre adresse e-mail
->> - **Serveur de courrier entrant SMTP** :<br>- **Nom d'hôte SMTP** : saisissez `pro**?**.mail.ovh.net`.<br>- **Port** : 465<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur SMTP** : votre adresse e-mail complète<br>- **Mot de passe SMTP** : celui de votre adresse e-mail
+>> - **Serveur de courrier entrant IMAP** :<br>- **Nom d'hôte IMAP** : saisissez `pro**?**.mail.ovh.net` (remplacez bien «**?**» par le numéro de votre serveur).<br>- **Port** : 993<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur IMAP** : votre adresse e-mail complète<br>- **Mot de passe IMAP** : celui de votre adresse e-mail
+>> - **Serveur de courrier entrant SMTP** :<br>- **Nom d'hôte SMTP** : saisissez `pro**?**.mail.ovh.net` (remplacez bien «**?**» par le numéro de votre serveur).<br>- **Port** : 587<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur SMTP** : votre adresse e-mail complète<br>- **Mot de passe SMTP** : celui de votre adresse e-mail
 >>
 >> Pour finaliser la configuration, cliquez sur le bouton « &#10003; »
 >>
->> ![outlook android](images/outlook-app-android-add-step03-imap-eu.png){.thumbnail .w-400 .h-600}
+>> ![outlook android email pro](images/outlook-app-android-add-step03-imap-eu.png){.thumbnail .w-400 .h-600}
 >>
 > **Etape 3 - POP3**
 >>
@@ -88,12 +94,12 @@ Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 >> - **Adresse e-mail**
 >> - **Nom complet** : Saisissez votre adresse e-mail complète
 >> - **Description**
->> - **Serveur de courrier entrant POP3** :<br>- **Nom d'hôte POP3** : saisissez `pop.mail.ovh.net` .<br>- **Port** : 995<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur POP3** : votre adresse e-mail complète<br>- **Mot de passe POP3** : celui de votre adresse e-mail
->> - **Serveur de courrier entrant SMTP** :<br>- **Nom d'hôte SMTP** : saisissez `pro**?**.mail.ovh.net`.<br>- **Port** : 465<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur SMTP** : votre adresse e-mail complète<br>- **Mot de passe SMTP** : celui de votre adresse e-mail
+>> - **Serveur de courrier entrant POP3** :<br>- **Nom d'hôte POP3** : saisissez `pop.mail.ovh.net` (remplacez bien «**?**» par le numéro de votre serveur).<br>- **Port** : 995<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur POP3** : votre adresse e-mail complète<br>- **Mot de passe POP3** : celui de votre adresse e-mail
+>> - **Serveur de courrier entrant SMTP** :<br>- **Nom d'hôte SMTP** : saisissez `pro**?**.mail.ovh.net` (remplacez bien «**?**» par le numéro de votre serveur).<br>- **Port** : 587<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur SMTP** : votre adresse e-mail complète<br>- **Mot de passe SMTP** : celui de votre adresse e-mail
 >>
 >> Pour finaliser la configuration, cliquez sur le bouton « &#10003; »
 >>
->> ![outlook android](images/outlook-app-android-add-step03-pop-eu.png){.thumbnail .w-400 .h-600}
+>> ![outlook android email pro](images/outlook-app-android-add-step03-pop-eu.png){.thumbnail .w-400 .h-600}
 >>
 
 > [!warning]
@@ -104,7 +110,7 @@ Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 
 Une fois l'adresse e-mail configurée, il ne reste plus qu’à l'utiliser ! Vous pouvez dès à présent envoyer et recevoir des messages.
 
-OVHcloud propose aussi une application web permettant d'accéder à votre adresse e-mail depuis un navigateur internet. Celle-ci est accessible via ce lien : [Webmail](/links/web/email). Vous pouvez vous y connecter grâce aux identifiants de votre adresse e-mail. Pour toute question relative à son utilisation, aidez-vous de nos guides [Consulter son compte depuis l’interface OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/email_owa) ou [Utiliser son adresse e-mail depuis le webmail RoundCube](/pages/web_cloud/email_and_collaborative_solutions/mx_plan/email_roundcube#ou-et-comment-se-connecter-au-webmail-roundcube).
+OVHcloud propose aussi une application web permettant d'accéder à votre adresse e-mail depuis un navigateur internet. Celle-ci est accessible via ce lien : [Webmail](/links/web/email). Vous pouvez vous y connecter grâce aux identifiants de votre adresse e-mail. Pour toute question relative à son utilisation, aidez-vous de notre guide [Consulter son compte depuis l’interface OWA](/pages/web_cloud/email_and_collaborative_solutions/using_the_outlook_web_app_webmail/email_owa).
 
 ### Modifier les paramètres existants <a name="modify-settings"></a>
 
@@ -116,13 +122,13 @@ Si votre compte e-mail est déjà paramétré et que vous souhaitez le paramétr
 2. Appuyez sur l'icöne de réglage « &#9965; » dans le bas de la colonne de gauche.
 3. Dans la section « Général » appuyez sur `Comptes` pour visualiser l'ensemble des adresses e-mail configurées sur l'application.
 
-![outlook android](images/outlook-app-android-delete-account-01.png){.thumbnail .w-400 .h-600}
+![outlook android email pro](images/outlook-app-android-delete-account-01.png){.thumbnail .w-400 .h-600}
 
 - Sélectionnez le compte e-mail concerné.
 - Appuyez sur `Supprimer le compte`{.action}.
 - Appuyez sur `Supprimer`{.action} à la question  « Voulez-vous supprimer le compte ? ».
 
-![outlook android](images/outlook-app-android-delete-account-02.png){.thumbnail .w-400 .h-600}
+![outlook android email pro](images/outlook-app-android-delete-account-02.png){.thumbnail .w-400 .h-600}
 
 > [!success]
 >
@@ -134,10 +140,6 @@ Si votre compte e-mail est déjà paramétré et que vous souhaitez le paramétr
 
 Pour la réception des e-mails, lors du choix du type de compte, nous vous conseillons une utilisation en **IMAP**. Vous pouvez cependant sélectionner **POP**.
 
-> [!warning]
->
-> Il est nécessaire de bien relever la valeur correspondante à votre localisation (**EUROPE** ou **AMERIQUE / ASIE-PACIFIQUE**)
-
 Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 
 > [!tabs]
@@ -145,8 +147,7 @@ Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 >>
 >> - **Nom d'utilisateur** : Renseignez l'adresse e-mail **complète**
 >> - **Mot de passe** : Renseignez le mot de passe de l'adresse e-mail
->> - **Serveur EUROPE (entrant)** : pro**?**.mail.ovh.net **ou** ssl0.ovh.net
->> - **Serveur AMERIQUE/ASIE-PACIFIQUE (entrant)** : imap.mail.ovh.ca
+>> - **Serveur (entrant)** : pro**?**.mail.ovh.net
 >> - **Port** : 993
 >> - **Type de sécurité** : SSL/TLS
 >>
@@ -154,8 +155,7 @@ Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 >>
 >> - **Nom d'utilisateur** : Renseignez l'adresse e-mail **complète**
 >> - **Mot de passe** : Renseignez le mot de passe de l'adresse e-mail
->> - **Serveur EUROPE (entrant)** : pop.mail.ovh.net **ou** ssl0.ovh.net
->> - **Serveur AMERIQUE/ASIE-PACIFIQUE (entrant)** : pop.mail.ovh.ca
+>> - **Serveur (entrant)** : pro**?**.mail.ovh.net
 >> - **Port** : 995
 >> - **Type de sécurité** : SSL/TLS
 
@@ -167,9 +167,8 @@ Pour l'envoi des e-mails, si vous devez renseigner manuellement les paramètres 
 
 - **Nom d'utilisateur** : Renseignez l'adresse e-mail **complète**
 - **Mot de passe** : Renseignez le mot de passe de l'adresse e-mail
-- **Serveur EUROPE (entrant)** : pop.mail.ovh.net **ou** ssl0.ovh.net
-- **Serveur AMERIQUE/ASIE-PACIFIQUE (entrant)** : pop.mail.ovh.ca
-- **Port** : 995
+- **Serveur (entrant)** : pop.mail.ovh.net
+- **Port** : 587
 - **Type de sécurité** : SSL/TLS
 
 > [!primary]
