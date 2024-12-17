@@ -198,13 +198,6 @@ DROP TABLE `table_1`
 
 > Dans cet exemple, la commande supprime la table **table_1** et l'ensemble des lignes qu'elle contient.
 
-
-
-
-
-
-
-
 ### Etape 4 : Sortir la base de donnée du statut « READ ONLY » (lecture seule)
 
 Nos robots en charge des vérifications des quotas passent très régulièrement sur nos infrastructures.
