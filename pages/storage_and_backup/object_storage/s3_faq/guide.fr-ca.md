@@ -32,11 +32,11 @@ OVHcloud propose 3 classes de stockages S3 :
 - **Standard** pour vos stockages volumineux pour lesquels vous recherchez un meilleur ratio prix/performance, comme par exemple pour des sites web, des librairies de partage d'images ou des sauvegardes.
 - **Cold Archive** pour vos archives.
 
-Retrouvez la description des classes des stockage sur [cette page](https://www.ovhcloud.com/fr-ca/public-cloud/storage/).
+Retrouvez la description des classes des stockage sur [cette page](/links/public-cloud/storage).
 
 ### Quelles sont les fonctionnalités disponibles pour les classes de stockage S3 ?
 
-Les classes de stockage Objet S3 bénéficient de [fonctionnalités enrichies pour gérer au mieux votre donnée](https://www.ovhcloud.com/fr-ca/public-cloud/object-storage/#features).
+Les classes de stockage Objet S3 bénéficient de [fonctionnalités enrichies pour gérer au mieux votre donnée](/links/public-cloud/object-storage).
 
 De nouvelles fonctionnalités sont à venir, nous vous invitons à consulter régulièrement notre [roadmap GitHub publique](https://github.com/orgs/ovh/projects/16/?card_filter_query=label%3A%22object+storage%22).
 
@@ -167,7 +167,7 @@ La bande passante est mutualisée et non garantie. Nous offrons un maximum de 1 
 
 ### Comment est facturée la bande passante ?
 
-Les prix sont définis et affichés sur [le site OVHcloud](https://www.ovhcloud.com/fr-ca/public-cloud/prices/#439).
+Les prix sont définis et affichés sur [le site OVHcloud](/links/public-cloud/prices-object-storage).
 
 Un serveur OVHcloud est un serveur opéré pour un service OVHcloud, par exemple un serveur de la gamme Bare Metal Cloud, Public Cloud ou Hosted Private Cloud (Serveur Dédié / VPS / Public Cloud / Hosted Private Cloud / So You Start / Kimsufi / xDSL).
 
@@ -179,7 +179,7 @@ Le trafic public entrant est représenté par la donnée téléchargée depuis I
 
 Le trafic public sortant est représenté par la donnée téléchargée d’un serveur OVHcloud vers Internet.
 
-Des limitations de trafic/bande passante publique peuvent exister pour un service OVHcloud donné et/ou pour une région donnée. Nous vous recommandons de consulter la documentation spécifique au service OVHcloud que vous utilisez pour plus de détai
+Des limitations de trafic/bande passante publique peuvent exister pour un service OVHcloud donné et/ou pour une région donnée. Nous vous recommandons de consulter la documentation spécifique au service OVHcloud que vous utilisez pour plus de détails.
 
 ## Disponibilité
 

@@ -19,11 +19,11 @@ However, OVHcloud Object Storage S3 static website hosting does not support HTTP
 
 The following are the prerequisites to have in order to enable https:
 
-- An [OVHcloud Load Balancer](https://www.ovhcloud.com/asia/network/load-balancer/) which will serve the role of an SSL gateway and can offer protection against DDOS attacks.
-- A registered [domain name](https://www.ovhcloud.com/asia/domains/).
+- An [OVHcloud Load Balancer](/links/network/load-balancer) which will serve the role of an SSL gateway and can offer protection against DDOS attacks.
+- A registered [domain name](/links/web/domains).
 - You need to order a TLS certificate associated with your domain name at OVHcloud (optional if you already have a trusted TLS certificate associated with your domain name).
 - You have to [enable web hosting on your S3 bucket](/pages/storage_and_backup/object_storage/s3_website).
-- Access to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/asia/&ovhSubsidiary=asia).
+- Access to the [OVHcloud Control Panel](/links/manager).
 
 ## Instructions
 
@@ -31,7 +31,7 @@ The following are the prerequisites to have in order to enable https:
 
 #### Step 1.1 - Add your certificate
 
-Log in to the [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/asia/&ovhSubsidiary=asia), go to the `Bare Metal Cloud`{.action} section and click `Load Balancer`{.action}.
+Log in to the [OVHcloud Control Panel](/links/manager), go to the `Bare Metal Cloud`{.action} section and click `Load Balancer`{.action}.
 
 Select your Load Balancer from the list, click the `SSL certificates`{.action} tab then click `Add an SSL certificate`{.action}.
 
@@ -177,6 +177,6 @@ Check that the website and the redirect work properly. Open a private browser to
 
 [How to configure your DNS zone](/pages/web_cloud/domains/dns_zone_edit)
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/asia/professional-services/) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).

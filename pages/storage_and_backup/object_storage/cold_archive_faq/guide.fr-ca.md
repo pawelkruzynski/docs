@@ -25,7 +25,7 @@ Retrouvez une présentation de l'offre sur [cette page](/pages/storage_and_backu
 Pour utiliser le service, les prérequis sont les suivants :
 
 - Avoir un [projet Public Cloud](/pages/public_cloud/compute/create_a_public_cloud_project) dans votre compte OVHcloud. 
-- Etre connecté à votre [espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc).
+- Etre connecté à votre [espace client OVHcloud](/links/manager).
 - Avoir créé un [utilisateur S3](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage).
 
 ### Quelles sont les fonctions S3 disponibles avec la classe de stockage Cold Archive ? 
@@ -136,7 +136,7 @@ La facturation s'arrête dès lors que l'archive est supprimée (*delete-ovh-arc
 
 Une réduction de 7% est appliquée pour un volume de données supérieur à 3 Po.
 
-Retrouvez le détail de la tarification sur [cette page](https://www.ovhcloud.com/fr-ca/public-cloud/prices/).
+Retrouvez le détail de la tarification sur [cette page](/links/public-cloud/prices).
 
 ### Y a-t-il une durée minimum d'engagement ?
 
@@ -177,7 +177,7 @@ Le trafic interne entrant est gratuit.
 
 Le trafic interne sortant est gratuit (trafic d'un serveur OVHcloud vers un serveur OVHcloud, incluant les serveurs des offres Public Cloud, Bare Metal Cloud, Hosted Private Cloud)
 
-La bande passante externe d'OVHcloud vers l'extérieur est facturée. Les prix sont détaillés sur [cette page](https://www.ovhcloud.com/fr-ca/public-cloud/prices/).
+La bande passante externe d'OVHcloud vers l'extérieur est facturée. Les prix sont détaillés sur [cette page](/links/public-cloud/prices).
 
 ## Durabilité  
 
@@ -232,7 +232,7 @@ La redondance de la donnée est effectuée par un mécanisme d'Erasure Coding 8+
 
 ### Quel est le SLA du service ?
 
-Le SLA du service est disponible sur [cette page](https://www.ovhcloud.com/fr-ca/terms-and-conditions/contracts/).
+Le SLA du service est disponible sur [cette page](/links/terms-conditions-contracts).
 
 Il correspond à la disponibilité du service Object Storage (endpoint RBX-archive) à 99,9% et des fonctions associées (API S3 et tiering).
 

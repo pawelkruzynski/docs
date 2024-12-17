@@ -70,4 +70,4 @@ Then enter your `secret_access_key`.
 
 Join our community of Discord users: <https://discord.gg/ovhcloud>
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).
