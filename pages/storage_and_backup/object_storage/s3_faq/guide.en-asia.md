@@ -32,11 +32,11 @@ OVHcloud offers 3 S3 storage classes:
 - **Standard** for your high-volume storage for which you are looking for a better price/performance ratio, such as websites, image-sharing libraries or backups.
 - **Cold Archive** for your archives.
 
-Find the description of the storage classes on [this page](https://www.ovhcloud.com/asia/public-cloud/storage/).
+Find the description of the storage classes on [this page](/links/public-cloud/storage).
 
 ### What features are available for S3 storage classes?
 
-The S3 Object storage classes benefit from [enhanced features to better manage your data](https://www.ovhcloud.com/asia/public-cloud/object-storage/#features).
+The S3 Object storage classes benefit from [enhanced features to better manage your data](/links/public-cloud/object-storage).
 
 New features are coming soon, so please check out our [public GitHub roadmap](https://github.com/orgs/ovh/projects/16/?card_filter_query=label%3A%22object+storage%22).
 
@@ -171,7 +171,7 @@ Bandwidth is shared and not guaranteed. We offer a maximum of 1 Gbps/connection 
 
 ### How is bandwidth billed?
 
-Prices are set and displayed on [the OVHcloud website](https://www.ovhcloud.com/asia/public-cloud/prices/#439).
+Prices are set and displayed on [the OVHcloud website](/links/public-cloud/prices-object-storage).
 
 An OVHcloud server is a server operated for an OVHcloud service, such as a server from the Bare Metal Cloud, Public Cloud or Hosted Private Cloud ranges (Dedicated Server / VPS / Public Cloud / Hosted Private Cloud / So You Start / Kimsufi).
 
