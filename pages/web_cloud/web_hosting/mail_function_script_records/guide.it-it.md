@@ -107,7 +107,7 @@ In questa sezione sono disponibili i dettagli di ogni stato che ha bloccato la f
 >
 > - la configurazione del [record SPF](/pages/web_cloud/domains/dns_zone_spf) nella zona DNS del nome di dominio.
 > - la configurazione di [il record DMARC](/pages/web_cloud/domains/dns_zone_dmarc) nella zona DNS del nome di dominio, **solo se il server di destinazione lo richiede**.
-> - Verifica la reputazione dell'indirizzo IP che invia ([quella del tuo hosting Web](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_ip), utilizzando uno strumento come [MXtoolbox](https://mxtoolbox.com/) o [Spamhaus](https://check.spamhaus.org/).
+> - Verifica la reputazione dell'indirizzo IP che invia ([quella del tuo hosting Web](/pages/web_cloud/web_hosting/clusters_and_shared_hosting_ip)), utilizzando uno strumento come [MXtoolbox](https://mxtoolbox.com/) o [Spamhaus](https://check.spamhaus.org/).
 > - L'email non contiene elementi che possono essere interpretati come SPAM. Per maggiori informazioni, consulta la sezione "[Caso 3: Invio di email legittime considerate come SPAM](#elements-list-spam)" di questa guida.
 > - In caso di assenza di blocco da parte di OVHcloud e se l’email non è stata ricevuta o rifiutata dal destinatario, contatta il destinatario per chiedere di verificare se l’email è stata bloccata a livello del server di destinazione.
 
