@@ -19,11 +19,11 @@ Par défaut, le protocole HTTPS n'est pas pris en charge sur un site web statiqu
 
 Voici les prérequis à avoir pour activer le protocole HTTPS :
 
-- Disposer d’un [Load Balancer OVHcloud](https://www.ovhcloud.com/fr-ca/network/load-balancer/), qui jouera le rôle de passerelle SSL et pourra offrir une protection contre les attaques DDOS.
-- Un [nom de domaine](https://www.ovhcloud.com/fr-ca/domains/).
+- Disposer d’un [Load Balancer OVHcloud](/links/network/load-balancer), qui jouera le rôle de passerelle SSL et pourra offrir une protection contre les attaques DDOS.
+- Un [nom de domaine](/links/web/domains).
 - Commander un certificat TLS associé à votre nom de domaine chez OVHcloud (facultatif si vous disposez déjà d’un certificat TLS de confiance associé à votre nom de domaine).
 - Vous devez [activer l'hébergement sur votre bucket S3](/pages/storage_and_backup/object_storage/s3_website).
-- Être connecté à votre [espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc).
+- Être connecté à votre [espace client OVHcloud](/links/manager).
 
 ## En pratique
 
@@ -31,7 +31,7 @@ Voici les prérequis à avoir pour activer le protocole HTTPS :
 
 #### Étape 1.1 - Ajouter votre certificat
 
-Connectez-vous à votre [espace client OVHcloud](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/ca/fr/&ovhSubsidiary=qc), rendez-vous dans la section `Bare Metal Cloud`{.action} et cliquez sur `Load Balancer`{.action}.
+Connectez-vous à votre [espace client OVHcloud](/links/manager), rendez-vous dans la section `Bare Metal Cloud`{.action} et cliquez sur `Load Balancer`{.action}.
 
 Sélectionnez votre Load Balancer dans la liste, cliquez sur l'onglet `Certificats SSL`{.action} puis sur `Ajouter un certificat SSL`{.action}.
 
@@ -172,6 +172,6 @@ Vérifiez que le site web et la redirection fonctionnent correctement. Ouvrez vo
 
 [Configuration de votre zone DNS](/pages/web_cloud/domains/dns_zone_edit)
 
-Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](https://www.ovhcloud.com/fr-ca/professional-services/) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
+Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).

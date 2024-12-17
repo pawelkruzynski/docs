@@ -12,7 +12,7 @@ updated: 2024-08-05
 
 ## Objectif
 
-[OVHcloud Cold Archive](https://www.ovhcloud.com/en-gb/public-cloud/cold-archive/) est une classe de stockage conçue pour un stockage à long terme des données rarement accédées.
+[OVHcloud Cold Archive](/links/public-cloud/cold-archive) est une classe de stockage conçue pour un stockage à long terme des données rarement accédées.
 
 Ses principales caractéristiques sont :
 
@@ -141,7 +141,7 @@ Object Storage est disponible via un point de terminaison public (IP publique).
 
 ## Tarification
 
-Nos tarifs sont détaillés [ici](https://www.ovhcloud.com/fr-ca/public-cloud/prices/).
+Nos tarifs sont détaillés [ici](/links/public-cloud/prices).
 
 La solution Cold Archive est facturée en fonction de l'espace d'archivage utilisé (sur bandes magnétiques) et de l'espace de dépôt utilisé (espace Object Storage) avec une granularité de 1 Go. Pour assurer sa lisibilité, le prix est affiché en Go/mois, mais la granularité de facturation est au Go/heure, considérant qu'il y a en moyenne 720 heures dans un mois.
 

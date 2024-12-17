@@ -1,7 +1,7 @@
 ---
-title: "Hébergement web : ma base de données est saturée, que faire ?"
+title: "Hébergement web - Ma base de données est saturée, que faire ?"
 excerpt: "Découvrez comment agir lorsque votre base de données est saturée"
-updated: 2023-12-13
+updated: 2024-12-09
 ---
 
 ## Objectif
@@ -49,6 +49,8 @@ La première étape consiste à identifier la ou les tables volumineuses présen
 > [phpMyAdmin](https://www.phpmyadmin.net/){.external} est disponible sur l'ensemble des bases de données mutualisées OVHcloud.
 > Cette application de gestion de base de données facilite la réalisation des actions manuelles que vous pouvez effectuer avec votre base de données.
 >
+> Si votre base de données est présente sur une solution [Web Cloud Databases](/links/web/databases), consultez notre guide « [Web Cloud Databases - Se connecter à votre base de données](/pages/web_cloud/web_cloud_databases/connecting-to-database-on-database-server) », puis passez directement à l'[étape 1.2](#step1.2) du présent guide.
+>
 
 #### 1.1 - Se connecter à la base de données via phpMyAdmin
 
@@ -68,7 +70,7 @@ Toujours depuis l'onglet `Bases de données`{.action}, cliquez sur le bouton `..
 
 Renseignez les informations d'accès à votre base de données puis cliquez sur `Connexion`{.action}.
 
-#### 1.2 - Rechercher les tables les plus volumineuses
+#### 1.2 - Rechercher les tables les plus volumineuses <a name="step1.2"></a>
 
 > [!alert]
 >
@@ -125,7 +127,7 @@ Vous devrez basculer votre base de données sur une base de données plus volumi
 > Pour augmenter la taille allouée à votre base de données, vous devrez obligatoirement créer une nouvelle base de données plus grande et copier le contenu de l'ancienne dans la nouvelle. En effet, il n'est pas possible d'augmenter directement la taille d'une base de données liée à un hébergement web.
 >
 
-Consultez notre offre de bases de données [Web Cloud Databasess](https://www.ovh.com/fr-ca/cloud-databases/) pour choisir votre nouveau service de base de données.
+Consultez notre offre de bases de données [Web Cloud Databasess](/links/web/databases) pour choisir votre nouveau service de base de données. 
 
 Nous recommandons cette offre pour les bases de données volumineuses.
 

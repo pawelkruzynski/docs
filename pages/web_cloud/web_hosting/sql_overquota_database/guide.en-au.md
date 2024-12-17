@@ -1,7 +1,7 @@
 ---
-title: "Web hosting: My database is full, what should I do?"
+title: "Web hosting - My database is full, what should I do?"
 excerpt: "Find out what to do when your database is saturated"
-updated: 2023-12-13
+updated: 2024-12-09
 ---
 
 ## Objective
@@ -48,7 +48,8 @@ The first step is to identify the large table or tables in your database.
 >
 > [phpMyAdmin](https://www.phpmyadmin.net/){.external} is available on all OVHcloud shared databases.
 > This database management application makes it easy to perform the manual actions you can perform with your database.
->
+> 
+> If your database is hosted on a [Web Cloud Databases](/links/web/databases) solution, please refer to our guide on “[Web Cloud Databases - Logging in to your database](/pages/web_cloud/web_cloud_databases/connecting-to-database-on-database-server)”, then skip to [step 1.2](#step1.2) of this guide.
 
 #### 1.1 - Connect to the database via phpMyAdmin
 
@@ -68,7 +69,7 @@ In the `Databases`{.action} tab, click the `...`{.action} button to the right of
 
 Enter the login information for your database, then click `Login`{.action}.
 
-#### 1.2 - Find the largest tables
+#### 1.2 - Find the largest tables <a name="step1.2"></a>
 
 > [!alert]
 >

@@ -10,12 +10,12 @@ The purpose of this guide is to show you how to manage your identities and acces
 
 ## Requirements
 
-- A [Public Cloud project](https://www.ovhcloud.com/en-ie/public-cloud/) in your OVHcloud account
-- Access to your [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager\&from=https://www.ovh.co.uk/\&ovhSubsidiary=GB)
+- A [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account
+- Access to your [OVHcloud Control Panel](/links/manager)
 
 ## Instructions
 
-Log in to [the OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager\&from=https://www.ovh.co.uk/\&ovhSubsidiary=GB), go to the `Public Cloud`{.action} section, and select the Public Cloud project concerned. Then click on `Object Storage`{.action} in the left-hand menu.
+Log in to [the OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section, and select the Public Cloud project concerned. Then click on `Object Storage`{.action} in the left-hand menu.
 
 ### Creating a user
 
@@ -163,6 +163,6 @@ Some examples of JSON configuration files:
 
 ## Go further
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-ie/professional-services/) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
 
-Join our community of users on [https://community.ovh.com](https://community.ovh.com/en/).
+Join our [community of users](/links/community).

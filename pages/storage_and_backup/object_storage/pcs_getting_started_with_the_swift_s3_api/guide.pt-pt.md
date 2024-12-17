@@ -4,10 +4,6 @@ excerpt: "Saiba como utilizar a API Swift S3"
 updated: 2024-06-21
 ---
 
-> [!primary]
-> Esta tradução foi automaticamente gerada pelo nosso parceiro SYSTRAN. Em certos casos, poderão ocorrer formulações imprecisas, como por exemplo nomes de botões ou detalhes técnicos. Recomendamos que consulte a versão inglesa ou francesa do manual, caso tenha alguma dúvida. Se nos quiser ajudar a melhorar esta tradução, clique em "Contribuir" nesta página.
->
-
 ## Objetivo
 
 O middleware Swift s3api que assegura a compatibilidade da API S3 foi ativado em todas as regiões do Public Cloud.
@@ -168,6 +164,6 @@ user@host:~$ aws --profile default s3 rb s3://bucket
 
 ## Quer saber mais?
 
-Se precisar de formação ou de assistência técnica para implementar as nossas soluções, contacte o seu representante comercial ou clique em [esta ligação](https://www.ovhcloud.com/pt/professional-services/) para obter um orçamento e solicitar uma análise personalizada do seu projecto aos nossos especialistas da equipa de Serviços Profissionais.
+Se precisar de formação ou de assistência técnica para implementar as nossas soluções, contacte o seu representante comercial ou clique em [esta ligação](/links/professional-services) para obter um orçamento e solicitar uma análise personalizada do seu projecto aos nossos especialistas da equipa de Serviços Profissionais.
 
 Junte-se à nossa comunidade de utilizadores em <https://community.ovh.com/en/>.
