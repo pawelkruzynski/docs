@@ -197,6 +197,80 @@ DROP TABLE `table_1`
 
 > In this example, the command deletes the table **table_1** and all rows in it.
 
+### Step 4: Release the database from the "READ ONLY" status
+
+Our robots in charge of quota checks pass very regularly on our infrastructure.
+If they find that your database is no longer in **overquota** when they visit your services, they will automatically remove the “READ ONLY” status.
+Once you have carried out the necessary operations on your database, you just need to wait for our robots to pass on to your services.
+
+However, you can force them through your services to speed up the process. To do this, you will need to ask our robots to recalculate your service/database quota.
+
+#### Recalculate the quota for a database included with your web hosting plan
+
+Click on the tabs below to view each of the **5** steps in succession.
+
+> [!tabs]
+> **Step 1**
+>>
+>> Log in to your [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
+>>
+>> ![recalculate quota shared SQL](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Step 2**
+>>
+>> Click the `Hosting plans`{.action} dropdown menu, then select the Web Hosting plan concerned.
+>>
+>> ![recalculate quota shared SQL](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/web-hosting-selection.png){.thumbnail}
+>>
+> **Step 3**
+>>
+>> On the page that pops up, click on the `Databases`{.action} tab.
+>>
+>> ![recalculate quota shared SQL](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/general-information/databases.png){.thumbnail}
+>>
+> **Step 4**
+>>
+>> On the new page, a table will appear containing the databases you have created. To the right of the database concerned, click the `...`{.action} button, then `Recalculate the quota`{.action}.
+>>
+>> ![recalculate quota shared SQL](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/databases/recalculate-quota.png){.thumbnail}
+>>
+> **Step 5**
+>>
+>> In the window that pops up, click the `Confirm`{.action} button directly.
+>>
+>> ![recalculate quota shared SQL](/pages/assets/screens/control_panel/product-selection/web-cloud/web-hosting/databases/recalculate-quota-validation.png){.thumbnail}
+>>
+>> Once launched, the operation may take several minutes. When it ends, the "READ ONLY" status of your database disappears.
+>> Your database is now fully operational again.
+>>
+
+#### Recalculate the quota for a database hosted on a Web Cloud Databases solution
+
+Click on the tabs below to view each of the **3** steps in turn.
+
+> [!tabs]
+> **Step 1**
+>>
+>> Log in to your [OVHcloud Control Panel](/links/manager), then go to the `Web Cloud`{.action} section.
+>>
+>> ![recalculate quota Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud.png){.thumbnail}
+>>
+> **Step 2**
+>>
+>> Click the `Web Cloud Databases`{.action} dropdown menu, then choose the Web Cloud Databases solution concerned.
+>>
+>> ![recalculate quota Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/wcdb-server-selection.png){.thumbnail}
+>>
+> **Step 3**
+>>
+>> In the **General information** box, you will see **Used space**. Click the `...`{.action} button on the right, then `Refresh your database quota`{.action}.
+>>
+>> ![recalculate quota Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/general-information/refresh-your-database-quota.png){.thumbnail}
+>>
+>> Once launched, the operation may take several minutes. When it ends, the "READ ONLY" status of your database disappears.
+>> Your database is now fully operational again.
+>>
+
 ## Go further <a name="go-further"></a>
 
 [Duplicating the contents of one database to another](/pages/web_cloud/web_hosting/copy_database)
