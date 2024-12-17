@@ -247,7 +247,7 @@ Cliquez sur les onglets ci-dessous pour afficher successivement chacune des **5*
 
 #### Recalculer le quota pour une base de données hébergée sur une solution Web Cloud Databases
 
-Pour recalculer le quota pour une base de données hébergée sur une solution Web Cloud Databases, cliquez sur les onglets ci-dessous pour afficher successivement chacune des **3** étapes.
+Cliquez sur les onglets ci-dessous pour afficher successivement chacune des **3** étapes.
 
 > [!tabs]
 > **Etape 1**
