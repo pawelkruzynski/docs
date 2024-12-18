@@ -540,8 +540,8 @@ Pour finir, nous allons détacher le volume de l'instance :
 >>
 >> ```console
 >> $ terraform plan
->> openstack_compute_volume_attach_v2.va_1: Refreshing state... [id=11cc1279-37cd-4fc4-8040-3ace4c954780/daf3a86e-e9bf-4bb4-8bae-ac7b6ffbb806]
->> openstack_blockstorage_volume_v3.terraform_volume: Refreshing state... [id=daf3a86e-e9bf-4bb4-8bae-ac7b6ffbb806]
+>> openstack_compute_volume_attach_v2.va_1: Refreshing state... [id=11cc1279-xxxx-xxxx-xxxx-3ace4c954780/daf3a86e-xxxx-xxxx-xxxx-ac7b6ffbb806]
+>> openstack_blockstorage_volume_v3.terraform_volume: Refreshing state... [id=daf3a86e-xxxx-xxxx-xxxx-ac7b6ffbb806]
 >>
 >> Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
 >>   - destroy
@@ -552,10 +552,10 @@ Pour finir, nous allons détacher le volume de l'instance :
 >>   # (because openstack_compute_volume_attach_v2.va_1 is not in configuration)
 >>   - resource "openstack_compute_volume_attach_v2" "va_1" {
 >>       - device      = "/dev/sdb" -> null
->>       - id          = "11cc1279-37cd-4fc4-8040-3ace4c954780/daf3a86e-e9bf-4bb4-8bae-ac7b6ffbb806" -> null
->>       - instance_id = "11cc1279-37cd-4fc4-8040-3ace4c954780" -> null
+>>       - id          = "11cc1279-xxxx-xxxx-xxxx-3ace4c954780/daf3a86e-xxxx-xxxx-xxxx-ac7b6ffbb806" -> null
+>>       - instance_id = "11cc1279-xxxx-xxxx-xxxx-3ace4c954780" -> null
 >>       - region      = "GRA11" -> null
->>       - volume_id   = "daf3a86e-e9bf-4bb4-8bae-ac7b6ffbb806" -> null
+>>       - volume_id   = "daf3a86e-xxxx-xxxx-xxxx-ac7b6ffbb806" -> null
 >>     }
 >> 
 >> Plan: 0 to add, 0 to change, 1 to destroy.
@@ -571,8 +571,8 @@ Pour finir, nous allons détacher le volume de l'instance :
 >>
 >> ```console
 >> $ terraform apply
->> openstack_compute_volume_attach_v2.va_1: Refreshing state... [id=11cc1279-37cd-4fc4-8040-3ace4c954780/daf3a86e-e9bf-4bb4-8bae-ac7b6ffbb806]
->> openstack_blockstorage_volume_v3.terraform_volume: Refreshing state... [id=daf3a86e-e9bf-4bb4-8bae-ac7b6ffbb806]
+>> openstack_compute_volume_attach_v2.va_1: Refreshing state... [id=11cc1279-xxxx-xxxx-xxxx-3ace4c954780/daf3a86e-xxxx-xxxx-xxxx-ac7b6ffbb806]
+>> openstack_blockstorage_volume_v3.terraform_volume: Refreshing state... [id=daf3a86e-xxxx-xxxx-xxxx-ac7b6ffbb806]
 >>
 >> Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
 >>   - destroy
@@ -583,10 +583,10 @@ Pour finir, nous allons détacher le volume de l'instance :
 >>   # (because openstack_compute_volume_attach_v2.va_1 is not in configuration)
 >>   - resource "openstack_compute_volume_attach_v2" "va_1" {
 >>       - device      = "/dev/sdb" -> null
->>       - id          = "11cc1279-37cd-4fc4-8040-3ace4c954780/daf3a86e-e9bf-4bb4-8bae-ac7b6ffbb806" -> null
->>       - instance_id = "11cc1279-37cd-4fc4-8040-3ace4c954780" -> null
+>>       - id          = "11cc1279-xxxx-xxxx-xxxx-3ace4c954780/daf3a86e-xxxx-xxxx-xxxx-ac7b6ffbb806" -> null
+>>       - instance_id = "11cc1279-xxxx-xxxx-xxxx-3ace4c954780" -> null
 >>       - region      = "GRA11" -> null
->>       - volume_id   = "daf3a86e-e9bf-4bb4-8bae-ac7b6ffbb806" -> null
+>>       - volume_id   = "daf3a86e-xxxx-xxxx-xxxx-ac7b6ffbb806" -> null
 >>     }
 >>
 >> Plan: 0 to add, 0 to change, 1 to destroy.
@@ -597,8 +597,8 @@ Pour finir, nous allons détacher le volume de l'instance :
 >>
 >>   Enter a value: yes
 >>
->> openstack_compute_volume_attach_v2.va_1: Destroying... [id=11cc1279-37cd-4fc4-8040-3ace4c954780/daf3a86e-e9bf-4bb4-8bae-ac7b6ffbb806]
->> openstack_compute_volume_attach_v2.va_1: Still destroying... [id=11cc1279-37cd-4fc4-8040-3ace4c954780/daf3a86e-e9bf-4bb4-8bae-ac7b6ffbb806, 10s elapsed]
+>> openstack_compute_volume_attach_v2.va_1: Destroying... [id=11cc1279-xxxx-xxxx-xxxx-3ace4c954780/daf3a86e-xxxx-xxxx-xxxx-ac7b6ffbb806]
+>> openstack_compute_volume_attach_v2.va_1: Still destroying... [id=11cc1279-xxxx-xxxx-xxxx-3ace4c954780/daf3a86e-xxxx-xxxx-xxxx-ac7b6ffbb806, 10s elapsed]
 >> openstack_compute_volume_attach_v2.va_1: Destruction complete after 17s
 >>
 >> Apply complete! Resources: 0 added, 0 changed, 1 destroyed.
