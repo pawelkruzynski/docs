@@ -6,7 +6,7 @@ updated: 2024-05-20
 
 ## Objective
 
-S3cmd is a free command line tool and client for managing data in storage spaces that use the S3 protocol, such as S3 Object Storage, Google Cloud Storage or DreamHost DreamObjects.
+S3cmd is a free command line tool and client for managing data in storage spaces that use the Amazon S3 protocol, such as Amazon S3 Object Storage, Google Cloud Storage or DreamHost DreamObjects.
 
 **This guide explains how to configure S3cmd to manage your buckets and objects.**
 
@@ -21,9 +21,9 @@ S3cmd is a free command line tool and client for managing data in storage spaces
 
 - A bucket
 - A user with the required access rights on the bucket
-- Your S3 credentials (access_key and secret_access_key).
+- Your Object Storage credentials (access_key and secret_access_key).
 
-See our [Getting started with S3 Object Storage](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage) guide.
+See our [Getting started with Object Storage](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage) guide.
 
 > [!primary]
 >
@@ -45,7 +45,7 @@ Access Key: `<access_key>`
 Secret Key: `<secret_key>`
 Default Region [US]: `<region_in_lowercase>`
 
-Use "s3.amazonaws.com" for S3 Endpoint and not modify it to the target Amazon S3.
+Use "s3.amazonaws.com" for S3 Endpoint and do not modify it to the target Amazon S3.
 S3 Endpoint [s3.amazonaws.com]: `s3.<region_in_lowercase>.io.cloud.ovh.net`
 
 Use "%(bucket)s.s3.amazonaws.com" to the target Amazon S3. "%(bucket)s" and "%(location)s" vars can be used
@@ -135,4 +135,3 @@ If you need training or technical assistance to implement our solutions, contact
 
 Join our [community of users](/links/community).
 
-**\***: S3 is a trademark of Amazon Technologies, Inc. OVHcloud’s service is not sponsored by, endorsed by, or otherwise affiliated with Amazon Technologies, Inc.

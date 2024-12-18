@@ -1,5 +1,5 @@
 ---
-title: Object Storage - Utiliser S3 Object Storage avec Veeam
+title: Object Storage - Utiliser Object Storage avec Veeam
 updated: 2022-01-03
 ---
 
@@ -18,9 +18,9 @@ Ce guide a pour objectif de vous montrer comment configurer Veeam pour utiliser 
 
 - Avoir créé un bucket
 - Avoir créé un utilisateur et avoir défini les droits d'accès requis sur le bucket
-- Connaître vos informations d'identification S3 (access_key et secret_access_key)
+- Connaître vos informations d'identification Object Storage (access_key et secret_access_key)
 
-Consultez notre guide « [Débuter avec S3 Object Storage](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage) » pour plus de détails.
+Consultez notre guide « [Débuter avec Object Storage](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage) » pour plus de détails.
 
 > [!primary]
 >
@@ -29,7 +29,7 @@ Consultez notre guide « [Débuter avec S3 Object Storage](/pages/storage_and_ba
 
 ## En pratique
 
-### Ajout d'un stockage d'objets compatible avec S3
+### Ajout d'un stockage d'objets compatible avec S3 **\***
 
 #### Étape 1 - lancer l'assistant Nouveau Référentiel d'Objets
 

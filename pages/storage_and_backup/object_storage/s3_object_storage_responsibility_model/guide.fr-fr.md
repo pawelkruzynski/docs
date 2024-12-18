@@ -8,9 +8,9 @@ updated: 2024-02-26
 
 Le RACI ci-dessous détaille le partage des responsabilités entre OVHcloud et le client pour le service Object Storage Public Cloud. Ce modèle peut aider le client à utiliser au mieux les gammes de services suivantes : 
 
-- Standard Object Storage-S3 API
-- High Performance Object Storage-S3 API
-- Standard Object Storage-Swift API
+- Standard Object Storage
+- High Performance Object Storage
+- Standard Object Storage-Swift
 
 | Rôles |
 | --- |
@@ -25,7 +25,7 @@ Le RACI ci-dessous détaille le partage des responsabilités entre OVHcloud et l
 
 | **Activité** | **Client** | **OVHcloud** |
 | --- | --- | --- |
-| Choisir la gamme de Conteneur Object Storage en fonction des besoins (SWIFT, S3 High Speed, S3 Standard, ...)| RA | I |
+| Choisir la gamme de Conteneur Object Storage en fonction des besoins (SWIFT, High Speed, Standard, ...)| RA | I |
 | Renseigner les données à caractère personnel nécessaires pour la souscription au service | RA | I |
 | Choisir la localisation du service| RA | I |
 
@@ -36,13 +36,13 @@ Le RACI ci-dessous détaille le partage des responsabilités entre OVHcloud et l
 | **Activité** | **Client** | **OVHcloud** |
 | --- | --- | --- |
 | Produire, acheminer, livrer et maintenir les instances physiques et virtuelles liées à l’hébergement | I | RA |
-| Créer les identifiants de connexion S3 pour un utilisateur Open stack | RA |  |
+| Créer les identifiants de connexion Object Storage pour un utilisateur Open stack | RA |  |
 
 #### 2.2. Modèle de réversibilité
 
 | **Activité** | **Client** | **OVHcloud** |
 | --- | --- | --- |
-| Utiliser les API S3 pour importer les données dans le conteneur (bucket) mis à disposition | RA |  |
+| Utiliser les API compatibles S3 **\*** pour importer les données dans le conteneur (bucket) mis à disposition | RA |  |
 
 ### 3. Utilisation du service
 
@@ -64,7 +64,7 @@ Le RACI ci-dessous détaille le partage des responsabilités entre OVHcloud et l
 | --- | --- | --- |
 | Gérer l’accès à l'interface de gestion (espace client OVHcloud) | RA | I |
 | Gérer les accès physiques et logiques des équipes OVHcloud aux infrastructures |  | RA |
-| Gérer la sécurité logique (politique de sécurité S3) des conteneurs et objets créés | RA |  |
+| Gérer la sécurité logique (politique de sécurité Object Storage) des conteneurs et objets créés | RA |  |
 
 ##### **3.1.3. Monitoring**
 
@@ -131,7 +131,7 @@ Le RACI ci-dessous détaille le partage des responsabilités entre OVHcloud et l
 
 | **Activité** | **Client** | **OVHcloud** |
 | --- | --- | --- |
-| Supprimer les données du Service Conteneurs Object Storage via les API S3 | RA |  |
+| Supprimer les données du Service Conteneurs Object Storage via les API compatibles S3 | RA |  |
 | Détruire les supports de stockage arrivés en fin de vie ou sur lesquels le processus de destruction sécurisé génère des erreurs |  | RA |
 
 ## Aller plus loin

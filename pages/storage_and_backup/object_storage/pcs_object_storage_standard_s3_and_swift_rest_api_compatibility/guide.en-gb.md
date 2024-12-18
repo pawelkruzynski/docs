@@ -5,7 +5,7 @@ updated: 2022-03-23
 
 ## Objective
 
-This guide lists the main features of Amazon S3 that are supported.
+This guide lists the main features of Amazon S3 **\*** that are supported.
 
 ### S3/Swift REST API Comparison Matrix
 

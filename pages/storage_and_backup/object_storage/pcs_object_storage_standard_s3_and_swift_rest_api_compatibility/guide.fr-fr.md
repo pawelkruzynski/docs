@@ -5,7 +5,7 @@ updated: 2022-03-23
 
 ## Objectif
 
-Ce guide énumère les fonctionnalités principales d'Amazon S3 supportées.
+Ce guide énumère les fonctionnalités principales d'Amazon S3 **\*** supportées.
 
 ### Matrice de comparaison des API REST S3/Swift
 

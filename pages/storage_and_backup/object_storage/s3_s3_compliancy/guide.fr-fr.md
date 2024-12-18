@@ -1,6 +1,6 @@
 ---
-title: Object Storage - Compatibilité S3
-excerpt: "Découvrez la compatibilité de l'API S3 OVHcloud par rapport à l'API AWS S3"
+title: Object Storage - Compatibilité
+excerpt: "Découvrez nos fonctionnalités Object Storage compatibles avec S3 \*"
 updated: 2024-11-12
 ---
 
@@ -12,7 +12,7 @@ td:nth-of-type(2) {
 
 ## Objectif
 
-Ce guide a pour objectif d'énumérer les fonctionnalités de l'API S3 supportées par S3 Object Storage.
+Ce guide a pour objectif d'énumérer les fonctionnalités supportées par Object Storage.
 
 ## En pratique
 
