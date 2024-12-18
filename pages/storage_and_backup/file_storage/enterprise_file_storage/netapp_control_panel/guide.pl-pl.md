@@ -40,7 +40,7 @@ Możesz wykonać kilka operacji klikając przycisk...` `{.action} w każdym wier
 - **Przywróć ostatni snapshot**: Otwiera sekcję "[Snapshots](#snapshots)" oraz okno umożliwiające przywrócenie woluminu.
 - **Zarządzanie snapshotami**: otwiera sekcję "[Kopie zapasowe](#snapshots)" wolumenu.
 - **Zarządzanie IP Access (ACL)**: otwiera sekcję "[ACL](#access_control)", która umożliwia zarządzanie kontrolą dostępu do wolumenu.
-- **Zmień rozmiar**: Otwiera okno umożliwiające zmianę rozmiaru woluminu.d
+- **Edytuj rozmiar**: Otwiera okno podręczne umożliwiające modyfikację rozmiaru woluminu.
 - **Usuń wolumen**: pozwala usunąć ten wolumen po potwierdzeniu działania w oknie, które się wyświetli.
 
 #### Tworzenie wolumenu <a name="create_volume"></a>
@@ -61,7 +61,7 @@ W tej zakładce możesz również zmienić nazwę i opis wolumenu.
 
 ### Usuwanie woluminu <a name="delete_volume"></a>
 
-Możesz usunąć wolumen, klikając przycisk`...`{.action} w tabeli w zakładce `Volumes`{.action}, a następnie `Usuń wolumen`{.action}.
+Możesz usunąć wolumen, klikając przycisk `...`{.action} w tabeli w zakładce `Volumes`{.action}, a następnie `Usuń wolumen`{.action}.
 
 ![Volume delete](images/manage_enterprise05.png){.thumbnail}
 
@@ -78,13 +78,13 @@ W zakładce `Snapshoty`{.action} wyszczególnione są wszystkie snapshoty utworz
 
 ![Snapshots](images/manage_enterprise06.png){.thumbnail}
 
-W tej samej karcie można również wyświetlić wszystkie [reguły snapshotów] (#snapshot_policy) utworzone dla usługi i zastosować je do tego wolumenu.
+W tej samej karcie można również wyświetlić wszystkie [reguły snapshotów](#snapshot_policy) utworzone dla usługi i zastosować je do tego wolumenu.
 
 ![Volume Snapshot Policy Management](images/manage_enterprise07.png){.thumbnail}
 
 Kliknij linię odpowiedniej reguły, aby wyświetlić szczegóły harmonogramu snapshotów. Wybierz politykę, klikając dedykowany przycisk wyboru, następnie kliknij przycisk `Zastosuj politykę`{.action} znajdujący się pod tabelą.
 
-Aby skonfigurować [zasady wykonywania snapshotów] (#snapshot_policy), wróć do sekcji [Zarządzanie wolumenami] (#instrukcje) i otwórz zakładkę `Snapshot policies`{.action}.
+Aby skonfigurować [zasady wykonywania snapshotów](#snapshot_policy), wróć do sekcji [Zarządzanie wolumenami](#instructions) i otwórz zakładkę `Snapshot policies`{.action}.
 
 ### Tworzenie snapshota <a name="create_snapshot"></a>
 
@@ -100,7 +100,7 @@ Kliknij przycisk `Utwórz snapshot`{.action}, aby rozpocząć tworzenie.
 
 ### Zmiana snapshota <a name="modify_snapshot"></a>
 
-Możesz zmienić nazwę lub opis snapshota klikając na przycisk ``...`{.action} w tabeli, następnie kliknij na `Edytuj`{.action}. Otworzy się wówczas okno, w którym możesz wybrać nową nazwę i/lub opis.
+Możesz zmienić nazwę lub opis snapshota klikając na przycisk `...`{.action} w tabeli, następnie kliknij na `Edytuj`{.action}. Otworzy się wówczas okno, w którym możesz wybrać nową nazwę i/lub opis.
 
 ![Snapshot edit](images/manage_enterprise10.png){.thumbnail}
 
@@ -186,7 +186,7 @@ Szczegółowe informacje na temat każdej wartości można znaleźć, klikając 
 
 Zaznacz nową regułę, aby ją dodać. Po dodaniu wszystkich reguł kliknij przycisk `Utwórz nową politykę wykonywania snapshotów`{.action}.
 
-[Wybierz wolumen] (#manage_volume) i przejdź do zakładki `Snapshots`{.action}, aby [zastosować reguły] (#snapshots).
+[Wybierz wolumen](#manage_volume) i przejdź do zakładki `Snapshots`{.action}, aby [zastosować reguły](#snapshots).
 
 Aby usunąć politykę, kliknij odpowiednią ikonę kosza w tabeli.
 
@@ -212,7 +212,7 @@ Jeśli nie jesteś zaznajomiony z korzystaniem z rozwiązania Enterprise File St
 
 [Enterprise File Storage - Zarządzanie snapshotami wolumenów](/pages/storage_and_backup/file_storage/enterprise_file_storage/netapp_volume_snapshots)
 
-Jeśli potrzebujesz szkolenia lub pomocy technicznej w celu wdrożenia naszych rozwiązań, skontaktuj się z przedstawicielem handlowym lub kliknij [ten link](https://www.ovhcloud.com/pl/professional-services/), aby uzyskać wycenę i poprosić o spersonalizowaną analizę projektu od naszych ekspertów z zespołu Professional Services.
+Jeśli potrzebujesz szkolenia lub pomocy technicznej w celu wdrożenia naszych rozwiązań, skontaktuj się z przedstawicielem handlowym lub kliknij [ten link](/links/professional-services), aby uzyskać wycenę i poprosić o spersonalizowaną analizę projektu od naszych ekspertów z zespołu Professional Services.
 
 Jeśli chcesz otrzymywać wsparcie w zakresie konfiguracji i użytkowania Twoich rozwiązań OVHcloud, zapoznaj się z naszymi [ofertami pomocy](/links/support).
  

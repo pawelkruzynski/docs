@@ -37,7 +37,7 @@ Pode efetuar várias ações clicando no botão `...`{.action} em cada linha da 
 
 - **Modificar o volume**: Abre a secção "[Informações gerais](#modify_volume)" do volume.
 - **Criar uma snapshot**: abra a secção "[Backups](#snapshots)" para efetuar uma snapshot manual do volume.
-- **Restaurar a última snapshot** : abre a secção « [Snapshots](#snapshots) » bem como uma janela que permite restaurar o volume.
+- **Restaurar a última snapshot** : abre a secção " [Snapshots](#snapshots) " bem como uma janela que permite restaurar o volume.
 - **Gerir as snapshots**: abre a secção "[Backups](#snapshots)" do volume.
 - **Gerir IP Access (ACL)**: Abre a secção "[ACL](#access_control)" que permite gerir o controlo de acesso ao volume.
 - **Alterar tamanho** : abre uma janela que permite alterar o tamanho do volume.

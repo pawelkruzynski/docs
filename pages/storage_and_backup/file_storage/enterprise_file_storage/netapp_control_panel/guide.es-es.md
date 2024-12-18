@@ -37,7 +37,7 @@ Puede realizar varias acciones haciendo clic en el botón `..`{.action} en cada 
 
 - **Modificar el volumen**: abre el apartado "[Información general](#modify_volume)" del volumen.
 - **Crear un snapshot**: abre la sección "[Copias de seguridad](#snapshots)" para realizar un snapshot manual del volumen.
-- **Restaurar el último snapshot** : Abre la sección «[Snapshots](#snapshots)» y una ventana para restaurar el volumen.
+- **Restaurar el último snapshot** : Abre la sección "[Snapshots](#snapshots)" y una ventana para restaurar el volumen.
 - **Gestionar los snapshots**: abre la sección "[Copias de seguridad](#snapshots)" del volumen.
 - **Gestionar IP Access (ACL)**: abre la sección "[ACL](#access_control)" para gestionar el control de acceso al volumen.
 - **Cambiar tamaño**: abre una ventana para cambiar el tamaño del volumen.
@@ -212,7 +212,7 @@ Si no está familiarizado con la solución Enterprise File Storage, puede seguir
 
 [Enterprise File Storage - Gestión de snapshots de volúmenes](/pages/storage_and_backup/file_storage/enterprise_file_storage/netapp_volume_snapshots)
 
-Si necesita formación o asistencia técnica para implantar nuestras soluciones, póngase en contacto con su representante de ventas o haga clic en [este enlace](https://www.ovhcloud.com/es-es/professional-services/) para obtener un presupuesto y solicitar un análisis personalizado de su proyecto a nuestros expertos del equipo de Servicios Profesionales.
+Si necesita formación o asistencia técnica para implantar nuestras soluciones, póngase en contacto con su representante de ventas o haga clic en [este enlace](/links/professional-services) para obtener un presupuesto y solicitar un análisis personalizado de su proyecto a nuestros expertos del equipo de Servicios Profesionales.
 
 Si quiere disfrutar de ayuda para utilizar y configurar sus soluciones de OVHcloud, puede consultar nuestras distintas soluciones [pestañas de soporte](/links/support).
 
