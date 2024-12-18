@@ -122,13 +122,13 @@ COPY requirements.txt /workspace/requirements.txt
 RUN pip install -r requirements.txt
 ```
 
-### Manage output data effectively (S3, ...)
+### Manage output data effectively (Swift or S3* compatible Object Storage)
 
-Just like AI Notebooks and AI Training, AI Deploy is easily connected to remote storage such as S3 object storage containers at launch.
+Just like AI Notebooks and AI Training, AI Deploy is easily connected to remote storage such as Swift or S3* compatible Object Storage containers at launch.
 However, unlike AI Notebooks and AI Training, AI Deploy **does NOT** synchronise data back to your remote storage.
 
 If you need to write data somewhere, for example output from your AI model (generated images), your code application should include storage connection.
-For example, you can use the Python `Boto3` library when using Python and S3.
+For example, you can use the Python `Boto3` library when using Python and S3 compatible Object Storage.
 
 Be careful, **if you write data directly in your working directory, it will be lost when you stop your application**.
 
@@ -207,7 +207,7 @@ WORKDIR /workspace
 # Install a few requirements, such as vim and git
 RUN apt-get update && apt-get install -y vim git
 
-# Add your files to your Docker image. NB: best practice is to put data outside, such as S3 storage
+# Add your files to your Docker image. NB: best practice is to put data outside, using Object Storage
 ADD example.py /workspace/
 ADD dataset.csv /workspace/
 

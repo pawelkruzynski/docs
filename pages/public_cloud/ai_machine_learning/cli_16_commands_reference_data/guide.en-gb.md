@@ -45,7 +45,7 @@ Add a data store
 Usage: ovhai datastore add [OPTIONS] <COMMAND>
 
 Commands:
-    s3    Add an S3 data store
+    s3    Add an S3* compatible data store
     git   Add a Git data store
     help  Print this message or the help of the given subcommand(s)
 
@@ -55,9 +55,9 @@ Options:
     -h, --help           Print help
 ```
 
-At this time, **S3 and Git data stores are supported**. To know more about S3, please read [this documentation](/pages/public_cloud/ai_machine_learning/gi_08_s3_compliance).
+At this time, __S3* compatible and Git data stores are supported__. To know more about S3 compatible Object Storage, please read [this documentation](/pages/public_cloud/ai_machine_learning/gi_08_s3_compliance).
 
-To get help on how to add your S3 container, use `ovhai datastore add s3 --help`:
+To get help on how to add your S3 compatible container, use `ovhai datastore add s3 --help`:
 
 ``` {.console}
 Usage: 

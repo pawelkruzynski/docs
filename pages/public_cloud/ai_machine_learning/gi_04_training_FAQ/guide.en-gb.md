@@ -60,7 +60,7 @@ Here are the most frequently asked questions about `ovhai` CLI & OVHcloud AI Sol
 > > Each tool provides local storage. However, it is limited and not the recommended way to handle data. Indeed, if you delete your notebook, job or app, all files contained in this local storage will be lost. A better practice is to attach [Object Storage containers](https://www.ovhcloud.com/en-gb/public-cloud/object-storage/).
 > >
 > How to attach and use storage?
-> > Read this [OVHcloud documentation](/pages/public_cloud/ai_machine_learning/gi_02_concepts_data) on data for more information. You can also check the [S3 compliance documentation](/pages/public_cloud/ai_machine_learning/gi_08_s3_compliance) if you are interested in S3 buckets.
+> > Read this [OVHcloud documentation](/pages/public_cloud/ai_machine_learning/gi_02_concepts_data) on data for more information. You can also check the [S3* compatible compliance documentation](/pages/public_cloud/ai_machine_learning/gi_08_s3_compliance) if you are interested in S3* compatible Object Storage buckets.
 > >
 > Is there an expected format for data to upload?
 > > You can upload any file or directory to the OVHcloud Object Storage without any format constraints.
