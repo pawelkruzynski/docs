@@ -263,7 +263,7 @@ Clique nos separadores abaixo para visualizar cada um dos **3** passos.
 >>
 > **Etapa 3**
 >>
->>* No menu **Informações gerais**, encontrará **Espaço utilizado**. Clique no botão `...`{.action} à direita e, a seguir, em `Atualizar o limite da sua base de dados`{.action}.
+>> No menu **Informações gerais**, encontrará **Espaço utilizado**. Clique no botão `...`{.action} à direita e, a seguir, em `Atualizar o limite da sua base de dados`{.action}.
 >>
 >> ![recalculate quota Web Cloud Databases](/pages/assets/screens/control_panel/product-selection/web-cloud/web-cloud-databases/general-information/refresh-your-database-quota.png){.thumbnail}
 >>
