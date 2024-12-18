@@ -1,12 +1,12 @@
 ---
-title: "Comparison of S3 Deployment Modes - Understanding 3-AZ / 1-AZ / Local Zones"
-excerpt: "Explore OVHcloud's S3 Object Storage deployment modes"
+title: "Comparison of Object Storage Deployment Modes - Understanding 3-AZ / 1-AZ / Local Zones"
+excerpt: "Explore OVHcloud's Object Storage deployment modes"
 updated: 2024-12-11
 ---
 
 ## Objective
 
-OVHcloud offers several deployment modes for its [S3 Object Storage](/links/public-cloud/object-storage) service, each tailored to specific needs regarding resilience, availability, performance, and latency. This document provides a detailed explanation of the characteristics of each deployment mode, followed by a comprehensive comparison to help users choose the best option for their requirements.
+OVHcloud offers several deployment modes for its [Object Storage](/links/public-cloud/object-storage) service, each tailored to specific needs regarding resilience, availability, performance, and latency. This document provides a detailed explanation of the characteristics of each deployment mode, followed by a comprehensive comparison to help users choose the best option for their requirements.
 
 ## Concepts
 
@@ -20,13 +20,13 @@ OVHcloud Object Storage offers three main deployment modes, each optimized for s
 
 > [!primary]
 >
-> The following information pertains to the different deployment modes available in OVHcloud’s S3 Object Storage service. Select the mode that best suits your needs based on resilience, availability, and performance. You can identify which deployment mode is available for a given region on the [Object Storage - Endpoints and geoavailability documentation](/pages/storage_and_backup/object_storage/s3_location).
+> The following information pertains to the different deployment modes available in OVHcloud’s Object Storage service. Select the mode that best suits your needs based on resilience, availability, and performance. You can identify which deployment mode is available for a given region on the [Object Storage - Endpoints and geoavailability documentation](/pages/storage_and_backup/object_storage/s3_location).
 
 ### 1-AZ Region
 
 #### Infrastructure and Redundancy
 
-A 1-AZ Region consists of a **single availability zone covering multiple data centers within the same region**, utilizing a 2N+1 redundancy design. This setup offers resilience against server rack and drive failures but may be vulnerable to a complete data center outage. Note that in a 1-AZ region, the Object Storage service is located in a specific data center, and if an outage occurs in the specific data center hosting the S3 service, access to data could be impacted, even if other data centers in the zone remain operational.
+A 1-AZ Region consists of a **single availability zone covering multiple data centers within the same region**, utilizing a 2N+1 redundancy design. This setup offers resilience against server rack and drive failures but may be vulnerable to a complete data center outage. Note that in a 1-AZ region, the Object Storage service is located in a specific data center, and if an outage occurs in the specific data center hosting the Object Storage service, access to data could be impacted, even if other data centers in the zone remain operational.
 
 #### Characteristics
 
@@ -35,7 +35,7 @@ A 1-AZ Region consists of a **single availability zone covering multiple data ce
 
 #### Limitations
 
-- **Outage Risk:** In the event of a data center outage, data may become unavailable or potentially lost if the specific data center hosting the S3 service is impacted. However, protection against server rack and drive failures is maintained.
+- **Outage Risk:** In the event of a data center outage, data may become unavailable or potentially lost if the specific data center hosting the Object Storage service is impacted. However, protection against server rack and drive failures is maintained.
 
 > [!success]
 >
@@ -116,5 +116,3 @@ Local Zones are designed to bring OVHcloud services closer to end-users, minimiz
 If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for assisting you on your specific use case.
 
 Join our [community of users](/links/community) and visit our [Discord channel](https://discord.gg/ovhcloud).
-
-**\***: S3 is a trademark of Amazon Technologies, Inc. OVHcloud’s service is not sponsored by, endorsed by, or otherwise affiliated with Amazon Technologies, Inc.

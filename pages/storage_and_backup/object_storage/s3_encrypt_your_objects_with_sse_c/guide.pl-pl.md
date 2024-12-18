@@ -37,30 +37,30 @@ Our goal is to help you choose the type of encryption that is best for you. This
 
 > [!warning]
 >
-> S3 Object Storage does not store the encryption key you provide. That means if you lose the encryption key, you lose the object. The only thing left to do is to delete it.
+> Object Storage does not store the encryption key you provide. That means if you lose the encryption key, you lose the object. The only thing left to do is to delete it.
 >
 
 ## Requirements
 
-- An S3 bucket
+- An Object Storage bucket
 - A user with the required access rights on the bucket
 - Have installed and configured the AWS command line interface (aws-cli)
 
-See our [Getting started with S3 Object Storage](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage) guide.
+See our [Getting started with Object Storage](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage) guide.
 
 ## Instructions
 
 Using server-side encryption with client-provided encryption keys (SSE-C) allows you to define your own encryption keys.
 
-When you download an object, S3 Object Storage uses the encryption key you provide to apply AES-256 encryption to your data. When you check out an object, you must provide the same encryption key as part of your request. S3 Object Storage first checks that the encryption key you provided matches, then decrypts the object before returning the object data to you.
+When you download an object, Object Storage uses the encryption key you provide to apply AES-256 encryption to your data. When you check out an object, you must provide the same encryption key as part of your request. Object Storage first checks that the encryption key you provided matches, then decrypts the object before returning the object data to you.
 
 When you use SSE-C, you must provide encryption key information using the following request headers.
 
 | Name | Description |
 |:-----|:------------|
 | --sse​-customer-algorithm | Use this header to specify the encryption algorithm. The header value must be *AES256.* |
-| --sse-customer-key | Use this header to provide the 256-bit, base64-encoded encryption key for S3 Object Storage to use to encrypt or decrypt your data. |
-| --sse​-customer-key-md5 | Use this header to provide the base64-encoded 128-bit MD5 digest of the encryption key according to RFC 1321. S3 Object Storage uses this header for a message integrity check to ensure that the encryption key was transmitted without error. |
+| --sse-customer-key | Use this header to provide the 256-bit, base64-encoded encryption key for Object Storage to use to encrypt or decrypt your data. |
+| --sse​-customer-key-md5 | Use this header to provide the base64-encoded 128-bit MD5 digest of the encryption key according to RFC 1321. Object Storage uses this header for a message integrity check to ensure that the encryption key was transmitted without error. |
 
 ### SSE-C - Server-Side Encryption with Client Encryption Keys
 
@@ -196,31 +196,31 @@ These documents provide valuable information on how the KMS can be used to enhan
 
 To enhance the security of data uploaded to OVHcloud, enabling server-side encryption (SSE-S3) has been designed to be both easy and transparent. By configuring a default encryption method on your bucket via the `PutBucketEncryption` request, any uploaded object will be automatically encrypted without requiring any additional actions on your side. When uploading an object, simply specify the encryption option in the API request or via the AWS CLI command line. OVHcloud takes care of the rest, encrypting your data before it is stored using an automatically generated unique key for the bucket.
 
-### Secure encryption key management with SSE-S3 on OVHcloud S3
+### Secure encryption key management with SSE-S3 on Object Storage
 
-The implementation of SSE-S3 encryption on OVHcloud S3 is designed to provide encryption key management that is both secure and transparent for the user. Each bucket has a separate key, which ensures that data is secured individually and in isolation. This encryption method, integrated and managed by the platform, eliminates the complexities associated with manual key management by users. While making the user process as smooth and intuitive as possible, it maintains robust security and complies with the very strictest data protection standards.
+The implementation of SSE-S3 encryption on Object Storage is designed to provide encryption key management that is both secure and transparent for the user. Each bucket has a separate key, which ensures that data is secured individually and in isolation. This encryption method, integrated and managed by the platform, eliminates the complexities associated with manual key management by users. While making the user process as smooth and intuitive as possible, it maintains robust security and complies with the very strictest data protection standards.
 
-#### Sending an object with SSE-S3 on OVHcloud S3
+#### Sending an object with SSE-S3 on Object Storage
 
-##### Uploading an object on OVHcloud S3 with SSE-S3 encryption
+##### Uploading an object on Object Storage with SSE-S3 encryption
 
-To send an object in your S3 bucket on OVHcloud with SSE-S3 encryption, use the following Bash command via the AWS CLI. This command includes the server-side encryption option to enhance the security of your stored data.
+To send an object in your Object Storage bucket on OVHcloud with SSE-S3 encryption, use the following Bash command via the AWS CLI. This command includes the server-side encryption option to enhance the security of your stored data.
 
 ```bash
 aws s3api put-object --bucket your-bucket --key your-object --body path/to/your/file --server-side-encryption AES256 --endpoint-url https://s3.io.cloud.ovh.net
 ```
 
-When using the AWS CLI command to upload an object with SSE-S3 encryption to OVHcloud S3, make sure to replace the following values based on your specific information:
+When using the AWS CLI command to upload an object with SSE-S3 encryption to Object Storage, make sure to replace the following values based on your specific information:
 
-- `your-bucket`: replace this value with the name of your S3 bucket where you want to send the object.
+- `your-bucket`: replace this value with the name of your Object Storage bucket where you want to send the object.
 - `your-object`: replace with the key or name under which you want the object to be stored in the bucket.
 - `path/to/your/file`: Specify the full path to the file you plan to send.
 
 The option `--server-side-encryption AES256` in the command indicates that you want to apply SSE-S3 encryption. This ensures that the sent object is securely encrypted directly on the OVHcloud server, providing an additional layer of protection for your data.
 
-##### Downloading an Object with SSE-S3 to OVHcloud S3
+##### Downloading an Object with SSE-S3 to Object Storage
 
-To download an object that has been encrypted with SSE-S3 from OVHcloud S3, you do not need to specify encryption headers in the command. The object can be downloaded directly without any additional manipulation linked to the encryption, because the decryption is managed automatically on the server side. Here is an example of a download command:
+To download an object that has been encrypted with SSE-S3 from Object Storage, you do not need to specify encryption headers in the command. The object can be downloaded directly without any additional manipulation linked to the encryption, because the decryption is managed automatically on the server side. Here is an example of a download command:
 
 ```bash
 aws s3api get-object --bucket your-bucket --key your-object path/to/destination/file --endpoint-url https://s3.io.cloud.ovh.net
@@ -232,17 +232,17 @@ aws s3api get-object --bucket your-bucket --key your-object path/to/destination/
 
 Be careful not to include specific encryption headers when downloading an encrypted object with SSE-S3 to avoid errors, such as a 400 Bad Request error. 
 
-#### Adding encryption to an existing bucket on OVHcloud S3
+#### Adding encryption to an existing bucket on Object Storage
 
-To add SSE-S3 encryption to an existing S3 bucket on OVHcloud, you must use the `put-bucket-encryption` command from the AWS CLI. This command configures bucket encryption so that all newly added objects are automatically encrypted with SSE-S3. Here is the specific command you would use:
+To add SSE-S3 encryption to an existing Object Storage bucket on OVHcloud, you must use the `put-bucket-encryption` command from the AWS CLI. This command configures bucket encryption so that all newly added objects are automatically encrypted with SSE-S3. Here is the specific command you would use:
 
 ```bash
 aws s3api put-bucket-encryption --bucket your-bucket --server-side-encryption-configuration '{"Rules":[{"ApplyServerSideEncryptionByDefault":{"SSEAlgorithm":"AES256"}}]}' --endpoint-url https://s3.io.cloud.ovh.net
 ```
 
-- Replace `your-bucket` with the name of your S3 bucket.
+- Replace `your-bucket` with the name of your Object Storage bucket.
 
-This will configure the bucket to use SSE-S3 encryption with keys managed by S3 (AES256) for all new objects. Existing objects will not be affected. If you also want to encrypt them, you will need to copy or upload them again after changing this configuration.
+This will configure the bucket to use SSE-S3 encryption with keys managed by Object Storage (AES256) for all new objects. Existing objects will not be affected. If you also want to encrypt them, you will need to copy or upload them again after changing this configuration.
 
 ##### Viewing bucket encryption configuration
 
@@ -271,11 +271,11 @@ aws s3 rm s3://my-Bucket/my-object
 - Replace `my-Bucket` with the name of your bucket
 - Replace `my-object` by the name of the object you want to delete.
 
-With this command, you can effectively delete an object, whether it is encrypted or not, from your bucket on OVHcloud S3.
+With this command, you can effectively delete an object, whether it is encrypted or not, from your bucket on Object Storage.
 
 ### SSE-S3 Encryption considerations
 
-When using SSE-S3 encryption on OVHcloud S3, it is important to consider the following:
+When using SSE-S3 encryption on Object Storage, it is important to consider the following:
 
 #### Performance
 
@@ -310,7 +310,7 @@ Each encryption method has its own strengths and weaknesses. The choice of metho
 > There are no additional fees for using server-side encryption with SSE-C or SSE-S3.
 >
 
-### Recommended use cases for encryption on OVHcloud S3 Object Storage
+### Recommended use cases for encryption on OVHcloud Object Storage
 
 #### CSE (Client-Side Encryption)
 
@@ -338,7 +338,7 @@ The choice between these methods should be guided by security policies and regul
 client_key=$(openssl rand -base64 32)
 # Encryption of a file before sending
 openssl enc -aes-256-cbc -salt -in path/to/your/file -out path/to/encrypted/file -pass pass:$client_key
-# Sending encrypted file to S3 bucket
+# Sending encrypted file to Object Storage bucket
 aws s3 cp path/to/encrypted/file s3://your-bucket/your-encrypted-object
 ```
 
@@ -414,5 +414,3 @@ The OVHcloud Key Management Service (KMS) is a testament to our commitment to se
 If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
 
 Join our [community of users](/links/community).
-
-**\***: S3 is a trademark of Amazon Technologies, Inc. OVHcloud’s service is not sponsored by, endorsed by, or otherwise affiliated with Amazon Technologies, Inc.

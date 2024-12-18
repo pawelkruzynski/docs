@@ -1,12 +1,12 @@
 ---
 title: Object Storage - Límites técnicos (EN)
-excerpt: Find here the technical limits of the S3 Object Storage offer
+excerpt: Find here the technical limits of the Object Storage offer
 updated: 2024-11-12
 ---
 
 ## Objective
 
-This page provides an overview of the technical limitations of the OVHcloud S3 Object Storage offer.
+This page provides an overview of the technical limitations of the OVHcloud Object Storage offer.
 
 ## Performance
 
@@ -14,7 +14,7 @@ This page provides an overview of the technical limitations of the OVHcloud S3 O
 
 1 Gbps/connection.
 
-As **OVHcloud S3 Object Storage** is a highly distributed system, using **parallel requests** will help overcome this limitation. Depending on your application and use case, this can be accomplished by simultaneously initiating requests (also called concurrent requests). 
+As **OVHcloud Object Storage** is a highly distributed system, using **parallel requests** will help overcome this limitation. Depending on your application and use case, this can be accomplished by simultaneously initiating requests (also called concurrent requests). 
 
 Discover how to maximize your performance with [this guide](/pages/storage_and_backup/object_storage/s3_performance_optimization).
 
@@ -83,12 +83,10 @@ The theoretical maximum size of a single large object uploaded via MPU is thus 4
 
 ### Features availability
 
-Read our guide on [Object Storage - S3 compatibility](/pages/storage_and_backup/object_storage/s3_s3_compliancy).
+Read our guide on [Object Storage - Compatibility](/pages/storage_and_backup/object_storage/s3_s3_compliancy).
 
 ## Go further
 
 If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
 
 Join our [community of users](/links/community).
-
-**\***: S3 is a trademark of Amazon Technologies, Inc. OVHcloud’s service is not sponsored by, endorsed by, or otherwise affiliated with Amazon Technologies, Inc.

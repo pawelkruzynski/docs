@@ -1,17 +1,17 @@
 ---
-title: Object Storage - Abilitazione di HTTPS su un sito web statico S3 utilizzando un dominio personalizzato (EN)
+title: Object Storage - Abilitazione di HTTPS su un sito web statico utilizzando un dominio personalizzato (EN)
 excerpt: Learn how to configure your website and the OVHcloud Load Balancer to enable HTTPS
 updated: 2023-06-06
 ---
 
 ## Objective
 
-OVHcloud Object Storage can be used to host a static website inside an S3 bucket.
+OVHcloud Object Storage can be used to host a static website inside an Object Storage bucket.
 
 > [!primary]
 > A static website contains only static content (HTML pages, images, videos, client side scripts) whereas a dynamic website relies on server-side processing to process data and help render content.
 
-However, OVHcloud Object Storage S3 static website hosting does not support HTTPS. If you want to use HTTPS, you can use OVHcloud Load Balancer to serve a static website hosted on OVHcloud Object Storage S3 and act as an SSL gateway.
+However, OVHcloud Object Storage static website hosting does not support HTTPS. If you want to use HTTPS, you can use OVHcloud Load Balancer to serve a static website hosted on OVHcloud Object Storage and act as an SSL gateway.
 
 **The following document will explain how to configure your website and the OVHcloud Load Balancer to enable HTTPS.**
 
@@ -22,7 +22,7 @@ The following are the prerequisites to have in order to enable https:
 - An [OVHcloud Load Balancer](/links/network/load-balancer) which will serve the role of an SSL gateway and can offer protection against DDOS attacks.
 - A registered [domain name](/links/web/domains).
 - You need to order a TLS certificate associated with your domain name at OVHcloud (optional if you already have a trusted TLS certificate associated with your domain name).
-- You have to [enable web hosting on your S3 bucket](/pages/storage_and_backup/object_storage/s3_website).
+- You have to [enable web hosting on your Object Storage bucket](/pages/storage_and_backup/object_storage/s3_website).
 - Access to the [OVHcloud Control Panel](/links/manager).
 
 ## Instructions
@@ -180,5 +180,3 @@ Check that the website and the redirect work properly. Open a private browser to
 If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
 
 Join our [community of users](/links/community).
-
-**\***: S3 is a trademark of Amazon Technologies, Inc. OVHcloud’s service is not sponsored by, endorsed by, or otherwise affiliated with Amazon Technologies, Inc.

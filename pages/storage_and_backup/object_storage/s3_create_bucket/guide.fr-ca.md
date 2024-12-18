@@ -1,12 +1,12 @@
 ---
 title: "Object Storage - Création d'un bucket"
-excerpt: "Découvrez comment créer un bucket S3 Object Storage depuis votre espace client OVHcloud"
+excerpt: "Découvrez comment créer un bucket Object Storage depuis votre espace client OVHcloud"
 updated: 2024-10-16
 ---
 
 ## Objectif
 
-**Découvrez comment créer un bucket S3 Object Storage depuis votre espace client OVHcloud.**
+**Découvrez comment créer un bucket Object Storage depuis votre espace client OVHcloud.**
 
 > [!primary]
 >
@@ -53,7 +53,7 @@ Vous devez lier un utilisateur au bucket :
 
 ![Link a user](images/object_storage-bucke_creation_step4_1.png)
 
-Pour cela, vous pouvez lier un utilisateur S3 existant :
+Pour cela, vous pouvez lier un utilisateur Object Storage existant :
 
 ![Link a user](images/object_storage-bucke_creation_step4_2.png)
 
@@ -61,9 +61,9 @@ Vous pouvez voir les informations d'identification de l'utilisateur, en cliquant
 
 ![view credentials](images/object_storage-bucke_creation_step4_3.png)
 
-Si vous n'en avez pas déjà un, vous pouvez créer un nouvel utilisateur S3 :
+Si vous n'en avez pas déjà un, vous pouvez créer un nouvel utilisateur Object Storage :
 
-![Create S3 user](images/object_storage-bucke_creation_step4_4.png)
+![Create Object Storage user](images/object_storage-bucke_creation_step4_4.png)
 
 À ce stade, vous pouvez décider d'activer ou non le **versioning**.
 
@@ -94,5 +94,3 @@ Cliquez sur le nom de votre bucket pour en afficher les détails et le contenu :
 Si vous avez besoin d'une formation ou d'une assistance technique pour la mise en oeuvre de nos solutions, contactez votre commercial ou cliquez sur [ce lien](/links/professional-services) pour obtenir un devis et demander une analyse personnalisée de votre projet à nos experts de l’équipe Professional Services.
 
 Échangez avec notre [communauté d'utilisateurs](/links/community).
-
-**\*** : S3 est une marque déposée appartenant à Amazon Technologies, Inc. Les services de OVHcloud ne sont pas sponsorisés, approuvés, ou affiliés de quelque manière que ce soit.

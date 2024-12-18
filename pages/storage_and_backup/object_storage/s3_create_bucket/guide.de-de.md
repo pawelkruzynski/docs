@@ -1,12 +1,12 @@
 ---
 title: Object Storage - Bucket erstellen (EN)
-excerpt: Learn how to create an S3 Object Storage bucket from the OVHcloud Control Panel
+excerpt: Learn how to create an Object Storage bucket from the OVHcloud Control Panel
 updated: 2024-10-16
 ---
 
 ## Objective
 
-**Learn how to create an S3 Object Storage bucket from the OVHcloud Control Panel.**
+**Learn how to create an Object Storage bucket from the OVHcloud Control Panel.**
 
 > [!primary]
 >
@@ -53,7 +53,7 @@ You must link a user to the bucket:
 
 ![Link to user](images/object_storage-bucke_creation_step4_1.png)
 
-To do this, you can either link an existing S3 user:
+To do this, you can either link an existing Object Storage user:
 
 ![Link to user](images/object_storage-bucke_creation_step4_2.png)
 
@@ -61,9 +61,9 @@ You can view the user credentials by clicking on `View credentials`{.action}:
 
 ![view credentials](images/object_storage-bucke_creation_step4_3.png)
 
-Or you can create a new S3 user:
+Or you can create a new Object Storage user:
 
-![Create S3 user](images/object_storage-bucke_creation_step4_4.png)
+![Create an Object Storage user](images/object_storage-bucke_creation_step4_4.png)
 
 At this stage, you can decide whether or not to enable **versioning**.
 
@@ -94,5 +94,3 @@ Click on the name of your bucket to view its details and content:
 If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
 
 Join our [community of users](/links/community).
-
-**\***: S3 is a trademark of Amazon Technologies, Inc. OVHcloud’s service is not sponsored by, endorsed by, or otherwise affiliated with Amazon Technologies, Inc.

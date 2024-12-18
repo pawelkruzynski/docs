@@ -29,7 +29,7 @@ Bien que cette approche exige une gestion rigoureuse des clés de la part du cli
 En parallèle, le chiffrement côté serveur (Server-Side Encryption, SSE) propose une alternative où les données sont chiffrées à leur arrivée sur nos serveurs. Cette responsabilité incombe à OVHcloud, ce qui allège considérablement la charge de gestion de la sécurité pour nos clients. Deux méthodes de chiffrement côté serveur sont disponibles : 
 
 - **SSE-C (Server-Side Encryption with Customer Keys)** : vous pouvez fournir et gérer vos propres clés de chiffrement, vous offrant ainsi une maîtrise complète sur la sécurité de vos données. Cette option est particulièrement adaptée aux organisations ayant des besoins spécifiques en matière de conformité et de sécurité des données, puisqu'elle permet une gestion exclusive des clés de chiffrement.
-- **SSE-S3 (Server-Side Encryption with OVHcloud-Managed Keys)** : simplifie le processus de chiffrement en utilisant des clés gérées par OVHcloud. Cette méthode est idéale pour les clients qui souhaitent bénéficier d'une solution de chiffrement robuste sans les complexités liées à la gestion des clés.
+- **SSE-S3  **\*** (Server-Side Encryption with OVHcloud-Managed Keys)** : simplifie le processus de chiffrement en utilisant des clés gérées par OVHcloud. Cette méthode est idéale pour les clients qui souhaitent bénéficier d'une solution de chiffrement robuste sans les complexités liées à la gestion des clés.
 
 Notre objectif est vous aider à choisir le meilleur type de chiffrement pour vous. Cette page vous donne toutes les informations nécessaires pour faire un choix éclairé. Que vous préfériez gérer vous-même avec SSE-C ou opter pour la facilité de SSE-S3, Nous nous engageons à vous offrir des solutions flexibles et sûres pour protéger vos données quand elles sont stockées.
 
@@ -37,22 +37,22 @@ Notre objectif est vous aider à choisir le meilleur type de chiffrement pour vo
 
 > [!warning]
 >
-> S3 Object Storage ne stocke pas la clé de chiffrement que vous fournissez. Cela signifie que si vous perdez la clé de chiffrement, vous perdez l'objet. La seule chose qui reste à faire est de le supprimer.
+> Object Storage ne stocke pas la clé de chiffrement que vous fournissez. Cela signifie que si vous perdez la clé de chiffrement, vous perdez l'objet. La seule chose qui reste à faire est de le supprimer.
 >
 
 ## Prérequis
 
-- Avoir créé un bucket S3
+- Avoir créé un bucket Object Storage
 - Avoir créé un utilisateur et avoir défini les droits d'accès requis sur le bucket
 - Avoir installé et configuré l'interface de ligne de commande AWS (aws-cli)
 
-Consultez notre guide « [Débuter avec S3 Object Storage](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage) » pour plus de détails.
+Consultez notre guide « [Débuter avec Object Storage](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage) » pour plus de détails.
 
 ## En pratique
 
 L'utilisation du chiffrement côté serveur avec des clés de chiffrement fournies par le client (SSE-C) vous permet de définir vos propres clés de chiffrement.
 
-Lorsque vous téléchargez un objet, S3 Object Storage utilise la clé de chiffrement que vous fournissez pour appliquer le chiffrement AES-256 à vos données. Lorsque vous récupérez un objet, vous devez fournir la même clé de cryptage dans le cadre de votre demande. S3 Object Storage vérifie d'abord que la clé de chiffrement que vous avez fournie correspond, puis déchiffre l'objet avant de vous renvoyer les données de l'objet.
+Lorsque vous téléchargez un objet, Object Storage utilise la clé de chiffrement que vous fournissez pour appliquer le chiffrement AES-256 à vos données. Lorsque vous récupérez un objet, vous devez fournir la même clé de cryptage dans le cadre de votre demande. Object Storage vérifie d'abord que la clé de chiffrement que vous avez fournie correspond, puis déchiffre l'objet avant de vous renvoyer les données de l'objet.
 
 Lorsque vous utilisez SSE-C, vous devez fournir des informations sur la clé de chiffrement à l'aide des en-têtes de requête suivants.
 
@@ -196,31 +196,31 @@ Ces documents fournissent des informations précieuses sur la manière dont le K
 
 Pour renforcer la sécurité des données uploadées chez OVHcloud, l'activation du chiffrement côté serveur (SSE-S3) a été conçue pour être à la fois facile et transparente. En configurant une méthode de chiffrement par défaut sur votre bucket via la requête `PutBucketEncryption`, tout objet uploadé sera automatiquement chiffré sans nécessiter d'actions supplémentaires de votre part. Lors de l'upload d'un objet, il suffit de spécifier l'option de chiffrement dans la requête d'API ou via la ligne de commande AWS CLI. OVHcloud prend en charge le reste, chiffrant vos données avant leur stockage en utilisant une clé unique générée automatiquement pour le bucket.
 
-#### Gestion sécurisée des clés de chiffrement avec SSE-S3 sur OVHcloud S3
+#### Gestion sécurisée des clés de chiffrement avec SSE-S3 sur Object Storage
 
-L'implémentation du chiffrement SSE-S3 sur OVHcloud S3 est conçue pour offrir une gestion des clés de chiffrement à la fois sécurisée et transparente pour l'utilisateur. Chaque bucket bénéficie d'une clé distincte, ce qui assure que les données y sont sécurisées de façon individuelle et isolée. Cette méthode de chiffrement, intégrée et gérée par la plateforme, élimine les complexités associées à la gestion manuelle des clés par les utilisateurs. Tout en rendant le processus utilisateur aussi fluide et intuitif que possible, elle maintient une sécurité robuste et conforme aux standards les plus stricts en matière de protection des données.
+L'implémentation du chiffrement SSE-S3 sur Object Storage est conçue pour offrir une gestion des clés de chiffrement à la fois sécurisée et transparente pour l'utilisateur. Chaque bucket bénéficie d'une clé distincte, ce qui assure que les données y sont sécurisées de façon individuelle et isolée. Cette méthode de chiffrement, intégrée et gérée par la plateforme, élimine les complexités associées à la gestion manuelle des clés par les utilisateurs. Tout en rendant le processus utilisateur aussi fluide et intuitif que possible, elle maintient une sécurité robuste et conforme aux standards les plus stricts en matière de protection des données.
 
-#### Envoi d'un objet avec SSE-S3 sur OVHcloud S3
+#### Envoi d'un objet avec SSE-S3 sur Object Storage
 
-##### Upload d'un objet sur OVHcloud S3 avec chiffrement SSE-S3
+##### Upload d'un objet sur Object Storage avec chiffrement SSE-S3
 
-Pour envoyer un objet dans votre bucket S3 sur OVHcloud avec chiffrement SSE-S3, utilisez la commande Bash suivante via l'AWS CLI. Cette commande intègre l'option de chiffrement côté serveur pour renforcer la sécurité de vos données stockées.
+Pour envoyer un objet dans votre bucket Object Storage sur OVHcloud avec chiffrement SSE-S3, utilisez la commande Bash suivante via l'AWS CLI. Cette commande intègre l'option de chiffrement côté serveur pour renforcer la sécurité de vos données stockées.
 
 ```bash
 aws s3api put-object --bucket votre-bucket --key votre-objet --body chemin/vers/votre/fichier --server-side-encryption AES256 --endpoint-url https://s3.io.cloud.ovh.net
 ```
 
-Lorsque vous utilisez la commande AWS CLI pour uploader un objet avec chiffrement SSE-S3 sur OVHcloud S3, assurez-vous de remplacer les valeurs suivantes selon vos informations spécifiques :
+Lorsque vous utilisez la commande AWS CLI pour uploader un objet avec chiffrement SSE-S3 sur Object Storage, assurez-vous de remplacer les valeurs suivantes selon vos informations spécifiques :
 
-- `votre-bucket` : remplacez cette valeur par le nom de votre bucket S3 où vous souhaitez envoyer l'objet.
+- `votre-bucket` : remplacez cette valeur par le nom de votre bucket Object Storage où vous souhaitez envoyer l'objet.
 - `votre-objet` : remplacez par la clé ou le nom sous lequel vous voulez que l'objet soit stocké dans le bucket.
 - `chemin/vers/votre/fichier` : indiquez le chemin d'accès complet au fichier que vous prévoyez d'envoyer.
 
 L'option `--server-side-encryption AES256` dans la commande indique que vous souhaitez appliquer le chiffrement SSE-S3. Cela garantit que l'objet envoyé est chiffré de manière sécurisée directement sur le serveur OVHcloud, offrant une couche supplémentaire de protection pour vos données.
 
-##### Téléchargement d'un Objet avec SSE-S3 sur OVHcloud S3
+##### Téléchargement d'un Objet avec SSE-S3 sur Object Storage
 
-Pour télécharger un objet qui a été chiffré avec SSE-S3 depuis OVHcloud S3, il n'est pas nécessaire de spécifier des headers du chiffrement dans la commande. En effet, l'objet peut être téléchargé directement sans manipulation supplémentaire liée au chiffrement, car le déchiffrement est géré automatiquement côté serveur. Voici un exemple de commande de téléchargement :
+Pour télécharger un objet qui a été chiffré avec SSE-S3 depuis Object Storage, il n'est pas nécessaire de spécifier des headers du chiffrement dans la commande. En effet, l'objet peut être téléchargé directement sans manipulation supplémentaire liée au chiffrement, car le déchiffrement est géré automatiquement côté serveur. Voici un exemple de commande de téléchargement :
 
 ```bash
 aws s3api get-object --bucket votre-bucket --key votre-objet chemin/vers/destination/fichier --endpoint-url https://s3.io.cloud.ovh.net
@@ -229,21 +229,21 @@ aws s3api get-object --bucket votre-bucket --key votre-objet chemin/vers/destina
 - Remplacez `votre-bucket` par le nom de votre bucket.
 - Remplacez `votre-objet` par la clé de l'objet que vous souhaitez télécharger.
 - Remplacez `chemin/vers/destination/fichier` par le chemin où vous souhaitez sauvegarder le fichier téléchargé.
-- Le paramètre `--endpoint-url https://s3.io.cloud.ovh.net` doit être ajusté à la région de votre service OVHcloud S3.
+- Le paramètre `--endpoint-url https://s3.io.cloud.ovh.net` doit être ajusté à la région de votre service Object Storage.
 
 Attention de ne pas inclure de headers de chiffrement spécifiques lors du téléchargement d'un objet chiffré avec SSE-S3 pour éviter des erreurs, telles qu'une erreur 400 Bad Request. 
 
-#### Ajout du chiffrement à un bucket existant sur OVHcloud S3
+#### Ajout du chiffrement à un bucket existant sur Object Storage
 
-Pour ajouter le chiffrement SSE-S3 à un bucket S3 existant sur OVHcloud, vous devez utiliser la commande `put-bucket-encryption` de l'AWS CLI. Cette commande configure le chiffrement du bucket pour que tous les nouveaux objets ajoutés soient automatiquement chiffrés avec SSE-S3. Voici la commande spécifique que vous utiliseriez :
+Pour ajouter le chiffrement SSE-S3 à un bucket Object Storage existant sur OVHcloud, vous devez utiliser la commande `put-bucket-encryption` de l'AWS CLI. Cette commande configure le chiffrement du bucket pour que tous les nouveaux objets ajoutés soient automatiquement chiffrés avec SSE-S3. Voici la commande spécifique que vous utiliseriez :
 
 ```bash
 aws s3api put-bucket-encryption --bucket votre-bucket --server-side-encryption-configuration '{"Rules":[{"ApplyServerSideEncryptionByDefault":{"SSEAlgorithm":"AES256"}}]}' --endpoint-url https://s3.io.cloud.ovh.net
 ```
 
-- Remplacez `votre-bucket` par le nom de votre bucket S3.
+- Remplacez `votre-bucket` par le nom de votre bucket Object Storage.
 
-Cela va configurer le bucket pour utiliser le chiffrement SSE-S3 avec les clés gérées par S3 (AES256) pour tous les nouveaux objets. Les objets existants ne seront pas affectés. Si vous souhaitez également les chiffrer, vous devrez les copier ou les uploader à nouveau après avoir changé cette configuration.
+Cela va configurer le bucket pour utiliser le chiffrement SSE-S3 avec les clés gérées par Object Storage (AES256) pour tous les nouveaux objets. Les objets existants ne seront pas affectés. Si vous souhaitez également les chiffrer, vous devrez les copier ou les uploader à nouveau après avoir changé cette configuration.
 
 ##### Affichage de la configuration du chiffrement du Bucket
 
@@ -272,11 +272,11 @@ aws s3 rm s3://mon-Bucket/mon-objet
 - Remplacez `mon-Bucket` par le nom de votre bucket
 - Remplacez `mon-objet` par le nom de l'objet que vous souhaitez supprimer.
 
-Cette commande permet de supprimer efficacement un objet, qu'il soit chiffré ou non, de votre bucket sur OVHcloud S3.
+Cette commande permet de supprimer efficacement un objet, qu'il soit chiffré ou non, de votre bucket sur Object Storage.
 
 ### Considérations sur le Chiffrement SSE-S3
 
-Lors de l'utilisation du chiffrement SSE-S3 sur OVHcloud S3, il est important de prendre en compte les éléments suivants :
+Lors de l'utilisation du chiffrement SSE-S3 sur Object Storage, il est important de prendre en compte les éléments suivants :
 
 #### Performances
 
@@ -311,7 +311,7 @@ Chaque méthode de chiffrement a ses propres forces et faiblesses. Le choix de l
 > Il n’y a pas de frais supplémentaires pour l’utilisation du chiffrement côté serveur avec SSE-C ou SSE-S3.
 >
 
-### Cas d'usage recommandés pour le chiffrement sur OVHcloud S3 Object Storage
+### Cas d'usage recommandés pour le chiffrement sur Object Storage
 
 #### CSE (Client-Side Encryption)
 
@@ -339,7 +339,7 @@ Le choix entre ces méthodes doit être guidé par les politiques de sécurité 
 client_key=$(openssl rand -base64 32)
 # Chiffrement d'un fichier avant l'envoi
 openssl enc -aes-256-cbc -salt -in path/to/your/file -out path/to/encrypted/file -pass pass:$client_key
-# Envoi du fichier chiffré vers le bucket S3
+# Envoi du fichier chiffré vers le bucket Object Storage
 aws s3 cp path/to/encrypted/file s3://your-bucket/your-encrypted-object
 ```
 
