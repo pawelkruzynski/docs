@@ -71,7 +71,7 @@ Versioning allows you to keep multiple variants of an object in the same bucket.
 
 ![Enabling versioning](images/object_storage-bucke_creation_step5.png)
 
-You can now decide whether or not you wish to **encrypt your data** using [SSE-S3 **\*** (server-side encryption with OVHcloud Managed Keys)](/pages/storage_and_backup/object_storage/s3_encrypt_your_objects_with_sse_c).
+You can now decide whether or not you wish to **encrypt your data** using [SSE-S3 (server-side encryption with OVHcloud Managed Keys)](/pages/storage_and_backup/object_storage/s3_encrypt_your_objects_with_sse_c).
 
 ![Encryption](images/object_storage-bucke_creation_step6.png)
 
@@ -94,5 +94,3 @@ Click on the name of your bucket to view its details and content:
 If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
 
 Join our [community of users](/links/community).
-
-**\***: S3 is a trademark of Amazon Technologies, Inc. OVHcloud’s service is not sponsored by, endorsed by, or otherwise affiliated with Amazon Technologies, Inc.

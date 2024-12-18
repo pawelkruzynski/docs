@@ -26,7 +26,7 @@ To use the service, you will need to meet the following requirements:
 
 - You must have a [Public Cloud project](/pages/public_cloud/compute/create_a_public_cloud_project) in your OVHcloud account. 
 - You must be logged in to your [OVHcloud Control Panel](/links/manager).
-- You must have createdn a [Object Storage user](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage).
+- You must have created an [Object Storage user](/pages/storage_and_backup/object_storage/s3_getting_started_with_object_storage).
 
 ### What features are available with the Cold Archive storage class?
 
@@ -213,7 +213,7 @@ You have 4 levels of credentials:
 - The admin user (commonly known as *NIC admin*) 
 - The billing user (commonly known as *NIC billing*)
 - The OpenStack user
-- An Object user
+- An Object Storage user
 
 | ID | Role |
 | --- | --- |

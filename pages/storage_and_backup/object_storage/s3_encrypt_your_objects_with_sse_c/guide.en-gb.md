@@ -29,7 +29,7 @@ While this approach requires the customer to strictly manage the keys, it is an 
 At the same time, server-side encryption (SSE) offers an alternative where data is encrypted when it arrives at our servers. This is the responsibility of OVHcloud, which greatly reduces the burden of security management for our customers. Two server-side encryption methods are available: 
 
 - **SSE-C (Server-Side Encryption with Customer Keys)**: You can provide and manage your own encryption keys, giving you complete control over your data security. This option is particularly well-suited to organizations with specific compliance and data security needs, as it allows for exclusive management of encryption keys.
-- **SSE-S3 **\*** (Server-Side Encryption with OVHcloud-Managed Keys)**: Simplifies the encryption process by using keys managed by OVHcloud. This method is ideal for customers who want a robust encryption solution without the complexities of key management.
+- **SSE-S3 (Server-Side Encryption with OVHcloud-Managed Keys)**: Simplifies the encryption process by using keys managed by OVHcloud. This method is ideal for customers who want a robust encryption solution without the complexities of key management.
 
 Our goal is to help you choose the type of encryption that is best for you. This page gives you all the information you need to make an informed choice. Whether you prefer to manage yourself with SSE-C or opt for the ease of SSE-S3, we are committed to offering you flexible and secure solutions to protect your data when it is stored.
 
@@ -202,7 +202,7 @@ The implementation of SSE-S3 encryption on Object Storage is designed to provide
 
 #### Sending an object with SSE-S3 on Object Storage
 
-##### Uploading an object on Object Storagewith SSE-S3 encryption
+##### Uploading an object on Object Storage with SSE-S3 encryption
 
 To send an object in your Object Storage bucket on OVHcloud with SSE-S3 encryption, use the following Bash command via the AWS CLI. This command includes the server-side encryption option to enhance the security of your stored data.
 
@@ -414,5 +414,3 @@ The OVHcloud Key Management Service (KMS) is a testament to our commitment to se
 If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
 
 Join our [community of users](/links/community).
-
-**\***: S3 is a trademark of Amazon Technologies, Inc. OVHcloud’s service is not sponsored by, endorsed by, or otherwise affiliated with Amazon Technologies, Inc.

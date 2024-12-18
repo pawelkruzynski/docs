@@ -14,7 +14,7 @@ La classe de stockage « Cold Archive » est un service de stockage objet (*Ob
 - renforcement de plan de résilience, mise en place d'une stratégie 3+2+1 ;
 - stockage volumineux de media vidéos, photo.
 
-Cette classe de stockage, facilement accessible par API compatible S3 **\***, est recommandée si vos données sont stockées pour une durée supérieure à 6 mois sans besoin particulier de restauration (moins d'une restauration par an).
+Cette classe de stockage, facilement accessible via l'API compatible S3 **\***, est recommandée si vos données sont stockées pour une durée supérieure à 6 mois sans besoin particulier de restauration (moins d'une restauration par an).
 
 Son design est hautement résilient (4 datacentres), à bas coût, durable (la durée de vie d'une *tape* est de 16 ans). En contrepartie, il vous faudra patienter 48 heures lors d'une demande de restauration des données.
 
@@ -50,7 +50,7 @@ Vous téléversez ensuite des fichiers dans ce conteneur via l'API compatible S3
 
 ### Comment archiver un conteneur ?
 
-Vous archivez le conteneur depuis votre interface utilisateur,via l'API compatible S3, CLI ou SDK. 
+Vous archivez le conteneur depuis votre interface utilisateur, via l'API compatible S3, CLI ou SDK. 
 
 Dans l'interface utilisateur, l'action est réalisée en activant le bouton `Archiver`{.action}. 
 
@@ -210,7 +210,7 @@ Vous avez à votre disposition 4 niveaux d'identifiants :
 - L'utilisateur administrateur (communément appelé *NIC admin*) 
 - L'utilisateur de facturation (communément appelé *NIC billing*)
 - L'utilisateur OpenStack
-- Un utilisateur Object
+- Un utilisateur Object Storage
 
 | ID | Rôle |
 | --- | --- |

@@ -212,7 +212,7 @@ aws s3api put-object --bucket votre-bucket --key votre-objet --body chemin/vers/
 
 Lorsque vous utilisez la commande AWS CLI pour uploader un objet avec chiffrement SSE-S3 sur Object Storage, assurez-vous de remplacer les valeurs suivantes selon vos informations spécifiques :
 
-- `votre-bucket` : remplacez cette valeur par le nom de votre bucke Object Storage où vous souhaitez envoyer l'objet.
+- `votre-bucket` : remplacez cette valeur par le nom de votre bucket Object Storage où vous souhaitez envoyer l'objet.
 - `votre-objet` : remplacez par la clé ou le nom sous lequel vous voulez que l'objet soit stocké dans le bucket.
 - `chemin/vers/votre/fichier` : indiquez le chemin d'accès complet au fichier que vous prévoyez d'envoyer.
 
