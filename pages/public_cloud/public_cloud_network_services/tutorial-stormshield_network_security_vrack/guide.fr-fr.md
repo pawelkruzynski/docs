@@ -1,12 +1,14 @@
 ---
 title: 'Sécuriser votre infrastructure OVHcloud avec Stormshield Network Security'
 excerpt: 'Découvrez comment sécuriser votre infrastructure OVHcloud avec Stormshield Network Security déployé sur Public Cloud'
-updated: 2024-11-29
+updated: 2024-12-18
 ---
 
 ## Objectif
 
-Dans le paysage numérique actuel en constante évolution, la sécurisation de l'infrastructure cloud est devenue une priorité absolue pour les organisations de toutes tailles. Alors que les entreprises dépendent de plus en plus des solutions cloud pour leurs opérations, assurer la protection des données sensibles et maintenir l'intégrité du réseau est une tâche critique. Stormshield SNS EVA (Stormshield Elastic Virtual Appliance) est une solution de sécurité complète conçue pour protéger les environnements cloud contre un large éventail de menaces. Ce guide fournit des instructions pas à pas pour déployer et configurer SNS EVA sur le Public Cloud d'OVHcloud avec le vRack et le routage IP public, couvrant les fonctionnalités clés telles que les pare-feu réseau, les VPN IPSec et les VPN SSL/TLS. En suivant ce guide, vous renforcerez la sécurité de votre infrastructure Public Cloud OVHcloud et assurerez la sécurité de vos opérations.
+Dans le paysage numérique actuel en constante évolution, la sécurisation de l'infrastructure cloud est devenue une priorité absolue pour les organisations de toutes tailles. Alors que les entreprises dépendent de plus en plus des solutions cloud pour leurs opérations, assurer la protection des données sensibles et maintenir l'intégrité du réseau est une tâche critique. Stormshield SNS EVA (Stormshield Elastic Virtual Appliance) est une solution de sécurité complète conçue pour protéger les environnements cloud contre un large éventail de menaces. 
+
+Ce guide fournit des instructions pas à pas pour déployer et configurer SNS EVA sur le Public Cloud d'OVHcloud avec le vRack et le routage IP public, couvrant les fonctionnalités clés telles que les pare-feu réseau, les VPN IPSec et les VPN SSL/TLS. En suivant ce guide, vous renforcerez la sécurité de votre infrastructure Public Cloud OVHcloud et assurerez la sécurité de vos opérations.
 
 **Ce guide explique comment sécuriser votre infrastructure OVHcloud avec Stormshield Network Security déployé sur Public Cloud.**
 
@@ -99,7 +101,7 @@ openstack subnet create --network stormshield-ha --subnet-range 192.168.2.0/29 -
 
 Rendez-vous dans la section `download` du [site officiel de Stormshield](https://documentation.stormshield.eu/SNS/v4/fr/Content/PAYG_Deployment_Guide/Downloading_installation_file.htm){.external}. Connectez-vous à votre compte Stormshield et suivez les instructions pour télécharger l'image Stormshield OpenStack.
 
-Rendez-vous dans le dossier où vous avez téléchargé votre image SNS EVA Openstack et importez l'image (pour ce tutoriel, nous utilisons l'image `utm-SNS-EVA-4.8.3-openstack.qcow2`) :
+Rendez-vous dans le dossier où vous avez téléchargé votre image SNS EVA OpenStack et importez l'image (pour ce tutoriel, nous utilisons l'image `utm-SNS-EVA-4.8.3-openstack.qcow2`) :
 
 ```bash
 openstack image create --disk-format raw --container-format bare --file ./utm-SNS-EVA-4.8.3-openstack.qcow2 stormshield-SNS-EVA-4.7.6
@@ -116,7 +118,7 @@ openstack server create --flavor b3-32 --image stormshield-SNS-EVA-4.7.6 --netwo
 ```
 
 > [!primary]
-> Pour des raisons de performances, nous vous suggérons d'utiliser les versions de machines virtuelles répertoriées pour des types de licence SNS EVA donnés :
+> Pour des raisons de performance, nous vous suggérons d'utiliser les versions de machines virtuelles listées pour les types de licences SNS EVA donnés :
 >
 > - EVA1: B3-8 / B3-16
 > - EVA2: B3-16 / B3-32
@@ -247,7 +249,7 @@ Cette manipulation est nécessaire à chaque mise à jour de la configuration.
 ### Configurations de cas d'usages
 
 Après avoir déployé le firewall SNS EVA, il peut être utilisé dans plusieurs scénarios de sécurité avancés tels que VPN IPsec, VPN SSL/TLS, passerelles réseau (IN ou OUT) comme décrit ci-dessous.
-Grâce au réseau privé vRack, les VLAN listés peuvent également être utilisés en dehors de l'environnement Public Cloud : sur les produits BareMetal ou Private Cloud.
+Grâce au réseau privé vRack, les VLAN listés peuvent également être utilisés en dehors de l'environnement Public Cloud : sur les produits Bare Metal ou Private Cloud.
 
 #### Cas d'usage n°1 : configurer Stormshield Network Security pour une utilisation en tant que passerelle <a name="step2"></a>
 
@@ -360,7 +362,7 @@ Dans cet exemple, le tunnel IPsec est configuré pour interconnecter deux régio
 
 ![SNS EVA vrack](images/stormshield-ipsec.png){.thumbnail}
 
-Répétez toutes les étapes dans une autre région en utilisant le VLAN 201 au lieu du VLAN 200 et des plages d'IP différentes pour les sous-réseaux Stormshield-ext et Stormshield-ha.
+Répétez toutes les étapes dans une autre région en utilisant le VLAN 201 au lieu du VLAN 200 et des plages d'adresses IP différentes pour les sous-réseaux Stormshield-ext et Stormshield-ha.;
 
 ##### **Configurer le premier site**
 
