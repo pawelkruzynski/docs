@@ -48,13 +48,15 @@ You must have a vRack to activate your vRack services. OVHcloud vRack is a free 
 
 ### Step 2 - Selecting or activating a vRack Services
 
-In this second step you will create a vRack Service. If you don't already have a vRack Services activated, you can do it at this step. Click on "Activate", and you will be redirected to the vRack Services configuration page. For more information on vRack Services configuration, please refer to [this page](/pages/network/vrack_services/global). Once your new vRack Services is activated, you will need to go back to the `Configure Network Parameters`{.action} page to perform the rest of the configuration (i.e. Step 1 above).
+In this second step you will create a vRack Service. If you don't already have a vRack Services activated, you can do it at this step. Click on `Activate`{.action} to be be redirected to the vRack Services configuration page. For more information on vRack Services configuration, please refer to [this page](/pages/network/vrack_services/global). 
+
+Once your new vRack Services is activated, you will need to go back to the `Configure Network Parameters`{.action} page to perform the rest of the configuration (i.e. Step 1 above).
 
 ![without network configuration](images/03-EFS.png){.thumbnail}
 
 ### Step 3 - Selecting or creating a subnet
 
-Select the subnet on which you want to expose your Enterprise File Storage service. If your subnet does not yet exist, it is necessary to create it. To do this, go to the vRack Services configuration page, “Subnet” tab.  For more information on creating a subnet, you can consult [this page](/pages/network/vrack_services/global).
+Select the subnet on which you want to expose your Enterprise File Storage service. If your subnet does not yet exist, it is necessary to create it. To do this, go to the vRack Services configuration page then to the `Subnet`{.action} tab.  For more information on how to create a subnet, refer to [this page](/pages/network/vrack_services/global).
 
 ![Enable vRack Services](images/05-EFS.png){.thumbnail}
 
