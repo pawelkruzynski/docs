@@ -1,7 +1,7 @@
 ---
 title: 'Sécuriser votre infrastructure OVHcloud avec Stormshield Network Security'
 excerpt: 'Découvrez comment sécuriser votre infrastructure OVHcloud avec Stormshield Network Security déployé sur Public Cloud'
-updated: 2024-12-18
+updated: 2024-12-19
 ---
 
 ## Objectif
