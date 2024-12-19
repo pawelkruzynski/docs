@@ -28,7 +28,7 @@ Enterprise File Storage est un service exposé via une adresse IP sur le vRack. 
 
 1. Sélection ou création d’un vRack
 2. Sélection ou création d'un vRack Services
-3. Sélection d’un sous-réseau
+3. Sélection ou création d’un sous-réseau
 
 ## En pratique <a name="instructions"></a>
 
@@ -54,7 +54,7 @@ Dans cette deuxième étape, vous devez sélectionner un vRack Services. Si vous
 
 ![Enable vRack Services](images/03-EFS.png){.thumbnail}
 
-### Etape 3 - Création d’un sous-réseau
+### Etape 3 - Sélection ou création d’un sous-réseau
 
 Sélectionnez le sous-réseau sur lequel vous voulez exposer votre service Enterprise File Storage. Si votre sous-réseau n’existe pas encore, il est nécessaire de le créer. Pour ce faire, rendez-vous sur la page configuration de vRack Services, onglet "Sous-réseau".  Pour plus d'information sur la création d'un sous-réseau, vous pouvez consulter [cette page](/pages/network/vrack_services/global).
 
