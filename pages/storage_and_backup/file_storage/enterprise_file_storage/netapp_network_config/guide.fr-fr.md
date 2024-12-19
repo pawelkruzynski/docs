@@ -1,12 +1,8 @@
 ---
-title: "Enterprise File Storage - Configuration du réseau privé - Bêta"
+title: "Enterprise File Storage - Configuration du réseau privé"
 excerpt: Découvrez configurer un réseau privé pour votre service Enterprise File Storage depuis votre espace client OVHcloud
-updated: 2024-11-25
+updated: 2024-12-19
 ---
-
-> [!warning]
-> La fonctionnalité configuration du réseau privé pour Enterprise File Storage est actuellement en phase Bêta.
-> Ce guide peut donc être incomplet et sera mis à jour lors de la bêta. Notre équipe reste disponible sur notre canal Discord dédié. N’hésitez pas à nous rejoindre et à nous contacter : <https://discord.gg/ovhcloud>. Posez des questions, donnez votre avis et interagissez directement avec l’équipe qui construit nos services Enterprise File Storage.
 
 ## Objectif
 
