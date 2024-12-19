@@ -1,6 +1,6 @@
 ---
 title: Object Storage - Kompatibilität (EN)
-excerpt: "Discover our S3 \* compatible Object Storage features list"
+excerpt: "Discover our S3* compatible Object Storage features list"
 updated: 2024-11-12
 ---
 
