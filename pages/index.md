@@ -542,7 +542,7 @@
             + [Deploy a SAP HANA cluster with SLES on VMware on OVHcloud](hosted_private_cloud/sap_on_ovhcloud/cookbook_configure_sap_hana_cluster)
         + [Backups](hosted-private-cloud-sap-ovhcloud-backups)
             + [Install and use OVHcloud Backint Agent for SAP HANA](hosted_private_cloud/sap_on_ovhcloud/cookbook_install_ovhcloud_backint_agent)
-            + [Use OVHcloud Backint Agent with several S3 Object Storage buckets](hosted_private_cloud/sap_on_ovhcloud/cookbook_configure_ovhcloud_backint_agent_several_buckets)
+            + [Use OVHcloud Backint Agent with several Object Storage buckets](hosted_private_cloud/sap_on_ovhcloud/cookbook_configure_ovhcloud_backint_agent_several_buckets)
             + [OVHcloud Backint Agent versions](hosted_private_cloud/sap_on_ovhcloud/ovhcloud_backint_agent_version)
             + [Backup SAP HANA with Veeam Backup and Replication](hosted_private_cloud/sap_on_ovhcloud/cookbook_veeam_backup_sap_hana)
         + [Observability](hosted-private-cloud-sap-ovhcloud-observability)
