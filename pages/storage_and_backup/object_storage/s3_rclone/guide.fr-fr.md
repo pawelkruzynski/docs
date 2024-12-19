@@ -6,7 +6,7 @@ updated: 2024-05-20
 
 ## Objectif
 
-Rclone est un outil de sauvegarde qui peut se synchroniser vers et depuis divers backends de stockage, et peut être utilisé sur Windows, macOS et Linux.
+[Rclone](https://rclone.org/){.external} est un outil de sauvegarde qui peut se synchroniser vers et depuis divers backends de stockage, et peut être utilisé sur Windows, macOS et Linux. Une documentation détaillée est également disponible sur le site officiel de Rclone : [Documentation officielle Rclone](https://rclone.org/docs/){.external}.
 
 **Ce guide explique comment configurer Rclone afin de synchroniser vos fichiers vers et depuis Object Storage.**
 
