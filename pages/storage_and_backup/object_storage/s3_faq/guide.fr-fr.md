@@ -118,11 +118,11 @@ Il n'est pas encore possible de configurer des droits d'accès par bucket.
 Vous pouvez chiffrer vos données via deux méthodes:
 
 - **SSE-C (Server-Side Encryption with Customer Keys)** : vous pouvez fournir et gérer vos propres clés de chiffrement, vous offrant ainsi une maîtrise complète sur la sécurité de vos données. Cette option est particulièrement adaptée aux organisations ayant des besoins spécifiques en matière de conformité et de sécurité des données, puisqu'elle permet une gestion exclusive des clés de chiffrement.
-- **SSE-S3 (Server-Side Encryption with OVHcloud-Managed Keys)** : simplifie le processus de chiffrement en utilisant des clés gérées par OVHcloud. Cette méthode est idéale pour les clients qui souhaitent bénéficier d'une solution de chiffrement robuste sans les complexités liées à la gestion des clés.
+- **SSE-OMK (Server-Side Encryption with OVHcloud-Managed Keys)** : simplifie le processus de chiffrement en utilisant des clés gérées par OVHcloud. Cette méthode est idéale pour les clients qui souhaitent bénéficier d'une solution de chiffrement robuste sans les complexités liées à la gestion des clés.
 
 Lorsque vous chargez un objet, Object Storage utilise la clé de chiffrement que vous fournissez pour appliquer le chiffrement AES-256 à vos données. Lorsque vous récupérez un objet, vous devez fournir la même clé de chiffrement dans le cadre de votre demande. Object Storage vérifie d'abord que la clé de chiffrement que vous avez fournie correspond, puis déchiffre l'objet avant de vous renvoyer les données de l'objet.
 
-Retrouvez plus d'informations dans notre guide « [Chiffrez vos objets côté serveur avec SSE-C ou SSE-S3](/pages/storage_and_backup/object_storage/s3_encrypt_your_objects_with_sse_c) ».
+Retrouvez plus d'informations dans notre guide « [Chiffrez vos objets côté serveur avec SSE-C ou SSE-OMK](/pages/storage_and_backup/object_storage/s3_encrypt_your_objects_with_sse_c) ».
 
 ### Comment protéger mes sauvegardes ?
 
