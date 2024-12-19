@@ -1,7 +1,7 @@
 ---
 title: "VMware Cloud Director - Network concepts and best practices"
 excerpt: "Discover the powerful networking capabilities of VMware Cloud Director on OVHcloud with this comprehensive guide (key concepts and features)"
-updated: 2024-10-22
+updated: 2024-12-19
 ---
 
 <style>
