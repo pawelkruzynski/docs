@@ -1,12 +1,12 @@
 ---
 title: Object Storage - Utilizza Object Storage con Rclone (EN)
 excerpt: Learn how to set up Rclone to synchronize your files to and from Object Storage
-updated: 2024-05-20
+updated: 2024-12-19
 ---
 
 ## Objective
 
-Rclone is a backup tool that can sync to and from various storage backends, and can be used on Windows, macOS and Linux.
+[Rclone](https://rclone.org/){.external} is a backup tool that can sync to and from various storage backends, and can be used on Windows, macOS and Linux. A detailed documentation is also available on the official Rclone website: [Rclone Official Documentation](https://rclone.org/docs/){.external}.
 
 **This guide explains how to set up Rclone to synchronize your files to and from Object Storage.**
 
