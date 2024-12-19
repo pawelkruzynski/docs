@@ -1,7 +1,7 @@
 ---
 title: "E-mail Pro - Configurer son compte e-mail sur Outlook pour Android"
 excerpt: "Découvrez comment configurer votre adresse E-mail Pro sur l'application mobile Outlook pour Android"
-updated: 2024-11-26
+updated: 2024-12-19
 ---
 
 <style>
@@ -94,7 +94,7 @@ Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 >> - **Adresse e-mail**
 >> - **Nom complet** : Saisissez votre adresse e-mail complète
 >> - **Description**
->> - **Serveur de courrier entrant POP3** :<br>- **Nom d'hôte POP3** : saisissez `pop.mail.ovh.net` (remplacez bien «**?**» par le numéro de votre serveur).<br>- **Port** : 995<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur POP3** : votre adresse e-mail complète<br>- **Mot de passe POP3** : celui de votre adresse e-mail
+>> - **Serveur de courrier entrant POP3** :<br>- **Nom d'hôte POP3** : saisissez `pro**?**.mail.ovh.net` (remplacez bien «**?**» par le numéro de votre serveur).<br>- **Port** : 995<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur POP3** : votre adresse e-mail complète<br>- **Mot de passe POP3** : celui de votre adresse e-mail
 >> - **Serveur de courrier entrant SMTP** :<br>- **Nom d'hôte SMTP** : saisissez `pro**?**.mail.ovh.net` (remplacez bien «**?**» par le numéro de votre serveur).<br>- **Port** : 587<br>- **Type de sécurité** : SSL/TLS<br>- **Nom d'utilisateur SMTP** : votre adresse e-mail complète<br>- **Mot de passe SMTP** : celui de votre adresse e-mail
 >>
 >> Pour finaliser la configuration, cliquez sur le bouton « &#10003; »
@@ -140,7 +140,7 @@ Si votre compte e-mail est déjà paramétré et que vous souhaitez le paramétr
 
 Pour la réception des e-mails, lors du choix du type de compte, nous vous conseillons une utilisation en **IMAP**. Vous pouvez cependant sélectionner **POP**.
 
-Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
+Cliquez sur l'onglet correspondant à votre protocole de réception :
 
 > [!tabs]
 > **Configuration IMAP**
@@ -167,7 +167,7 @@ Pour l'envoi des e-mails, si vous devez renseigner manuellement les paramètres 
 
 - **Nom d'utilisateur** : Renseignez l'adresse e-mail **complète**
 - **Mot de passe** : Renseignez le mot de passe de l'adresse e-mail
-- **Serveur (entrant)** : pop.mail.ovh.net
+- **Serveur (entrant)** : pro**?**.mail.ovh.net
 - **Port** : 587
 - **Type de sécurité** : SSL/TLS
 
