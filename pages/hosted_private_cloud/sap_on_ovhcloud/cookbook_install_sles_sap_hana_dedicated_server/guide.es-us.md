@@ -42,7 +42,7 @@ If you want, you can customise the partition configuration.
 
 If you do not custom the configuration of partitions, you will go to the last step.
 
-You can set a hostname which will be displayed with the command `hostname`. You have also the possibility to [add your SSH key](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server#anadir-una-llave-ssh-opcional).
+You can set a hostname which will be displayed with the command `hostname`. You have also the possibility to [add your SSH key](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server#adding-an-ssh-key-optional).
 
 > [!primary]
 > By default, a swap partition of 4 GB is created and follows the SAP recommendations which are explained in the [SAP Note 1999997 - FAQ: SAP HANA Memory](https://launchpad.support.sap.com/#/notes/1999997).
@@ -56,7 +56,7 @@ Once these last parameters are configured, click `Confirm`{.action} to launch th
 >
 > `SUSEConnect -r <license>`
 
-Once the SLES 15 for SAP installation is done, you can [connect to your dedicated server](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server#conexion-al-servidor).
+Once the SLES 15 for SAP installation is done, you can [connect to your dedicated server](/pages/bare_metal_cloud/dedicated_servers/getting-started-with-dedicated-server#logging-on-to-your-server).
 
 ### Preparation of file systems
 
