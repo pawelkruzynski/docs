@@ -51,11 +51,11 @@ Last, the vSphere Distributed Resource Scheduler can also be activated with VM/H
 
 ### 4 - Backup infrastructure
 
-We recommend using a Object Storage bucket in a different OVHcloud location from the one on which your workload runs, to protect yourself from a major outage on the primary OVHcloud location.
+We recommend using an Object Storage bucket in a different OVHcloud location from the one on which your workload runs, to protect yourself from a major outage on the primary OVHcloud location.
 
 #### 4.1 - SAP HANA database
 
-OVHcloud provides OVHcloud Backint Agent for SAP HANA to backup your SAP HANA database to a Object Storage bucket on OVHcloud.
+OVHcloud provides OVHcloud Backint Agent for SAP HANA to backup your SAP HANA database to an Object Storage bucket on OVHcloud.
 
 This backint agent allows you to take advantage of an Object Storage, like retention policy or immutable policy. To know more about the OVHcloud Backint Agent for SAP HANA, we recommend taking note of these guides:
 
@@ -66,7 +66,7 @@ To ensure the recovery of the SAP HANA configuration (INI files), we suggest to 
 
 #### 4.2 - File systems
 
-To protect the file systems on which important SAP files are stored, a cost-effective solution can be deployed with a daily running of a script which copies the content of these sensible file systems to a Object Storage on OVHcloud.
+To protect the file systems on which important SAP files are stored, a cost-effective solution can be deployed with a daily running of a script which copies the content of these sensible file systems to an Object Storage on OVHcloud.
 
 With this solution, only the content of these sensible file systems is protected. In case of a loss of an entire virtual machine, a build from scratch should be done before performing the recovery of the content of the SAP file systems could be done.
 
@@ -141,6 +141,6 @@ To guarantee the connection continuity with the SAP Support, we recommend config
 - [Install and use OVHcloud Backint Agent for SAP HANA](/pages/hosted_private_cloud/sap_on_ovhcloud/cookbook_install_ovhcloud_backint_agent)
 - [Use OVHcloud Backint Agent with several Object Storage buckets](/pages/hosted_private_cloud/sap_on_ovhcloud/cookbook_configure_ovhcloud_backint_agent_several_buckets)
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-ca/professional-services/) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
 
 Join our community of users on <https://community.ovh.com/en/>.
