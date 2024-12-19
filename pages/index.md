@@ -957,7 +957,7 @@
             + [Comparative tables - AI Notebooks, AI Training, AI Deploy](public_cloud/ai_machine_learning/gi_00_ai_comparative-table)
             + [Users - Manage AI users and roles](public_cloud/ai_machine_learning/gi_01_manage_users)
             + [Data - Concept and best practices](public_cloud/ai_machine_learning/gi_02_concepts_data)
-            + [Data - S3 compliance with AI Tools](public_cloud/ai_machine_learning/gi_08_s3_compliance)
+            + [Data - Compliance between AI Tools and S3 compatible Object Storage](public_cloud/ai_machine_learning/gi_08_s3_compliance)
             + [FAQ - AI Training](public_cloud/ai_machine_learning/gi_04_training_FAQ)
             + [ovhai CLI - Cheat Sheet](public_cloud/ai_machine_learning/gi_05_ovhai_cheatsheet)
             + [AI Dashboard - Getting started](public_cloud/ai_machine_learning/gi_06_dashboard_getting_started)
