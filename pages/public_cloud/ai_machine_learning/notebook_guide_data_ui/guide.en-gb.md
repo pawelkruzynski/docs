@@ -10,8 +10,8 @@ This guide shows how to access Object Storage data from your [**notebooks**](/pa
 
 ## Requirements
 
-- a [Public Cloud project](https://www.ovhcloud.com/en-gb/public-cloud/) in your OVHcloud account
-- access to the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB)
+- a [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account
+- access to the [OVHcloud Control Panel](/links/manager)
 - a Public Cloud user with `Administrator` or `AI Training operator` role, see [here](/pages/public_cloud/ai_machine_learning/gi_01_manage_users) for more information
 
 ## Upload data to your Object Storage
@@ -184,6 +184,6 @@ Please send us your questions, feedback and suggestions to improve the service:
 
 - On the OVHcloud [Discord server](https://discord.gg/ovhcloud)
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
 **\***: S3 is a trademark of Amazon Technologies, Inc. OVHcloud’s service is not sponsored by, endorsed by, or otherwise affiliated with Amazon Technologies, Inc.

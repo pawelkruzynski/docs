@@ -15,7 +15,7 @@ This tutorial covers the process of building your own Docker image for AI Deploy
 
 ## Requirements
 
-- Access to the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB)
+- Access to the [OVHcloud Control Panel](/links/manager)
 - A **Public Cloud** project
 - A [user for AI Deploy](/pages/public_cloud/ai_machine_learning/gi_01_manage_users)
 - [Docker](https://www.docker.com/get-started) installed on a personal computer or a virtual machine
@@ -295,7 +295,7 @@ If you want to know the exact commands to push on the shared registry, please co
 
 - Discover some AI Deploy apps we built with API or Web frontend via our [Apps portfolio](/pages/public_cloud/ai_machine_learning/deploy_guide_05_app_portfolio).
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
 ## Feedback
 

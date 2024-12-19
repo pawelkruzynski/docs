@@ -11,7 +11,7 @@ This guide is intended to help you to use `S3* compatible Object Storage buckets
 ## Requirements
 
 - A **Public Cloud project**.
-- Access to the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB).
+- Access to the [OVHcloud Control Panel](/links/manager).
 - A working `ovhai` CLI. See our guide on [how to install ovhai CLI](/pages/public_cloud/ai_machine_learning/cli_10_howto_install_cli).
 
 ## Instructions
@@ -24,13 +24,13 @@ Then, you will be able to use this bucket with the different **OVHcloud AI Tools
 
 First of all, you must have an S3 compatible user with the correct rights to manage S3 compatible buckets. 
 
-To do this, log in to the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB), go to the `Public Cloud`{.action} section and select the Public Cloud project concerned. Then click on `Object Storage`{.action} in the left-hand menu.
+To do this, log in to the [OVHcloud Control Panel](/links/manager), go to the `Public Cloud`{.action} section and select the Public Cloud project concerned. Then click on `Object Storage`{.action} in the left-hand menu.
 
 Here, you can create your S3 compatible user by clicking on `Create User`{.action}. If you already have AI Platform users, you can use them to use S3 compatible buckets, instead of creating a new one.
 
 > [!warning]
 >
-> In both cases, make sure to save your S3 compatible credentials: **S3 compatible user name**, **S3 compatible access key** and **S3 compatible secret key**. You will use them later to create an S3 compatible datastore.
+> In both cases, make sure to save your S3 compatible Object Storage credentials: **Object Storage user name**, **Object Storage access key** and **Object Storage secret key**. You will use them later to create an S3 compatible datastore.
 >
 
 For more information about S3 compatible users creation, you can check this [Object Storage documentation](/pages/storage_and_backup/object_storage/s3_identity_and_access_management).
@@ -152,7 +152,7 @@ There are two methods to [create a new S3 compatible bucket](/pages/storage_and_
 
 #### Using the Control Panel
 
-To create an **Object Storage bucket**, first log in to your [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB) and open your `Public Cloud`{.action} project. Click on `Object Storage`{.action} in the side bar and then on the `My containers`{.action} tab. Now, click the `Create an object container`{.action} button.
+To create an **Object Storage bucket**, first log in to your [OVHcloud Control Panel](/links/manager) and open your `Public Cloud`{.action} project. Click on `Object Storage`{.action} in the side bar and then on the `My containers`{.action} tab. Now, click the `Create an object container`{.action} button.
 
 First, select the solution you need.
 
@@ -313,6 +313,6 @@ Please send us your questions, feedback and suggestions to improve the service:
 
 - On the OVHcloud [Discord server](https://discord.gg/ovhcloud)
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
 **\***: S3 is a trademark of Amazon Technologies, Inc. OVHcloud’s service is not sponsored by, endorsed by, or otherwise affiliated with Amazon Technologies, Inc.
