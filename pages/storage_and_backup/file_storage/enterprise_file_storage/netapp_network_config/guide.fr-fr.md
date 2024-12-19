@@ -50,13 +50,15 @@ Pour activer votre vRack Services, vous devez avoir un vRack. Si vous n'en avez 
 
 ### Etape 2 - Sélection ou création d'un vRack Services
 
-Dans cette deuxième étape, vous devez sélectionner un vRack Services. Si vous n'avez pas de vRack Services, il est possible à cette étape d'activer un nouveau vRack Services. Cliquez sur "Activer", vous serez alors redirigé vers la page de configuration de vRack Services. Pour plus d'information sur la création d'un vRack Services, vous pouvez consulter [cette page](/pages/network/vrack_services/global). Une fois votre vRack Services activé, il vous faudra revenir à l'étape configuration de paramètre réseaux pour la suite de la configuration de votre Enterprise File Storage (étape 1, ci-dessus).
+Dans cette deuxième étape, vous devez sélectionner un vRack Services. Si vous n'avez pas de vRack Services, il est possible à cette étape d'en activer un nouveau. Cliquez sur `Activer`{.action}, vous serez alors redirigé vers la page de configuration de vRack Services. Pour plus d'informations sur la création d'un vRack Services, vous pouvez consulter [cette page](/pages/network/vrack_services/global).
+
+Une fois votre vRack Services activé, revenez à l'étape de configuration des paramètres réseaux (étape 1 ci-dessus).
 
 ![Enable vRack Services](images/03-EFS.png){.thumbnail}
 
 ### Etape 3 - Sélection ou création d’un sous-réseau
 
-Sélectionnez le sous-réseau sur lequel vous voulez exposer votre service Enterprise File Storage. Si votre sous-réseau n’existe pas encore, il est nécessaire de le créer. Pour ce faire, rendez-vous sur la page configuration de vRack Services, onglet "Sous-réseau".  Pour plus d'information sur la création d'un sous-réseau, vous pouvez consulter [cette page](/pages/network/vrack_services/global).
+Sélectionnez le sous-réseau sur lequel vous voulez exposer votre service Enterprise File Storage. Si votre sous-réseau n’existe pas encore, il est nécessaire de le créer. Pour ce faire, rendez-vous sur la page de configuration de vRack Services, onglet `Sous-réseau`{.action}. Pour plus d'informations sur la création d'un sous-réseau, vous pouvez consulter [cette page](/pages/network/vrack_services/global).
 
 ![Enable vRack Services](images/05-EFS.png){.thumbnail}
 
