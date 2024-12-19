@@ -1,12 +1,14 @@
 ---
 title: 'Securing your OVHcloud infrastructure with Stormshield Network Security'
 excerpt: 'Find out how to secure your OVHcloud infrastructure with Stormshield Network Security deployed on Public Cloud'
-updated: 2024-11-29
+updated: 2024-12-18
 ---
 
 ## Objective
 
-In today's rapidly evolving digital landscape, securing cloud infrastructures has become a top priority for organizations of all sizes. As businesses increasingly rely on cloud solutions for their operations, ensuring the protection of sensitive data and maintaining network integrity are critical tasks. Stormshield SNS EVA (Stormshield Elastic Virtual Appliance) is a comprehensive security solution designed to protect cloud environments from a wide range of threats. This guide provides step-by-step instructions for deploying and configuring SNS EVA on the OVHcloud Public Cloud with vRack and public IP routing, covering key features such as network firewalls, IPSec VPNs, and SSL/TLS VPNs. By following this guide, you will enhance the security of your OVHcloud Public Cloud infrastructure and ensure safe and secure operations.
+In today's rapidly evolving digital landscape, securing cloud infrastructures has become a top priority for organizations of all sizes. As businesses increasingly rely on cloud solutions for their operations, ensuring the protection of sensitive data and maintaining network integrity are critical tasks. Stormshield SNS EVA (Stormshield Elastic Virtual Appliance) is a comprehensive security solution designed to protect cloud environments from a wide range of threats. 
+
+This guide provides step-by-step instructions for deploying and configuring SNS EVA on the OVHcloud Public Cloud with vRack and public IP routing, covering key features such as network firewalls, IPSec VPNs, and SSL/TLS VPNs. By following this guide, you will enhance the security of your OVHcloud Public Cloud infrastructure and ensure safe and secure operations.
 
 **This guide explains how to secure your OVHcloud infrastructure with Stormshield Network Security deployed on Public Cloud.**
 
@@ -40,12 +42,12 @@ In addition to the installation and configuration of Stormshield Network Securit
 ### Install and configure Stormshield Network Security on your Public Cloud environment <a name="step1"></a>
 
 > [!primary]
-> In this tutorial, the installation and configuration of Stormshield Network Security is done primarily via the command line. Open a terminal to execute the instructions.
+> In this tutorial, the installation and configuration of Stormshield SNS EVA is done primarily via the command line. Open a terminal to execute the instructions.
 >
 > Please note that all sections related to « High Availability » or « stormshield-2 » are optional as well as using vRack network with Additional IP. They are included to demonstrate how to set up the system with two instances in an active/passive mode for high availability. In a minimal version, it can also work with just one instance if that is sufficient for your needs.
 
 > [!primary]
-> In this scenario, we will use a two virtual machines setup for the security appliance to achieve High Availability (HA), and an additional VM for management. This setup ensures failover protection and continuous service availability. For more examples and detailed guidance on scalability options, please refer to [Stormshield documentation](https://documentation.stormshield.eu/HOME/Content/Website_Topics/Root-HomePage-EN.htm){.external}.
+> In this scenario, we will use a two virtual machines setup for the security appliance to achieve High Availability (HA), and an additional VM for management. This setup ensures failover protection and continuous service availability. For more examples and detailed guidance on scalability options, please refer to the [Stormshield documentation](https://documentation.stormshield.eu/HOME/Content/Website_Topics/Root-HomePage-EN.htm){.external}.
 
 #### Configure your vRack
 
@@ -54,7 +56,7 @@ In this step, we are configuring the vRack, a private virtual network provided b
 **Add your Public Cloud project and your Additional IP block to the same vRack.**
 
 For example purposes in this guide, the IP block is `147.135.161.152/29`.<br>
-We use the first usable IP `147.135.161.153` for the first instance of SNS EVA and use temporally the second usable IP `147.135.161.154` for the second SNS EVA.<br>
+We use the first usable IP `147.135.161.153` for the first SNS EVA instance and temporarily use the second usable IP `147.135.161.154` for the second SNS EVA instance.<br>
 The gateway address is `147.135.161.158`.
 
 Please refer to the guide [Configuring an IP block in a vRack](/pages/bare_metal_cloud/dedicated_servers/configuring-an-ip-block-in-a-vrack) for more information.
@@ -99,13 +101,13 @@ openstack subnet create --network stormshield-ha --subnet-range 192.168.2.0/29 -
 
 Go to the `download` section of the [official Stormshield website](https://documentation.stormshield.eu/SNS/v4/fr/Content/PAYG_Deployment_Guide/Downloading_installation_file.htm){.external}. Log in to your Stormshield account and follow the instructions to download the Stormshield OpenStack image.
 
-Go to the folder where you have downloaded your SNS EVA Openstack image and upload the image (for this tutorial, we use the image `utm-SNS-EVA-4.8.3-openstack.qcow2`):
+Go to the folder where you have downloaded your SNS EVA Openstack image and upload the image (in this tutorial, we use the image `utm-SNS-EVA-4.8.3-openstack.qcow2`):
 
 ```bash
 openstack image create --disk-format raw --container-format bare --file ./utm-SNS-EVA-4.8.3-openstack.qcow2 stormshield-SNS-EVA-4.7.6
 ```
 
-Create the SNS EVA instances (for this example, we called them `stormshield-1` and `stormshield-2`):
+Create the SNS EVA instances (in this example, we called them `stormshield-1` and `stormshield-2`):
 
 ```bash
 openstack server create --flavor b3-32 --image stormshield-SNS-EVA-4.7.6 --network stormshield-ext --network stormshield-vlan200 --network stormshield-ha stormshield-1
@@ -141,7 +143,7 @@ Firewall_out_router=147.135.161.158,resolve=static
 ...
 ```
 
-Configure the external network interface on the first SNS EVA with the first usable IP address of our IP block and the internal network interface with the `10.200.0.1` IP address:
+Configure the external network interface on the first SNS EVA instance with the first usable IP address of our IP block and the internal network interface with the `10.200.0.1` IP address:
 
 ```console
 vi /usr/Firewall/ConfigFiles/network
@@ -165,15 +167,15 @@ Apply the new network configuration:
 ennetwork
 ```
 
-Do the same configuration for the second SNS EVA but with the second IP address `147.135.161.154` of our IP block for the external interface instead of `147.135.161.153`.
+Do the same configuration for the second SNS EVA instance but with the second IP address `147.135.161.154` of our IP block for the external interface instead of `147.135.161.153`.
 
 Add a different licence on both SNS EVA instances by following the [official documentation](https://documentation.stormshield.eu/SNS/v4/en/Content/Installation_and_first_time_configuration/Firewall_license_installation.htm){.external}.
 
-Create a firewall rule similar to this on both SNS EVA in the web GUI:
+Create a firewall rule similar to this on both SNS EVA intances in the web GUI:
 
 ![SNS EVA vrack](images/ha-filter.png){.thumbnail}
 
-On the first SNS EVA, create a group of firewalls (`Configuration` > `System` > `High Availability`). For the IP address, check which IP was assigned to the HA interface by the OpenStack DHCP.
+On the first SNS EVA instance, create a group of firewalls (`Configuration` > `System` > `High Availability`). For the IP address, check which IP was assigned to the HA interface by the OpenStack DHCP.
 
 ![SNS EVA vrack](images/ha-1.png){.thumbnail}
 
@@ -247,7 +249,7 @@ You need to do this each time you update the configuration.
 ### Use cases configuration
 
 After deploying SNS Elastic Virtual Appliance firewall, it can be used in multiple advanced security scenarios such as IPsec VPN, SSL/TLS VPN, network gateways (IN or OUT) as described below.
-Thanks to the vRack private network, listed VLANs can also be used outside the Public Cloud environment: across BareMetal or Private Cloud products.
+Thanks to the vRack private network, listed VLANs can also be used outside the Public Cloud environment: across Bare Metal or Private Cloud products.
 
 #### Use case 1: Configure Stormshield Network Security to be used as a gateway <a name="step2"></a>
 
