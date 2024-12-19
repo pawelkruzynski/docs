@@ -71,7 +71,7 @@ Le contrôle de version (*versioning*) vous permet de conserver plusieurs varian
 
 ![Activation du versionning](images/object_storage-bucke_creation_step5.png)
 
-Vous pouvez ensuite décider si vous souhaitez ou non **chiffrer vos données** à l'aide de [SSE-S3 (chiffrement côté serveur avec les clés managées OVHcloud)](/pages/storage_and_backup/object_storage/s3_encrypt_your_objects_with_sse_c).
+Vous pouvez ensuite décider si vous souhaitez ou non **chiffrer vos données** à l'aide de [SSE-OMK (chiffrement côté serveur avec les clés managées OVHcloud)](/pages/storage_and_backup/object_storage/s3_encrypt_your_objects_with_sse_c).
 
 ![Encryption](images/object_storage-bucke_creation_step6.png)
 

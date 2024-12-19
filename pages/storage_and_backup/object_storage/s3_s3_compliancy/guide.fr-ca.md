@@ -246,7 +246,7 @@ Ce guide a pour objectif d'énumérer les fonctionnalités supportées par Objec
         <td>yes</td>
     </tr>
     <tr>
-        <td rowspan="3">SSE-S3</td>
+        <td rowspan="3">SSE-OMK</td>
         <td>put bucket encryption</td>
         <td>yes</td>
         <td>no</td>

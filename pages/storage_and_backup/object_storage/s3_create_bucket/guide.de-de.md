@@ -71,7 +71,7 @@ Versioning allows you to keep multiple variants of an object in the same bucket.
 
 ![Enabling versioning](images/object_storage-bucke_creation_step5.png)
 
-You can now decide whether or not you wish to **encrypt your data** using [SSE-S3 (server-side encryption with OVHcloud Managed Keys)](/pages/storage_and_backup/object_storage/s3_encrypt_your_objects_with_sse_c).
+You can now decide whether or not you wish to **encrypt your data** using [SSE-OMK (server-side encryption with OVHcloud Managed Keys)](/pages/storage_and_backup/object_storage/s3_encrypt_your_objects_with_sse_c).
 
 ![Encryption](images/object_storage-bucke_creation_step6.png)
 
