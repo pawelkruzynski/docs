@@ -80,7 +80,7 @@ Cliquez sur votre nom dans le coin supérieur droit puis choisissez `Mes offres 
 
 La page **Gestion de mes offres et services** contient un tableau de gestion de vos services OVHcloud. Vous pouvez y retrouver leurs noms, le type de service, la disponibilité du service (`Actif` par défaut), son statut (type de renouvellement, action à réaliser, etc.), la prochaine date d'effet du renouvellement ou de la résiliation ainsi qu'un bouton `...`{.action} dédié aux actions possibles pour chaque service.
 
-![mes services](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/my-services-fr.png){.thumbnail}
+![mes services](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/my-services-fr.png){.thumbnail}
 
 > [!success]
 > Des outils de tri, de filtrage et de recherche sont disponibles au-dessus du tableau.
@@ -88,7 +88,7 @@ La page **Gestion de mes offres et services** contient un tableau de gestion de 
 >
 > Vos critères de filtrage seront alors affichés au dessus du tableau. Voici un exemple de filtre permettant d'afficher les noms de domaines en renouvellement manuel.
 >
-> ![manageautomaticrenewal](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/filters-fr.png){.thumbnail}
+> ![manageautomaticrenewal](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/filters-fr.png){.thumbnail}
 
 <a name="actions"></a>
 
@@ -101,14 +101,14 @@ La page **Gestion de mes offres et services** contient un tableau de gestion de 
 
 À droite d'un service, cliquez sur le bouton `...`{.action} dans la colonne `Actions` puis sur l'action de votre choix.
 
-![menu actions](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/actions-fr.png){.thumbnail}
+![menu actions](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/actions-fr.png){.thumbnail}
 
 **Chaque action est détaillée dans un des onglets ci-dessous.**
 
 > [!tabs]
 > **Configurer le renouvellement**
 >>
->> ![configurer le renouvellement](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/configure-renewal-fr.png){.thumbnail}
+>> ![configurer le renouvellement](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/configure-renewal-fr.png){.thumbnail}
 >>
 >> Cliquez sur l'action `Configurer le renouvellement`{.action}. Selon le service choisi, vous pouvez le paramétrer en renouvellement manuel ou choisir la fréquence de renouvellement automatique. Le cas échéant, vous pourrez donc choisir le type de renouvellement, ainsi que la fréquence de celui-ci.
 >>
@@ -118,7 +118,7 @@ La page **Gestion de mes offres et services** contient un tableau de gestion de 
 >>
 > **Anticiper le paiement**
 >>
->> ![anticiper le paiement](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/forward-payment-fr.png){.thumbnail}
+>> ![anticiper le paiement](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/forward-payment-fr.png){.thumbnail}
 >>
 >> Cette action est proposée pour les services en **renouvellement automatique**. 
 >>
@@ -129,7 +129,7 @@ La page **Gestion de mes offres et services** contient un tableau de gestion de 
 >>
 > **Résilier mon service**
 >>
->> ![résilier](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancel-fr.png){.thumbnail}
+>> ![résilier](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/cancel-fr.png){.thumbnail}
 >>
 >> Cette action est proposée pour les services paramétrés en **renouvellement automatique**.
 >>
@@ -139,7 +139,7 @@ La page **Gestion de mes offres et services** contient un tableau de gestion de 
 >>
 > **Renouveler le service**
 >>
->> ![Renouveler le service](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/renew-service-fr.png){.thumbnail}
+>> ![Renouveler le service](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/renew-service-fr.png){.thumbnail}
 >>
 >> Cette action est uniquement proposée pour les services en **renouvellement manuel**.
 >>
@@ -148,7 +148,7 @@ La page **Gestion de mes offres et services** contient un tableau de gestion de 
 >>
 > **Régler ma facture**
 >>
->> ![Payer une facture](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/pay-bill-fr.png){.thumbnail}
+>> ![Payer une facture](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/pay-bill-fr.png){.thumbnail}
 >>
 >> Une mention `Facture à payer` s'affiche lorsqu'une facture est en attente de règlement et lorsque :
 >>
@@ -164,7 +164,7 @@ La page **Gestion de mes offres et services** contient un tableau de gestion de 
 
 Vous avez la possibilité d'effectuer des actions groupées, en sélectionnant plusieurs services dans le tableau puis en cliquant sur le bouton `Actions`{.action}.
 
-![actions groupées](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/batch-actions-fr.png){.thumbnail}
+![actions groupées](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/batch-actions-fr.png){.thumbnail}
 
 Le tableau ci-dessous détaille les actions groupées possibles.
 

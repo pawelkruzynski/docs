@@ -53,7 +53,7 @@ Pour résilier l'abonnement à votre service, connectez-vous à votre [espace cl
 
 Cliquez ensuite sur le bouton `...`{.action} à droite du service à résilier, puis sur `Résilier mon service`{.action}.
 
-![résilier](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancel-fr.png){.thumbnail}
+![résilier](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/cancel-fr.png){.thumbnail}
 
 Précisez les raisons de votre demande de résiliation puis cliquez sur `Valider`{.action}.
 
@@ -66,7 +66,7 @@ Précisez les raisons de votre demande de résiliation puis cliquez sur `Valider
 
 La résiliation de votre service aura lieu à la **date d'effet** indiquée dans le tableau « Gestion de mes offres et services ». Si vous ne voyez pas le statut « Résiliation programmée » apparaître, rafraîchissez la page.
 
-![demande de résiliation](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancellation-request-fr.png){.thumbnail}
+![demande de résiliation](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/cancellation-request-fr.png){.thumbnail}
 
 ### Cas particuliers <a name="specific-cases"></a>
 
@@ -107,7 +107,7 @@ Pour annuler une demande de résiliation, connectez-vous à votre [espace client
 
 Cliquez ensuite sur le bouton `...`{.action} à droite du service faisant l'objet d'une demande de résiliation puis sur `Annuler la résiliation du service`{.action} 
 
-![cancel_termination](/pages/assets/screens/control_panel/product-selection/right-column/products-and-services/cancel_termination-fr.png){.thumbnail}
+![cancel_termination](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/cancel_termination-fr.png){.thumbnail}
 
 Enfin, cliquez sur `Confirmer l'annulation`{.action}.
 
