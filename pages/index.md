@@ -1548,7 +1548,6 @@
             + [Setting up an email application on your computer](web-cloud-email-collaborative-solutions-email-pro-setting-up-email-application-on-computer)
                 + [Configuring your Email Pro account in Outlook for Windows](web_cloud/email_and_collaborative_solutions/email_pro/how_to_configure_outlook_2016)
                 + [Configuring your Email Pro account in Outlook for Mac](web_cloud/email_and_collaborative_solutions/email_pro/how_to_configure_outlook_2016_mac)
-                + [Configuring your Email Pro account in Outlook for Android](web_cloud/email_and_collaborative_solutions/email_pro/emailpro_outlook_app_android)
                 + [Configuring your Email Pro account on the macOS Mail app](web_cloud/email_and_collaborative_solutions/email_pro/how_to_configure_mail_macos)
                 + [Configuring your Email Pro account in the Mail application for Windows 10](web_cloud/email_and_collaborative_solutions/email_pro/how_to_configure_windows_10)
                 + [Configuring an Email Pro account on Thunderbird for Windows](web_cloud/email_and_collaborative_solutions/email_pro/how_to_configure_thunderbird)
