@@ -75,7 +75,7 @@ Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 >>
 > **Etape 3 - IMAP**
 >>
->> Dans la fenêtre suivante, cochez `Paramètres avancés`{.action} et  complétez les informations suivantes :
+>> Dans la fenêtre suivante, cochez `Paramètres avancés`{.action} et complétez les informations suivantes :
 >>
 >> - **Adresse e-mail**
 >> - **Nom complet** : saisissez votre adresse e-mail complète
@@ -89,7 +89,7 @@ Suivez les étapes d'installation en cliquant sur les onglets ci-dessous :
 >>
 > **Etape 3 - POP3**
 >>
->> Dans la fenêtre suivante, cochez `Paramètres avancés`{.action} et  complétez les informations suivantes :
+>> Dans la fenêtre suivante, cochez `Paramètres avancés`{.action} et complétez les informations suivantes :
 >>
 >> - **Adresse e-mail**
 >> - **Nom complet** : Saisissez votre adresse e-mail complète
@@ -119,8 +119,8 @@ L'application Outlook ne permet pas de modifier les paramètres serveur de votre
 Si votre compte e-mail est déjà paramétré et que vous souhaitez le paramétrer à nouveau, vous devez alors le supprimer et le recréer :
 
 1. Appuyez sur l'enveloppe « &#9993; » dans la partie supérieure gauche de votre écran.
-2. Appuyez sur l'icöne de réglage « &#9965; » dans le bas de la colonne de gauche.
-3. Dans la section « Général » appuyez sur `Comptes` pour visualiser l'ensemble des adresses e-mail configurées sur l'application.
+2. Appuyez sur l'icône de réglage « &#9965; » dans le bas de la colonne de gauche.
+3. Dans la section « Général », appuyez sur `Comptes` pour visualiser l'ensemble des adresses e-mail configurées sur l'application.
 
 ![outlook android email pro](images/outlook-app-android-delete-account-01.png){.thumbnail .w-400 .h-600}
 
@@ -132,7 +132,7 @@ Si votre compte e-mail est déjà paramétré et que vous souhaitez le paramétr
 
 > [!success]
 >
-> Une fois votre compte e-mail supprimé, suivez les instructions de la partie « [Ajouter le compte](#add-account) » sur cette documentation.
+> Une fois votre compte e-mail supprimé, suivez les instructions de la partie « [Ajouter le compte](#add-account) » de cette documentation.
 
 ### Rappel des paramètres POP, IMAP et SMTP <a name="popimap-settings"></a>
 
