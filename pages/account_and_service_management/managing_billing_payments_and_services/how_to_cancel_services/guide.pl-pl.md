@@ -47,7 +47,7 @@ Istnieją jednak **przypadki szczególne**, które są opisane [poniżej](#speci
 
 ### Jak zrezygnować z abonamentu? <a name="terminate"></a>
 
-Aby zrezygnować z abonamentu, zaloguj się do [panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=pl), kliknij Twoją nazwę w prawym górnym rogu, a następnie przycisk `Produkty i usługi`{.action}.
+Aby zrezygnować z abonamentu, zaloguj się do [panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/fr/&ovhSubsidiary=pl), kliknij Twoją nazwę w prawym górnym rogu, a następnie przycisk `Moje rozwiązania i usługi`{.action}.
 
 ![produkty i usługi](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
 
@@ -64,7 +64,7 @@ Podaj powody złożenia wniosku o rezygnację z usługi i kliknij przycisk `Zatw
 > Więcej informacji o Twoich doświadczeniach z OVHcloud znajdziesz w formularzu proponowanym podczas rozwiązania umowy. Z góry dziękujemy za wkład w ulepszanie naszych produktów.
 >
 
-Rezygnacja z usługi nastąpi w dniu **date d'effet** wskazanym w tabeli "Moje usługi". Jeśli nie widzisz statusu "Złożona rezygnacja", odśwież stronę.
+Rezygnacja z usługi nastąpi w dniu **date d'effet** wskazanym w tabeli "Zarządzanie rozwiązaniami i usługami". Jeśli nie widzisz statusu "Planowane zakończenie usługi", odśwież stronę.
 
 ![dyspozycja zakończenia](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/cancellation-request.png){.thumbnail}
 
@@ -131,7 +131,7 @@ Możesz również [sprawdzić aktualne](/pages/public_cloud/compute/analyze_bill
 > Możesz anulować zlecenie rezygnacji z usługi do 24 godzin przed datą wygaśnięcia abonamentu.
 >
 
-Aby anulować zlecenie rezygnacji z usługi, zaloguj się do [Panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl), kliknij swoją nazwę w prawym górnym rogu, a następnie przycisk `Produkty i usługi`{.action}.
+Aby anulować zlecenie rezygnacji z usługi, zaloguj się do [Panelu klienta OVHcloud](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.pl/&ovhSubsidiary=pl), kliknij swoją nazwę w prawym górnym rogu, a następnie przycisk `Moje rozwiązania i usługi`{.action}.
 
 Następnie kliknij przycisk `...`{.action} po prawej stronie usługi, w odniesieniu do której złożono wniosek o rezygnację, a następnie `Anuluj rezygnację z usługi`{.action} 
 
@@ -139,7 +139,7 @@ Następnie kliknij przycisk `...`{.action} po prawej stronie usługi, w odniesie
 
 Na koniec kliknij `Potwierdź anulowanie`{.action}.
 
-Anulowanie rezygnacji obowiązuje natychmiastowo. Odśwież stronę "Moje usługi", jeśli nadal widzisz status "Złożona rezygnacja".
+Anulowanie rezygnacji obowiązuje natychmiastowo. Odśwież stronę "Zarządzanie rozwiązaniami i usługami", jeśli nadal widzisz status "Planowane zakończenie usługi".
 
 ## FAQ
 
@@ -159,7 +159,7 @@ Anulowanie rezygnacji obowiązuje natychmiastowo. Odśwież stronę "Moje usług
 > Jak usunąć moje konto OVHcloud?
 >> Zamknięcie konta klienta OVHcloud i usunięcie danych osobowych jest możliwe tylko wtedy, gdy:
 >>
->> 1. Nie masz już widocznych usług w sekcji "[Moje usługi](https://www.ovh.com/manager/dedicated/#/billing/autoRenew)". W przeciwnym razie najpierw poproś o ich rozwiązanie i zaczekaj na ich usunięcie.
+>> 1. Nie masz już widocznych usług w sekcji "[Moje rozwiązania i usługi](https://www.ovh.com/manager/dedicated/#/billing/autoRenew)". W przeciwnym razie najpierw poproś o ich rozwiązanie i zaczekaj na ich usunięcie.
 >> 2. Nie masz faktur oczekujących na płatność. W przeciwnym razie należy uregulować należność, klikając przycisk `Zapłać teraz`{.action} w akcjach masowych na stronie "[Moje faktury](https://www.ovh.com/manager/#/dedicated/billing/history)".
 >> 3. Nie posiadasz zamówień w trakcie realizacji. Sprawdź go na [tej stronie](https://www.ovh.com/manager/#/dedicated/billing/orders/orders).
 >> 4. Twoje konto przedpłacone nie jest dodatnie. Sprawdź go na [tej stronie](https://www.ovh.com/manager/#/dedicated/billing/payment/ovhaccount).

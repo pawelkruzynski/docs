@@ -47,7 +47,7 @@ However, there are **special cases** that are detailed [below](#specific-cases) 
 
 ### How do I cancel my subscription? <a name="terminate"></a>
 
-To cancel your service subscription, log in to your [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=we), click on your name in the top right-hand corner, then on the `Products and services`{.action} button.
+To cancel your service subscription, log in to your [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=we), click on your name in the top right-hand corner, then on the `My solutions & services`{.action} button.
 
 ![products and services](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
 
@@ -64,7 +64,7 @@ Specify the reasons for your termination request, then click `Confirm`{.action}.
 > Please tell us more about your personal experience with OVHcloud by filling in the cancellation form. We thank you in advance for your contribution to the improvement of our products.
 >
 
-Your service will be cancelled on the **date of effect** listed in the “My services” table. If you do not see the status “Cancellation requested”, please refresh the page.
+Your service will be cancelled on the **date of effect** listed in the “Manage my solutions and services” table. If you do not see the status “Cancellation scheduled”, please refresh the page.
 
 ![termination request](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/cancellation-request.png){.thumbnail}
 
@@ -105,7 +105,7 @@ You can also [view your current resource usage](/pages/public_cloud/compute/anal
 > You can revoke a cancellation request up to 24 hours before the subscription end date.
 >
 
-To abort a cancellation request, log in to your [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=we), click on your name in the top right-hand corner, then the `Products and services`{.action} button.
+To abort a cancellation request, log in to your [OVHcloud Control Panel](https://ca.ovh.com/auth/?action=gotomanager&from=https://www.ovh.com/world/&ovhSubsidiary=we), click on your name in the top right-hand corner, then the `My solutions & services`{.action} button.
 
 Next, click the `...`{.action} button to the right of the service for which a cancellation request is being made, then `Stop cancellation of service`{.action}
 
@@ -113,7 +113,7 @@ Next, click the `...`{.action} button to the right of the service for which a ca
 
 Finally, click `Confirm cancellation`{.action}.
 
-A termination of a cancellation procedure is effective immediately. Please refresh the "My services" page if you still see the "cancellation requested" status.
+A termination of a cancellation procedure is effective immediately. Please refresh the “Manage my solutions and services” page if you still see the “Cancellation scheduled” status.
 
 ## FAQ
 
@@ -133,7 +133,7 @@ A termination of a cancellation procedure is effective immediately. Please refre
 > How do I delete my OVHcloud account?
 >> Closing your OVHcloud customer account and deleting your personal data is only possible if:
 >>
->> 1. You no longer have any services listed in the “[My services](https://www.ovh.com/manager/dedicated/#/billing/autoRenew)” section. Otherwise, you will need to request their termination and wait for their deletion.
+>> 1. You no longer have any services listed in the “[My solutions & services](https://www.ovh.com/manager/dedicated/#/billing/autoRenew)” section. Otherwise, you will need to request their termination and wait for their deletion.
 >> 2. You do not have any invoices awaiting payment. Otherwise, you will need to pay for them by clicking the `Pay immediately`{.action} button in the bulk actions section of the “[My bills](https://www.ovh.com/manager/#/dedicated/billing/history)” page.
 >> 3. You have no pending orders. Check it on [this page](https://www.ovh.com/manager/#/dedicated/billing/orders/orders).
 >> 4. Your prepaid account has no credit balance. Check it on [this page](https://www.ovh.com/manager/#/dedicated/billing/payment/ovhaccount).

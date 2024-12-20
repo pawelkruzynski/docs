@@ -180,7 +180,7 @@ L'annulation de la résiliation est à effet immédiat. Rafraîchissez la page �
 > Comment supprimer mon compte OVHcloud ?
 >> La fermeture de votre compte client OVHcloud et la suppression de vos données personnelles n'est possible que si :
 >>
->> 1. Vous n'avez plus de services visibles dans la section « [Mes Services](https://www.ovh.com/manager/dedicated/#/billing/autoRenew) ». Dans le cas contraire, vous devrez dans un premier temps demander leur résiliation et attendre leur suppression.
+>> 1. Vous n'avez plus de services visibles dans la section « [Mes offres & services](https://www.ovh.com/manager/dedicated/#/billing/autoRenew) ». Dans le cas contraire, vous devrez dans un premier temps demander leur résiliation et attendre leur suppression.
 >> 2. Vous n'avez pas de factures en attente de paiement. Dans le cas contraire, vous devez procéder à leur règlement en cliquant sur le bouton `Régler immédiatement`{.action} dans les actions de masses de la page « [Mes factures](https://www.ovh.com/manager/#/dedicated/billing/history) ».
 >> 3. Vous n'avez pas de commande en cours. Vérifiez-le sur [cette page](https://www.ovh.com/manager/#/dedicated/billing/orders/orders).
 >> 4. Votre compte prépayé n'est pas positif. Vérifiez-le sur [cette page](https://www.ovh.com/manager/#/dedicated/billing/payment/ovhaccount).
