@@ -1,7 +1,7 @@
 ---
 title: Configurar el firewall de Linux con iptables
 excerpt: Cómo proteger un servidor con iptables
-updated: 2024-12-19
+updated: 2024-12-20
 ---
 
 ## Objetivo

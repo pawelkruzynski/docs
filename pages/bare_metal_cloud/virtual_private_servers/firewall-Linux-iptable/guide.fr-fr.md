@@ -1,7 +1,7 @@
 ---
 title: Configurer le pare-feu sous Linux avec Iptables
 excerpt: Découvrez comment sécuriser un serveur avec Iptables
-updated: 2024-12-19
+updated: 2024-12-20
 ---
 
 ## Objectif
