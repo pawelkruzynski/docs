@@ -1,7 +1,7 @@
 ---
 title: How to cancel your OVHcloud services
 excerpt: Find out how to discontinue your OVHcloud subscriptions
-updated: 2024-01-19
+updated: 2024-12-23
 ---
 
 ## Objective

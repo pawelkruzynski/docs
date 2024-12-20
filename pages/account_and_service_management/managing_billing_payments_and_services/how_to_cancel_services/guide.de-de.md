@@ -1,7 +1,7 @@
 ---
 title: Kündigen von OVHcloud Diensten
 excerpt: Erfahren Sie hier, wie Sie OVHcloud Abonnements über das Kundencenter beenden können
-updated: 2024-01-19
+updated: 2024-12-23
 ---
 
 ## Ziel

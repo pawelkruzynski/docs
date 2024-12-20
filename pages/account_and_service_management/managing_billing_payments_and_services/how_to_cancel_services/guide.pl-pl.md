@@ -1,7 +1,7 @@
 ---
 title: Jak zrezygnować z usług OVHcloud
 excerpt: Dowiedz się, jak przerwać subskrypcję OVHcloud z poziomu Panelu klienta
-updated: 2024-01-19
+updated: 2024-12-23
 ---
 
 ## Wprowadzenie

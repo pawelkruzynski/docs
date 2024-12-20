@@ -1,7 +1,7 @@
 ---
 title: Como cancelar os meus serviços OVHcloud
 excerpt: Descubra como interromper as suas subscrições OVHcloud a partir da Área de Cliente
-updated: 2024-01-19
+updated: 2024-12-23
 ---
 
 ## Objetivo

@@ -1,7 +1,7 @@
 ---
 title: Come disattivare i servizi OVHcloud
 excerpt: "Scopri come interrompere l’abbonamento a OVHcloud dallo Spazio Cliente"
-updated: 2024-01-19
+updated: 2024-12-23
 ---
 
 ## Obiettivo

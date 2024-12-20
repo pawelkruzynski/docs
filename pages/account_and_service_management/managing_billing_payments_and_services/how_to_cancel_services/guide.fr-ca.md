@@ -1,7 +1,7 @@
 ---
 title: Comment résilier vos services OVHcloud
 excerpt: Découvrez comment interrompre vos abonnements OVHcloud
-updated: 2024-01-19
+updated: 2024-12-23
 ---
 
 ## Objectif
