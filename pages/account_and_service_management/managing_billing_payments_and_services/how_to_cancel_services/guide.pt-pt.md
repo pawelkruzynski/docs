@@ -51,7 +51,7 @@ Para rescindir a subscrição do seu serviço, aceda à [Área de Cliente OVHclo
 
 ![produtos e serviços](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
 
-Clique então no botão `...`{.action} à direita do serviço a rescindir, e depois em `Rescindir o meu compromisso`{.action}.
+Clique então no botão `...`{.action} à direita do serviço a rescindir, e depois em `Rescindir o meu serviço`{.action}.
 
 ![Cancelar](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/cancel-en.png){.thumbnail}
 
@@ -140,7 +140,7 @@ A anulação da rescisão produz efeitos imediatos. Atualize a página "O meus S
 > [!faq]
 >
 > Não consigo cancelar um serviço. O que fazer?
->> Se não conseguir rescindir um serviço (o botão `Rescindir o meu compromisso`{.action} não está disponível), este poderá ser um dos casos particulares detalhados [mais acima neste guia](#specific-cases).
+>> Se não conseguir rescindir um serviço (o botão `Rescindir o meu serviço`{.action} não está disponível), este poderá ser um dos casos particulares detalhados [mais acima neste guia](#specific-cases).
 >> Verifique também se estão preenchidas as seguintes condições:
 >>
 >> - Deve ser o "contacto administradoa" do serviço. Para obter mais informações, consulte [este manual](/pages/account_and_service_management/account_information/managing_contacts#definition).

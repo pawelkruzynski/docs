@@ -51,7 +51,7 @@ Para cancelar la suscripción al servicio, conéctese al [área de cliente de OV
 
 ![productos y servicios](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
 
-A continuación, haga clic en el botón `...`{.action} a la derecha del servicio que desea dar de baja y, seguidamente, en `Cancelar mi compromiso`{.action}.
+A continuación, haga clic en el botón `...`{.action} a la derecha del servicio que desea dar de baja y, seguidamente, en `Dar de baja mi servicio`{.action}.
 
 ![dar de baja](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/cancel-en.png){.thumbnail}
 
@@ -116,7 +116,7 @@ La cancelación de la baja tendrá efecto inmediato. Actualice la página "Mis s
 > [!faq]
 >
 > No consigo dar de baja un servicio. ¿Qué hago?
->> Si no consigue dar de baja un servicio (no ofrecemos el botón `Cancelar mi compromiso`{.action}), este puede ser uno de los casos particulares detallados [anteriormente en esta guía](#specific-cases).
+>> Si no consigue dar de baja un servicio (no ofrecemos el botón `Dar de baja mi servicio`{.action}), este puede ser uno de los casos particulares detallados [anteriormente en esta guía](#specific-cases).
 >> Compruebe también que se cumplen las siguientes condiciones:
 >>
 >> - Debe ser el "contacto administrador" del servicio. Para obtener más información, consulte [esta guía](/pages/account_and_service_management/account_information/managing_contacts#definition).

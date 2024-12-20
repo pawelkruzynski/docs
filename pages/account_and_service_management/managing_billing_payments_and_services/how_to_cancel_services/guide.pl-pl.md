@@ -51,7 +51,7 @@ Aby zrezygnować z abonamentu, zaloguj się do [panelu klienta OVHcloud](https:/
 
 ![produkty i usługi](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
 
-Następnie kliknij przycisk `...`{.action} po prawej stronie usługi, którą chcesz zrezygnować, po czym kliknij `Rezygnacja z umowy terminowej`{.action}.
+Następnie kliknij przycisk `...`{.action} po prawej stronie usługi, którą chcesz zrezygnować, po czym kliknij `Rezygnuję z usługi`{.action}.
 
 ![Zrezygnuj](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/cancel-en.png){.thumbnail}
 
@@ -146,7 +146,7 @@ Anulowanie rezygnacji obowiązuje natychmiastowo. Odśwież stronę "Moje usług
 > [!faq]
 >
 > Nie mogę zrezygnować z usługi. Co mogę zrobić?
->> Jeśli nie możesz zrezygnować z usługi (przycisk ``Rezygnacja z umowy terminowej`{.action} nie jest proponowany), może to być jeden z przypadków szczególnych [powyżej w tym przewodniku](#specific-cases).
+>> Jeśli nie możesz zrezygnować z usługi (przycisk ``Rezygnuję z usługi`{.action} nie jest proponowany), może to być jeden z przypadków szczególnych [powyżej w tym przewodniku](#specific-cases).
 >> Sprawdź również, czy spełnione są następujące warunki:
 >>
 >> - Musisz być "kontaktem administracyjnym" usługi. Aby uzyskać więcej informacji, zobacz [ten przewodnik](/pages/account_and_service_management/account_information/managing_contacts#definition).

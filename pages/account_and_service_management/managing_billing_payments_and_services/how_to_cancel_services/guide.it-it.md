@@ -51,7 +51,7 @@ Per disattivare l’abbonamento al servizio, accedi al tuo [Spazio Cliente OVHcl
 
 ![prodotti e servizi](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
 
-Clicca sul pulsante `...`{.action} in corrispondenza del servizio da disattivare e seleziona `Rescindi l'impegno contrattuale`{.action}.
+Clicca sul pulsante `...`{.action} in corrispondenza del servizio da disattivare e seleziona `Disattivare il servizio`{.action}.
 
 ![disattiva](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/cancel-en.png){.thumbnail}
 
@@ -146,7 +146,7 @@ L'annullamento della disattivazione ha effetto immediato. Aggiorna la pagina "I 
 > [!faq]
 >
 > Non riesco a disattivare un servizio. Cosa fare?
->> Se non riesci a disattivare un servizio (il pulsante `Rescindi l'impegno contrattuale`{.action} non è proposto), questo potrebbe essere uno dei casi particolari descritti [più sopra in questa guida](#specific-cases).
+>> Se non riesci a disattivare un servizio (il pulsante `Disattivare il servizio`{.action} non è proposto), questo potrebbe essere uno dei casi particolari descritti [più sopra in questa guida](#specific-cases).
 >> Verificare che siano soddisfatte le seguenti condizioni:
 >>
 >> - È necessario essere il contatto amministratore del servizio. Per ulteriori informazioni, vedere [questa guida](/pages/account_and_service_management/account_information/managing_contacts#definition).

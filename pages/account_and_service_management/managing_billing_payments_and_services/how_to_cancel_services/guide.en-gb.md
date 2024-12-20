@@ -51,7 +51,7 @@ To cancel your service subscription, log in to your [OVHcloud Control Panel](htt
 
 ![products and services](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
 
-Next, click the `...`{.action} button to the right of the service you want to cancel, then `Cancel`{.action}.
+Next, click the `...`{.action} button to the right of the service you want to cancel, then `Cancel my subscription`{.action}.
 
 ![cancel](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/cancel-en.png){.thumbnail}
 
@@ -146,7 +146,7 @@ A termination of a cancellation procedure is effective immediately. Please refre
 > [!faq]
 >
 > I cannot cancel a service. What should I do?
->> If you are unable to cancel a service (the `Cancel`{.action} button is not available), it may be one of the specific cases detailed [previously in this guide](#specific-cases).
+>> If you are unable to cancel a service (the `Cancel my subscription`{.action} button is not available), it may be one of the specific cases detailed [previously in this guide](#specific-cases).
 >> Also check that the following conditions are met:
 >>
 >> - You must be the “administrative contact” for the service. For more information, see [this guide](/pages/account_and_service_management/account_information/managing_contacts#definition).

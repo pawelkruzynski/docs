@@ -60,7 +60,7 @@ Um das Abonnement Ihres Dienstes zu kündigen, loggen Sie sich in Ihr [OVHcloud 
 
 ![Produkte und Dienstleistungen](/pages/assets/screens/control_panel/product-selection/right-column/products-services.png){.thumbnail}
 
-Klicken Sie dann rechts neben dem Dienst, den Sie kündigen möchten, auf den Button `...`{.action} und dann auf `Meine Vertragsbindung kündigen`{.action}.
+Klicken Sie dann rechts neben dem Dienst, den Sie kündigen möchten, auf den Button `...`{.action} und dann auf `Meinen Dienst kündigen`{.action}.
 
 ![Kündigen](/pages/assets/screens/control_panel/product-selection/right-column/my-solutions-and-services/cancel-en.png){.thumbnail}
 
@@ -149,7 +149,7 @@ Die Kündigung wird mit sofortiger Wirkung rückgängig gemacht. Aktualisieren S
 > [!faq]
 >
 > Ich kann eine Dienstleistung nicht kündigen. Was soll ich tun?
->> Wenn Sie eine Dienstleistung nicht kündigen können (die Schaltfläche `Meine Vertragsbindung kündigen`{.action} ist nicht verfügbar), kann diese zu den detaillierten Sonderfällen [weiter oben in dieser Anleitung](#specific-cases) gehören.
+>> Wenn Sie eine Dienstleistung nicht kündigen können (die Schaltfläche `Meinen Dienst kündigen`{.action} ist nicht verfügbar), kann diese zu den detaillierten Sonderfällen [weiter oben in dieser Anleitung](#specific-cases) gehören.
 >> Überprüfen Sie außerdem, ob die folgenden Bedingungen erfüllt sind:
 >>
 >> - Sie müssen der "Administrator-Kontakt" des Dienstes sein. Weitere Informationen finden Sie in [dieser Anleitung](/pages/account_and_service_management/account_information/managing_contacts#definition).
