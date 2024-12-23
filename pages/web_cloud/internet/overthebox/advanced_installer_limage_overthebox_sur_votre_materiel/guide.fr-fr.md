@@ -1,7 +1,7 @@
 ---
 title: "Installer l'image OverTheBox sur votre appareil"
 excerpt: "Découvrez comment installer manuellement une image OverTheBox sur votre appareil"
-updated: 2024-12-20
+updated: 2024-12-23
 ---
 
 ## Objectif
