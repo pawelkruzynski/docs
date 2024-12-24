@@ -66,7 +66,7 @@ Maximum 5 GB per object (for an object which size is above 5GB, use a multi-part
 
 The theoretical maximum size of a single large object uploaded via MPU is thus 48TB.
 
-## Project lmimitations
+## Project limitations
 
 ### Maximum number of user accounts per project
 
