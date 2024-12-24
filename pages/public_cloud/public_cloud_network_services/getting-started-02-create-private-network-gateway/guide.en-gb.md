@@ -1,21 +1,21 @@
 ---
 title: Creating a private network with Gateway
 excerpt: Discover how to create a Private network with a Gateway
-updated: 2024-03-08
+updated: 2024-12-24
 ---
 
 ## Objective
 
 A [Gateway](https://www.ovhcloud.com/en-gb/public-cloud/gateway/) offers a secure outbound connection method from your private network instances or the ability to use Floating IPs with your instance or Load Balancer for service exposition.
 
-This can be created via the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB), the [OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) or the [OVHcloud API](https://eu.api.ovh.com/).
+This can be created via the [OVHcloud Control Panel](/links/manager), the [OpenStack API](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api) or the [OVHcloud API](https://eu.api.ovh.com/).
 
 **Learn how to create a private network with a gateway.**
 
 ## Requirements
 
 - A [Public Cloud project](https://www.ovhcloud.com/en-gb/public-cloud/) in your OVHcloud account
-- Access to the [OVHcloud API](https://eu.api.ovh.com/), the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB) or the OpenStack command line environment ([Tutorial](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api))
+- Access to the [OVHcloud API](https://eu.api.ovh.com/), the [OVHcloud Control Panel](/links/manager) or the OpenStack command line environment ([Tutorial](/pages/public_cloud/compute/prepare_the_environment_for_using_the_openstack_api))
 - The [OpenStack Command Line Interface](https://docs.openstack.org/newton/user-guide/common/cli-install-openstack-command-line-clients.html){.external} tool installed on your working environment (optional)
 
 ## Instructions
@@ -28,7 +28,7 @@ This can be created via the [OVHcloud Control Panel](https://www.ovh.com/auth/?a
 > [!tabs]
 > **Step 1**
 >>
->> Log in to your [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB) and open your `Public Cloud`{.action} project.
+>> Log in to your [OVHcloud Control Panel](/links/manager) and open your `Public Cloud`{.action} project.
 >>
 >> Click on `Gateway`{.action} in the left-hand menu under **Network**.
 >>
@@ -130,7 +130,7 @@ resource "ovh_cloud_project_gateway" "gateway" {
 }
 ```
 
-You can create your ressources by entering the following command:
+You can create your resources by entering the following command:
 
 ```console
 terraform apply
@@ -251,6 +251,6 @@ Before proceeding, it is recommended that you consult these guides:
 
 Learn more about Gateway and its scenarios on our [dedicated page](https://www.ovhcloud.com/en-gb/public-cloud/gateway/).
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for assisting you on your specific use case of your project.
 
-Join our community of users on <https://community.ovh.com/en/>.
+Join our [community of users](/links/community).
