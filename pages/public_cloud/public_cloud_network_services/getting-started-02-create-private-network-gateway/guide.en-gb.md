@@ -93,6 +93,49 @@ This can be created via the [OVHcloud Control Panel](https://www.ovh.com/auth/?a
 >> ![new private network](images/mynewgateway.png){.thumbnail}
 >>
 
+### Via Terraform
+
+Before proceeding, it is recommended that you consult this guide:
+
+- [How to use Terraform](/pages/public_cloud/compute/how_to_use_terraform)
+
+Once your environment is ready, you can create a Terraform file called 'private_network_simple.tf' and write the following: 
+
+```python
+# Create a Private Network
+resource "ovh_cloud_project_network_private" "mypriv" {
+  service_name  = "my_service_name"  # Replace with your OVHcloud project ID
+  vlan_id       = "0"             # VLAN ID (usually 0)
+  name          = "mypriv"
+  regions       = ["GRA11"]
+}
+# Create a private subnet
+resource "ovh_cloud_project_network_private_subnet" "myprivsub" {
+  service_name  = ovh_cloud_project_network_private.mypriv.service_name
+  network_id    = ovh_cloud_project_network_private.mypriv.id
+  region        = "GRA11"
+  start         = "10.0.0.2"
+  end           = "10.0.255.254"
+  network       = "10.0.0.0/16"
+  dhcp          = true
+}
+# Create a custom gateway
+resource "ovh_cloud_project_gateway" "gateway" {
+  service_name = ovh_cloud_project_network_private.mypriv.service_name
+  name         = "my-gateway"
+  model        = "s"  # Gateway model ("s" for small, "m" for medium, etc.)
+  region       = ovh_cloud_project_network_private_subnet.myprivsub.region
+  network_id   = tolist(ovh_cloud_project_network_private.mypriv.regions_attributes[*].openstackid)[0]
+  subnet_id    = ovh_cloud_project_network_private_subnet.myprivsub.id
+}
+```
+
+You can create your ressources by entering the following command:
+
+```console
+terraform apply
+```
+
 ### Via the OpenStack API
 
 Before proceeding, it is recommended that you consult these guides:
