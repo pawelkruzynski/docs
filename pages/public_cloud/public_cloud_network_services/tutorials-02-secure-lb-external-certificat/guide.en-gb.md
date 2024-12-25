@@ -99,11 +99,15 @@ Next, click on the `Listeners`{.action} tab, then on `Create Listener`{.action}:
 
 ![listener creation pool section](images/listenerhttpcreation2.png){.thumbnail}
 
-Under ‘Create a Pool’, click `No`{.action}, then at the bottom, click on `Create Listener`{.action}.
+Under ‘Create Pool’, click `No`{.action}, then at the bottom, click on `Create Listener`{.action}.
 
-Once the listener has been created, click on it, then on the `L7 policies`{.action} tab and click on `Create L7 Policy`{.action}.
+Once the listener has been created, click on it. Next, click on the `L7 policies`{.action} tab, then on `Create L7 Policy`{.action}.
 
 ![l7policy creation](images/listenerpolicieslist.png){.thumbnail}
+
+**L7 Policy Details**
+
+![l7policy creation](images/l7policycreation.png){.thumbnail}
 
 |Information|Details|
 |---|---|
@@ -112,8 +116,6 @@ Once the listener has been created, click on it, then on the `L7 policies`{.acti
 |Redirect URL|Enter the domain name|
 
 Once done, click on `Create L7 policy`{.action}.
-
-![l7policy creation](images/l7policycreation.png){.thumbnail}
 
 ///
 
@@ -135,7 +137,7 @@ Now that you have managed your certificate, you can add a secure Listener and as
 
 /// details | Via Horizon
 
-In the Horizon interface, open the `Network`{.action} section, then click on `Load Balancers`{.action}
+In the Horizon interface, open the `Network`{.action} section, then click on `Load Balancers`{.action}.
 
 Select your Load Balancer by clicking on it.
 
@@ -155,17 +157,17 @@ You can now click on the `Listeners`{.action} section, then on `Create Listener`
 
 **Pool Details**
 
+![listeners https pool details](images/listenerhttpscreation2.png){.thumbnail}
+
 Under ‘Create Pool’ select `Yes`{.action}.
 
 Choose a name for your Pool, in the ‘Algortihm’ field, choose the value `ROUND_ROBIN`{.action} and select `Yes`{.action} under ‘TLS Enabled’.
 
-![listeners https pool details](images/listenerhttpscreation2.png){.thumbnail}
-
 **Pool Members**
 
-Select the corresponding instance and click on `Add`{.action}. Once this has been done, select port `80.`{.action} as the ‘Port’.
-
 ![listeners https pool members details](images/listenerhttpscreation3.png){.thumbnail}
+
+Select the corresponding instance and click on `Add`{.action}. Once this has been done, select port `80.`{.action} as the ‘Port’.
 
 **Monitor Details**
 
@@ -173,11 +175,11 @@ We're going to select `No`{.action} as we won't be demonstrating this part in th
 
 **SSL Certificates**
 
+![listeners https ssl details](images/listenerhttpscreation4.png){.thumbnail}
+
 Select the certificate that was previously added to Openstack Barbican, [in this section](#preparingcertificate).
 
 Once done, click on `Create Listener`{.action} to create your configured Load Balancer.
-
-![listeners https ssl details](images/listenerhttpscreation4.png){.thumbnail}
 
 ///
 
