@@ -1,7 +1,7 @@
 ---
 title: Creating and configuring an additional disk on an instance
 excerpt: Find out how to attach a new volume to your Public Cloud instance
-updated: 2023-10-16
+updated: 2024-12-24
 ---
 
 <style>
@@ -26,7 +26,7 @@ This can be useful in cases where:
 - You want to increase your storage capacity without changing the instance model.
 - You want to have a highly available, high-performance storage.
 - You want to move your storage as well as your data to another instance.
-- You want to prepare the environment if you want to use [Terraform](/pages/public_cloud/compute/how_to_use_terraform)
+- You want to prepare the environment if you want to use [Terraform](/pages/public_cloud/compute/how_to_use_terraform).
 
 **This guide explains how to create an additional disk and configure it on your instance.**
 
@@ -72,9 +72,8 @@ This can be useful in cases where:
 >> The process of attaching the disk to your instance will now begin. This may take a few minutes to complete.
 >>
 >> > [!warning]
->>>
 >> > Make sure to not leave the current page in your OVHcloud Control Panel while the disk is being attached. This might interrupt the process.
->>>
+>> >
 >>
 > Via Terraform
 >> To create a simple block storage volume, you need 3 elements:
@@ -83,7 +82,7 @@ This can be useful in cases where:
 >> * The region
 >> * The size of the volume in GB
 >>
->> For the example, we will create a block storage in the **GRA11** region with a size of **10 GB**. Add the following lines to a file named *simple_blockstorage.tf*:
+>> In our example, we will create a block storage in the **GRA11** region with a size of **10 GB**. Add the following lines to a file named *simple_blockstorage.tf*:
 >>
 >> ```python
 >> # Creation of a block storage volume
@@ -97,9 +96,8 @@ This can be useful in cases where:
 >> Then we will attach it to the target instance.
 >>
 >> > [!warning]
->>>
 >> > The instance and the volume must be in the same region.
->>>
+>> >
 >>
 >> Add the following lines below the previous ones:
 >>
@@ -118,6 +116,7 @@ This can be useful in cases where:
 >> ```
 >>
 >> The output should look like this:
+>> 
 >> ```console
 >> $ terraform apply
 >> Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
@@ -488,7 +487,8 @@ If you wish to detach a volume from your instance, the best practice is to unmou
 Here's how to **unmount the volume** from the operating system before detaching it from the instance :
 
 > [!tabs]
-> On Linux
+> **On Linux**
+>>
 >> Establish an [SSH connection to your instance](/pages/public_cloud/compute/public-cloud-first-steps#connect-instance), then use the command below to list the attached disks.
 >>
 >> ```bash
@@ -517,7 +517,8 @@ Here's how to **unmount the volume** from the operating system before detaching 
 >>
 >> Save and exit the editor.
 >>
-> On Windows
+> **On Windows**
+>>
 >> Establish a remote desktop (RDP) connection to your Windows instance.
 >>
 >> Once logged in, right-click on the `Start Menu`{.action} button and open `Disk Management`{.action}.
@@ -541,10 +542,11 @@ Here's how to **unmount the volume** from the operating system before detaching 
 Finally, we will detach the volume from the instance:
 
 > [!tabs]
-> Via the OVHcloud Control Panel
+> **Via the OVHcloud Control Panel**
+>>
 >> Go to the `Public Cloud`{.action} section of your OVHcloud Control Panel and click on `Block Storage`{.action} in the left-hand menu under **Storage**.
 >>
->> Click on the `...`{.action} next to the corresponding volume and select `Detach from instance`{.action}.
+>> Click the `...`{.action} button next to the corresponding volume and select `Detach from instance`{.action}.
 >>
 >> ![detach disk](images/detachinstance.png){.thumbnail}
 >>
@@ -552,7 +554,7 @@ Finally, we will detach the volume from the instance:
 >>
 >> ![confirm disk detach](images/confirminstancedetach.png){.thumbnail}
 >>
-> Via Terraform
+> **Via Terraform**
 >> 
 >> Start by deleting the lines previously created in your Terraform file: 
 >>
@@ -636,9 +638,6 @@ Finally, we will detach the volume from the instance:
 >> openstack_compute_volume_attach_v2.va_1: Destruction complete after 17s
 >>
 >> Apply complete! Resources: 0 added, 0 changed, 1 destroyed.
-
-
-
 
 ## Go further
 
