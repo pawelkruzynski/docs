@@ -1,7 +1,7 @@
 ---
 title: Créer et configurer un disque supplementaire sur une instance
 excerpt: Découvrez comment attacher un nouveau volume à votre instance Public Cloud
-updated: 2023-10-16
+updated: 2024-12-24
 ---
 
 <style>
@@ -26,6 +26,7 @@ Cela peut être utile dans les cas suivants :
 - Si vous souhaitez augmenter votre capacité de stockage sans avoir à changer le modèle d’instance.
 - Si vous souhaitez disposer d’un espace de stockage hautement disponible et performant.
 - Si vous souhaitez déplacer votre stockage et vos données vers une autre instance.
+- Si vous souhaitez préparer l'environnement pour utiliser [Terraform](/pages/public_cloud/compute/how_to_use_terraform), vous devez préparer l'environnement.
 
 **Découvrez comment créer un disque supplémentaire et le configurer sur votre instance.**
 
@@ -45,7 +46,7 @@ Cela peut être utile dans les cas suivants :
 ### Attacher un nouveau volume
 
 > [!tabs]
-> Via l'espace client OVHcloud
+> **Via l'espace client OVHcloud**
 >> Connectez-vous à votre [espace client OVHcloud](/links/manager), accédez à la section `Public Cloud`{.action} et sélectionnez le projet Public Cloud concerné. Ensuite, ouvrez `Block Storage`{.action} dans le menu de gauche.
 >>
 >> Dans cette partie, cliquez sur le bouton `Créer un volume`{.action}.
@@ -71,18 +72,17 @@ Cela peut être utile dans les cas suivants :
 >> Le processus d’attachement du disque à votre instance va alors commencer. L'opération peut prendre quelques minutes.
 >>
 >> > [!warning]
->>>
 >> > Veillez à ne pas quitter la page actuelle de votre espace client OVHcloud lorsque le disque est en cours de connexion. Cela pourrait interrompre le processus.
->>>
+>> >
 >>
-> Via Terraform
+> **Via Terraform**
 >> Pour créer un volume block storage simple, vous avez besoin de 3 éléments :
 >>
 >> * Le nom du volume
 >> * La région
 >> * La taille du volume en GB
 >>
->> Pour l'exemple, nous allons créer un block storage dans la région **GRA11** d'une taille de **10 GB**. Ajoutez les lignes suivantes dans un fichier nommé *simple_blockstorage.tf* :
+>> Dans notre exemple, nous allons créer un block storage dans la région **GRA11** d'une taille de **10 GB**. Ajoutez les lignes suivantes dans un fichier nommé *simple_blockstorage.tf* :
 >>
 >> ```python
 >> # Création d'un volume block storage
@@ -96,9 +96,8 @@ Cela peut être utile dans les cas suivants :
 >> Puis nous allons l'attacher à l'instance cible.
 >>
 >> > [!warning]
->>>
 >> > L'instance et le volume doivent se trouver dans la même région.
->>>
+>> >
 >>
 >> Ajoutez les lignes suivantes sous les précédentes :
 >>
@@ -117,6 +116,7 @@ Cela peut être utile dans les cas suivants :
 >> ```
 >>
 >> La sortie devrait ressembler à ceci :
+>> 
 >> ```console
 >> $ terraform apply
 >> Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
@@ -455,7 +455,8 @@ Si vous souhaitez détacher un volume de votre instance, la meilleure pratique e
 Voici comment **démonter le volume** du système d'exploitation avant de le détacher de l'instance :
 
 > [!tabs]
-> Sous Linux
+> **Sous Linux**
+>>
 >> Ouvrez une [connexion SSH à votre instance](/pages/public_cloud/compute/public-cloud-first-steps#create-instance) puis utilisez la commande ci-dessous pour lister les disques attachés.
 >>
 >> ```bash
@@ -484,7 +485,8 @@ Voici comment **démonter le volume** du système d'exploitation avant de le dé
 >>
 >> Enregistrez et quittez l'éditeur.
 >>
-> Sous Windows
+> **Sous Windows**
+>>
 >> Établissez une connexion RDP (Remote Desktop) avec votre instance Windows.
 >>
 >> Une fois connecté faites un clic-droit sur le menu `Démarrer`{.action} et ouvrez `Gestion du disque`{.action}.
@@ -508,7 +510,7 @@ Voici comment **démonter le volume** du système d'exploitation avant de le dé
 Pour finir, nous allons détacher le volume de l'instance : 
 
 > [!tabs]
-> Via l'espace client OVHcloud
+> **Via l'espace client OVHcloud**
 >> Rendez-vous dans la rubrique `Public Cloud`{.action} de votre espace client OVHcloud et cliquez sur `Block Storage`{.action} dans le menu de gauche sous **Storage**.
 >> Cliquez sur le bouton `...`{.action} à côté du volume correspondant et sélectionnez `Détacher de l'instance`{.action}.
 >>
@@ -518,7 +520,7 @@ Pour finir, nous allons détacher le volume de l'instance :
 >>
 >> ![confirm disk detach](images/confirminstancedetach.png){.thumbnail}
 >>
-> Via Terraform
+> **Via Terraform**
 >> 
 >> Commencez par supprimer ces lignes précédemment crées dans votre fichier Terraform : 
 >>
