@@ -33,7 +33,7 @@ This can be useful in cases where:
 ## Requirements
 
 - Access to the [OVHcloud Control Panel](/links/manager)
-- A [Public Cloud Instance](https://www.ovhcloud.com/en-gb/public-cloud/) in your OVHcloud account
+- A [Public Cloud Instance](/pages/public_cloud/compute/public-cloud-first-steps) in your OVHcloud account
 - Administrative (sudo) access to your instance via SSH (Linux) or RDP (Windows)
 
 > [!warning]
@@ -46,7 +46,8 @@ This can be useful in cases where:
 ### Attaching a new volume
 
 > [!tabs]
-> Via the OVHcloud Control Panel
+> **Via the OVHcloud Control Panel**
+>>
 >> Log in to the [OVHcloud Control Panel](/links/manager) and open your `Public Cloud`{.action} project. Then open `Block Storage`{.action} in the left-hand menu.
 >>
 >> In this section, click on the button `Create a volume`{.action}.
@@ -75,7 +76,8 @@ This can be useful in cases where:
 >> > Make sure to not leave the current page in your OVHcloud Control Panel while the disk is being attached. This might interrupt the process.
 >> >
 >>
-> Via Terraform
+> **Via Terraform**
+>>
 >> To create a simple block storage volume, you need 3 elements:
 >>
 >> * The name of the volume
