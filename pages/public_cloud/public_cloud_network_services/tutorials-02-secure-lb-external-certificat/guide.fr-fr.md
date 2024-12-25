@@ -89,9 +89,9 @@ Ensuite, cliquez sur l'onglet `Listeners`{.action}, puis sur `Create Listener`{.
 
 ![listener creation details section](images/listenerhttpcreation1.png){.thumbnail}
 
-|Information|Details|
+|Information|Détails|
 |---|---|
-|Name|Spécifiez un nom pour votre listener.|
+|Name|Spécifiez un nom pour votre listener|
 |Protocol|Sélectionnez protocole HTTP|
 |Port|Sélectionnez `80`|
 
@@ -101,7 +101,7 @@ Ensuite, cliquez sur l'onglet `Listeners`{.action}, puis sur `Create Listener`{.
 
 Sous « Create Pool », cliquez sur `No`{.action}, puis en bas, cliquez sur `Create Listener`{.action}.
 
-Une fois le listener créé, cliquez dessus, puis sur l'onglet `L7 policies`{.action} et cliquez sur `Create L7 Policy`{.action}.
+Une fois le listener créé, cliquez dessus. Ensuite, cliquez sur l'onglet `L7 policies`{.action}, puis sur `Create L7 Policy`{.action}.
 
 ![l7policy creation](images/listenerpolicieslist.png){.thumbnail}
 
@@ -169,7 +169,7 @@ Sous « Create Pool », sélectionnez `Yes`{.action}.
 
 ![listeners https pool members details](images/listenerhttpscreation3.png){.thumbnail}
 
-Sélectionnez l'instance correspondante et cliquez sur `Add`{.action}. Une fois cette opération effectuée, sélectionnez  `80`{.action} comme « Port ».
+Sélectionnez l'instance correspondante et cliquez sur `Add`{.action}. Une fois cette opération effectuée, sélectionnez `80`{.action} comme « Port ».
 
 **Monitor Details**
 
