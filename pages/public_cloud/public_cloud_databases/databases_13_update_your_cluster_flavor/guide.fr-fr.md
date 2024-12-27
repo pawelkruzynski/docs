@@ -19,11 +19,11 @@ This option is available through the OVHcloud [API](https://api.ovh.com/console/
 
 ### Instructions
 
-To adjust the flavor of your cluster, log in to the OVHcloud Control Panel and open your Public Cloud project. Click `Databases`{.action} in the left navigation bar, select your engine instance then click the `General Information`{.action} tab.
+To adjust the flavor of your cluster, log in to the OVHcloud Control Panel and open your Public Cloud project. Click `Databases`{.action} in the left navigation bar, select your engine instance then click the `Configuration`{.action} tab.
 
 ![Cluster overview](images/cluster_overview.png)
 
-Click `Change node template`{.action} and adjust the flavor of your cluster.
+Click `Edit`{.action} on the "Flavor" line and adjust the flavor of your cluster.
 
 ![Change node template](images/flavor_change_view.png)
 

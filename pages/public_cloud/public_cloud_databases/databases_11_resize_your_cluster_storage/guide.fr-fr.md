@@ -31,11 +31,11 @@ You can increase or decrease the storage of your service at any time using eithe
 
 #### Instructions
 
-To adjust the storage space of your cluster, log in to the OVHcloud Control Panel and open your Public Cloud project. Click `Databases`{.action} in the left navigation bar, select your engine instance then click the `General Information`{.action} tab.
+To adjust the storage space of your cluster, log in to the OVHcloud Control Panel and open your Public Cloud project. Click `Databases`{.action} in the left navigation bar, select your engine instance then click the `Configuration`{.action} tab.
 
 ![Cluster overview](images/cluster-overview.png)
 
-Click `Edit additional storage`{.action} and adjust the storage space of your cluster. Use the slider to either increase or decrease the storage space.
+Click `Edit`{.action} on the "Storage" line and adjust the storage space of your cluster. Use the slider to either increase or decrease the storage space.
 
 ![Edit additional storage](images/edit-additional-storage.png)
 
