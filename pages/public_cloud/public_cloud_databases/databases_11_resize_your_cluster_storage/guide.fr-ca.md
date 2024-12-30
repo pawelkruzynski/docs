@@ -25,7 +25,7 @@ You can increase or decrease the storage of your service at any time using eithe
 #### Requirements
 
 - Access to the [OVHcloud Control Panel](/links/manager)
-- A [Public Cloud project](/links/public-cloud) in your OVHcloud account
+- A [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account
 
 #### Instructions
 
@@ -42,7 +42,7 @@ Click `Edit`{.action} on the "Storage" line and adjust the storage space of your
 #### Requirements
 
 - Access to the OVHcloud [API](/links/api){.external} (create your credentials by consulting [this guide](/pages/manage_and_operate/api/first-steps))
-- A [Public Cloud project](/links/public-cloud) in your OVHcloud account
+- A [Public Cloud project](/links/public-cloud/public-cloud) in your OVHcloud account
 
 #### Instructions
 
