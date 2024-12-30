@@ -1,7 +1,7 @@
 ---
 title: Public Cloud Databases - How to resize your service storage
 excerpt: Find out how to adjust the storage space of your cluster
-updated: 2023-09-18
+updated: 2024-12-30
 ---
 
 ## Objective
@@ -11,23 +11,21 @@ Learn how to adjust the storage space of your cluster according to your needs.
 > [!primary]
 >
 > This feature is only available for engines that use storage space.
->
 
 ## How to increase or decrease storage
 
-You can increase or decrease the storage of your service at any time using either the OVHcloud [API](https://api.ovh.com/console/) or the [Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB).
+You can increase or decrease the storage of your service at any time using either the OVHcloud [API](/links/api) or the [Control Panel](/links/manager).
 
 > [!primary]
 >
 > When changing the storage space of your service, the system checks that at least 20% of you total storage space will remain free after the resize operation. As a consequence, you might not be able to perform a storage space decrease if the new size you request is too close to your current disk space usage.
->
 
 ### How to adjust the storage space using the Control Panel
 
 #### Requirements
 
-- Access to the [OVHcloud Control Panel](https://www.ovh.com/auth/?action=gotomanager&from=https://www.ovh.co.uk/&ovhSubsidiary=GB) 
-- A [Public Cloud project](https://www.ovhcloud.com/en-gb/public-cloud/) in your OVHcloud account
+- Access to the [OVHcloud Control Panel](/links/manager)
+- A [Public Cloud project](/links/public-cloud) in your OVHcloud account
 
 #### Instructions
 
@@ -43,25 +41,27 @@ Click `Edit`{.action} on the "Storage" line and adjust the storage space of your
 
 #### Requirements
 
-- Access to the OVHcloud [API](https://api.ovh.com/console/){.external} (create your credentials by consulting [this guide](/pages/manage_and_operate/api/first-steps))
-- A [Public Cloud project](https://www.ovhcloud.com/en-gb/public-cloud/) in your OVHcloud account
+- Access to the OVHcloud [API](/links/api){.external} (create your credentials by consulting [this guide](/pages/manage_and_operate/api/first-steps))
+- A [Public Cloud project](/links/public-cloud) in your OVHcloud account
 
 #### Instructions
 
 As an example, for MongoDB services, you can perform a storage space increase or decrease using this endpoint:
 
 > [!api]
+>
 > @api {v1} /cloud PUT /cloud/project/{serviceName}/database/mongodb/{clusterId}
 
 Other engines using a storage space provide similar endpoints, e.g.:
 
 > [!api]
+>
 > @api {v1} /cloud PUT /cloud/project/{serviceName}/database/postgresql/{clusterId}
 
 ## We want your feedback!
 
 We would love to help answer questions and appreciate any feedback you may have.
 
-If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](https://www.ovhcloud.com/en-gb/professional-services/) to get a quote and ask our Professional Services experts for a custom analysis of your project.
+If you need training or technical assistance to implement our solutions, contact your sales representative or click on [this link](/links/professional-services) to get a quote and ask our Professional Services experts for a custom analysis of your project.
 
 Are you on Discord? Connect to our channel at <https://discord.gg/PwPqWUpN8G> and interact directly with the team that builds our databases service!
