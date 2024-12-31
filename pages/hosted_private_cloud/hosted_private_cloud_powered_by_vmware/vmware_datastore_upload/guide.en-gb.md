@@ -1,7 +1,7 @@
 ---
 title: "Uploading an ISO in a datastore"
 excerpt: "Find out how to use the html datastore upload client and Govc to manipulate data in your managed VMware vSphere on OVHcloud environment"
-updated: 2024-12-30
+updated: 2024-12-31
 ---
 
 ## Objective
@@ -175,7 +175,7 @@ These are the environment variables that will be required to configure Govc auth
 >> # note: the "tar" command must run with root permissions
 >> curl -L -o - "https://github.com/vmware/govmomi/releases/latest/download/govc_$(uname -s)_$(uname -m).tar.gz" | tar -C /usr/local/bin -xvzf - govc
 >> ```
->> 
+>>
 >> We also advise you to check the sum of the hash downloaded.
 >>
 >> ```bash
@@ -192,7 +192,7 @@ These are the environment variables that will be required to configure Govc auth
 >> ```bash
 >> go install github.com/vmware/govmomi/govc@latest
 >> ```
->> 
+>>
 >> With Docker:
 >>
 >> A Docker image can be a good way to run the Govc binary in a versioned, isolated way.
@@ -251,7 +251,7 @@ These are the environment variables that will be required to configure Govc auth
 >> ```bash
 >> gov datastore.upload image.iso folder-isos/image.iso
 >> ```
->> 
+>>
 >> Download + Upload :
 >>
 >> Here is an example of uploading an ISO image with `govc`. Be sure to locate the folder to which you want to import your ISO, if you have one:
@@ -277,7 +277,7 @@ These are the environment variables that will be required to configure Govc auth
 >> ```powershell
 >> curl -L -o - "https://github.com/vmware/govmomi/releases/latest/download/govc_$(uname -s)_$(uname -m).tar.gz" | tar -C /usr/local/bin -xvzf - govc
 >> ```
->> 
+>>
 >> If you prefer, you can simply unzip the following `Govc` Windows asset (x86_64.zip) after downloading it at the following URL: https://github.com/vmware/govmomi/releases/download/v0.43.0/govc_Windows_x86_64.zip
 >>
 >> With Chocolatey :
@@ -289,7 +289,7 @@ These are the environment variables that will be required to configure Govc auth
 >> choco install govc
 >> choco install jq
 >> ```
->> 
+>>
 >> `jq` allows you to list Govc returns correctly in Powershell.
 >>
 >> **Configuration/Authentication**
@@ -327,7 +327,7 @@ These are the environment variables that will be required to configure Govc auth
 >> # With jq :
 >> gov about -json | jq '.'
 >> ```
->> 
+>>
 >> There are several ways to make Govc work with Windows, powershell being the most well-known. But there is an alternative solution, Windows has implemented WSL 2 (Windows subsystem for Linux) which can be a good alternative to simplify the configuration.
 >>
 >> **Usage**
